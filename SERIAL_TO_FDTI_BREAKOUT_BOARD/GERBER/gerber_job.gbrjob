@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,9.1.0*%
+%TF.CreationDate,2018-08-24T06:17:03Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Gowtham Raj <raj001.gr@gmail.com>*%
+%TJ.B_ID,FTDI Basic-5V*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.570000*%
+%TJ.B_Size_X,29.210000*%
+%TJ.B_Size_Y,17.272000*%
+M02*
