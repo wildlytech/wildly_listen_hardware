@@ -1,0 +1,2 @@
+-Added test points and gnd scatter with thermal vias.
+-Removed regulator ,reverse protection diode and provided (5.1 volts) zener diode.
