@@ -20,8 +20,8 @@
 
 -Removed micro usb and replaced USB_type_A
 
-6)MEMS MIC and SD CARD integration.
+5)MEMS MIC and SD CARD integration.
 
 -Sperated Analog and digital ground ,Provided back to back schotkey diode.
 
-5) I have added respective 3D Models of the board in seprate forlder ,View using sketch_up.
+6) I have added respective 3D Models of the board in seprate forlder ,View using sketch_up.
