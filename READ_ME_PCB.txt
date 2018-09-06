@@ -1,9 +1,9 @@
-1)MODULE_1_KNOWELS MIC
+1)KNOWELS MIC
 
 -Added test points and gnd scatter with thermal vias.
 -Removed regulator ,reverse protection diode and provided (5.1 volts) zener diode.
 
-2)MODULE_2_SIM5320e
+2)SIM5320e
 
 -Checked pullup,pulldown and leave open for all pins in main IC.
 
@@ -12,12 +12,16 @@
 -For SPI datasheet show if unused keep open and doen't give anything for if use condition.
 
 
-3)MODULE_3_SDCARD
+3)SDCARD
 
 -Don't have any changes
 
-4)MODULE_4_serial_to_FDTI
+4)serial_to_FDTI
 
 -Removed micro usb and replaced USB_type_A
+
+6)MEMS MIC and SD CARD integration.
+
+-Sperated Analog and digital ground ,Provided back to back schotkey diode.
 
 5) I have added respective 3D Models of the board in seprate forlder ,View using sketch_up.
