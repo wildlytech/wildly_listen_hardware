@@ -1,1 +1,0 @@
--Removed micro usb and replaced with USB_type_A
