@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2018-10-30T11:32:10Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.2.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "MEMS_MIC"
+        },
+        "Owner": "Gowtham Raj <raj001.gr@gmail.com>",
+        "Size": {
+            "X": 26.848,
+            "Y": 16.5
+        }
+    }
+}
