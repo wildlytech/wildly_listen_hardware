@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -6108,7 +6108,7 @@ Source: http://www.osram.convergy.de/</description>
 <sheets>
 <sheet>
 <plain>
-<text x="58.42" y="-25.4" size="1.778" layer="91">Microphone In</text>
+<text x="71.12" y="-27.94" size="1.778" layer="91">Microphone In</text>
 <text x="55.88" y="106.68" size="1.778" layer="91">5V Boost 500mA</text>
 <text x="129.54" y="10.16" size="1.778" layer="91">5V Boost 1A</text>
 </plain>
@@ -6181,17 +6181,17 @@ Source: http://www.osram.convergy.de/</description>
 <attribute name="NAME" x="5.08" y="90.17" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-0.635" y="92.71" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SW2" gate="G$1" x="15.24" y="78.74" smashed="yes">
-<attribute name="NAME" x="12.7" y="82.296" size="1.27" layer="95"/>
-<attribute name="VALUE" x="12.7" y="76.454" size="1.27" layer="96"/>
+<instance part="SW2" gate="G$1" x="2.54" y="78.74" smashed="yes">
+<attribute name="NAME" x="-2.54" y="82.296" size="1.27" layer="95"/>
+<attribute name="VALUE" x="0" y="76.454" size="1.27" layer="96"/>
 </instance>
 <instance part="JP2" gate="G$1" x="137.16" y="15.24" smashed="yes" rot="R270">
 <attribute name="NAME" x="147.955" y="21.59" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="121.92" y="21.59" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="JP3" gate="A" x="66.04" y="-15.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="55.245" y="-21.59" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="76.2" y="-21.59" size="1.778" layer="96" rot="R90"/>
+<instance part="JP3" gate="A" x="66.04" y="-17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="55.245" y="-24.13" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="76.2" y="-24.13" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R8" gate="G$1" x="10.16" y="17.78" smashed="yes">
 <attribute name="NAME" x="6.35" y="19.2786" size="1.778" layer="95"/>
@@ -6207,6 +6207,98 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="X1" gate="G$1" pin="ANT"/>
 <wire x1="119.38" y1="71.12" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="3V" class="0">
+<segment>
+<pinref part="JP3" gate="A" pin="1"/>
+<wire x1="58.42" y1="-20.32" x2="58.42" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-27.94" x2="22.86" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="-27.94" x2="22.86" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="3V3"/>
+<wire x1="22.86" y1="91.44" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
+<label x="58.42" y="-15.24" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="JP3" gate="A" pin="2"/>
+<wire x1="60.96" y1="-20.32" x2="60.96" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="-30.48" x2="25.4" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-30.48" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="25.4" y1="88.9" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
+<label x="60.96" y="-15.24" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="BCLK" class="0">
+<segment>
+<pinref part="JP3" gate="A" pin="3"/>
+<wire x1="63.5" y1="-20.32" x2="63.5" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-33.02" x2="27.94" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="9/PWM/RX2/CS0-1"/>
+<wire x1="27.94" y1="-33.02" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="63.5" x2="30.48" y2="63.5" width="0.1524" layer="91"/>
+<label x="63.5" y="-15.24" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="DOUT" class="0">
+<segment>
+<pinref part="JP3" gate="A" pin="4"/>
+<wire x1="66.04" y1="-20.32" x2="66.04" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-35.56" x2="20.32" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="13/LED/ALT-PWM/SCK0"/>
+<wire x1="20.32" y1="-35.56" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
+<label x="66.04" y="-15.24" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="LRCLK" class="0">
+<segment>
+<pinref part="JP3" gate="A" pin="5"/>
+<wire x1="68.58" y1="-20.32" x2="68.58" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-38.1" x2="17.78" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-38.1" x2="17.78" y2="27.94" width="0.1524" layer="91"/>
+<label x="68.58" y="-15.24" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="23/A9/PWM/T"/>
+<wire x1="17.78" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TX_OF_GSM" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="0/RX1/MOSI1/T"/>
+<wire x1="30.48" y1="86.36" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="86.36" x2="20.32" y2="96.52" width="0.1524" layer="91"/>
+<label x="22.86" y="96.52" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="RX_OF_GSM" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="1/TX1/MISO1/T"/>
+<wire x1="30.48" y1="83.82" x2="17.78" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="83.82" x2="17.78" y2="96.52" width="0.1524" layer="91"/>
+<label x="17.78" y="96.52" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="RESET_GSM" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="20/A6/PWM/CS0-2/ALT-SCK1"/>
+<wire x1="30.48" y1="35.56" x2="-12.7" y2="35.56" width="0.1524" layer="91"/>
+<label x="-15.24" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CTS_OF_GSM" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="33/A14/CAN1TX/TX5/ALT-SCL0"/>
+<wire x1="30.48" y1="2.54" x2="7.62" y2="2.54" width="0.1524" layer="91"/>
+<label x="5.08" y="2.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RTS_OF_GSM" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="34/A15/CAN1RX/RX5/ALT-SDA0"/>
+<wire x1="30.48" y1="0" x2="7.62" y2="0" width="0.1524" layer="91"/>
+<label x="5.08" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
