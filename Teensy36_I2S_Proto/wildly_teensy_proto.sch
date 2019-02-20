@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1595,25 +1595,6 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <pad name="6" x="8.75" y="0" drill="1" diameter="2.1844"/>
 <text x="7.87" y="-5.81" size="1.27" layer="25" rot="R180">&gt;NAME</text>
 </package>
-<package name="RGBLED5050" urn="urn:adsk.eagle:footprint:6240222/1" library_version="2">
-<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-1.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-2.5" x2="2.5" y2="-1.5" width="0.127" layer="21"/>
-<circle x="2.934" y="-2.688" radius="0.1414" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="2.1" width="0.127" layer="21"/>
-<smd name="1" x="-2" y="1.7" dx="2" dy="1.1" layer="1"/>
-<smd name="2" x="-2" y="0" dx="2" dy="1.1" layer="1"/>
-<smd name="3" x="-2" y="-1.7" dx="2" dy="1.1" layer="1"/>
-<smd name="4" x="2" y="-1.7" dx="2" dy="1.1" layer="1"/>
-<smd name="5" x="2" y="0" dx="2" dy="1.1" layer="1"/>
-<smd name="6" x="2" y="1.7" dx="2" dy="1.1" layer="1"/>
-<text x="-1.7" y="2.9" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-2" y="-4.1" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-</package>
 <package name="R0402" urn="urn:adsk.eagle:footprint:6239918/1" library_version="2">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
@@ -3034,38 +3015,6 @@ type 0309, grid 2.5 mm</description>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
 <rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
 </package>
-<package name="EVQ-Q2" urn="urn:adsk.eagle:footprint:6239997/1" library_version="2">
-<wire x1="-3.3" y1="3" x2="3.3" y2="3" width="0.127" layer="21"/>
-<wire x1="3.3" y1="3" x2="3.3" y2="-3" width="0.127" layer="21"/>
-<wire x1="3.3" y1="-3" x2="-3.3" y2="-3" width="0.127" layer="21"/>
-<wire x1="-3.3" y1="-3" x2="-3.3" y2="3" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="1.5033" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="1" width="0.127" layer="21"/>
-<smd name="B" x="-3.4" y="2" dx="3.2" dy="1.2" layer="1"/>
-<smd name="B'" x="3.4" y="2" dx="3.2" dy="1.2" layer="1"/>
-<smd name="A'" x="3.4" y="-2" dx="3.2" dy="1.2" layer="1"/>
-<smd name="A" x="-3.4" y="-2" dx="3.2" dy="1.2" layer="1"/>
-<text x="-3" y="3.5" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.2" y="-4.8" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="KMR2" urn="urn:adsk.eagle:footprint:6240242/1" library_version="2">
-<wire x1="-2.1" y1="1.4" x2="2.1" y2="1.4" width="0.127" layer="21"/>
-<wire x1="2.1" y1="1.4" x2="2.1" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="2.1" y1="-1.4" x2="-2.1" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="-2.1" y1="-1.4" x2="-2.1" y2="1.4" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="-0.8" x2="-1.1" y2="-0.2" width="0.127" layer="21" curve="-90"/>
-<wire x1="-1.1" y1="-0.2" x2="-1.1" y2="0.2" width="0.127" layer="21"/>
-<wire x1="-1.1" y1="0.2" x2="-0.5" y2="0.8" width="0.127" layer="21" curve="-90"/>
-<wire x1="-0.5" y1="0.8" x2="0.5" y2="0.8" width="0.127" layer="21"/>
-<wire x1="0.5" y1="0.8" x2="1.1" y2="0.2" width="0.127" layer="21" curve="-90"/>
-<wire x1="1.1" y1="0.2" x2="1.1" y2="-0.2" width="0.127" layer="21"/>
-<wire x1="1.1" y1="-0.2" x2="0.5" y2="-0.8" width="0.127" layer="21" curve="-90"/>
-<wire x1="0.5" y1="-0.8" x2="-0.5" y2="-0.8" width="0.127" layer="21"/>
-<smd name="1" x="2" y="0.8" dx="1" dy="1" layer="1"/>
-<smd name="2" x="2" y="-0.8" dx="1" dy="1" layer="1"/>
-<smd name="4" x="-2" y="-0.8" dx="1" dy="1" layer="1"/>
-<smd name="3" x="-2" y="0.8" dx="1" dy="1" layer="1"/>
-</package>
 <package name="PUSHBUTTON_SMD_SJ" urn="urn:adsk.eagle:footprint:6240313/1" library_version="2">
 <wire x1="-2.9997" y1="3" x2="3" y2="3" width="0.127" layer="51"/>
 <wire x1="3" y1="3" x2="3" y2="-3" width="0.2032" layer="51"/>
@@ -3693,11 +3642,6 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <packageinstance name="1X06-3.5MM"/>
 </packageinstances>
 </package3d>
-<package3d name="RGBLED5050" urn="urn:adsk.eagle:package:6240865/1" type="box" library_version="2">
-<packageinstances>
-<packageinstance name="RGBLED5050"/>
-</packageinstances>
-</package3d>
 <package3d name="R0402" urn="urn:adsk.eagle:package:6240564/1" type="box" library_version="2">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
@@ -4188,16 +4132,6 @@ type 0309, grid 2.5 mm</description>
 <packageinstance name="0207/9"/>
 </packageinstances>
 </package3d>
-<package3d name="EVQ-Q2" urn="urn:adsk.eagle:package:6240643/1" type="box" library_version="2">
-<packageinstances>
-<packageinstance name="EVQ-Q2"/>
-</packageinstances>
-</package3d>
-<package3d name="KMR2" urn="urn:adsk.eagle:package:6240885/1" type="box" library_version="2">
-<packageinstances>
-<packageinstance name="KMR2"/>
-</packageinstances>
-</package3d>
 <package3d name="PUSHBUTTON_SMD_SJ" urn="urn:adsk.eagle:package:6240956/1" type="box" library_version="2">
 <packageinstances>
 <packageinstance name="PUSHBUTTON_SMD_SJ"/>
@@ -4311,39 +4245,6 @@ JST PH 2-pin thru-home side entry</description>
 <pin name="5" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="6" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
-<symbol name="RGBLED" urn="urn:adsk.eagle:symbol:6239624/1" library_version="2">
-<wire x1="1.27" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="1.27" y1="6.35" x2="1.27" y2="5.08" width="0.254" layer="94"/>
-<wire x1="1.27" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-6.35" x2="1.27" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="1.27" y1="5.08" x2="-1.27" y2="6.35" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="6.35" x2="-1.27" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="3.81" x2="1.27" y2="5.08" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="-1.27" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-3.81" x2="-1.27" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-6.35" x2="1.27" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="1.27" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
-<text x="-3.81" y="8.89" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-3.81" size="1.778" layer="94">Red</text>
-<text x="2.54" y="1.27" size="1.778" layer="94">Grn</text>
-<text x="2.54" y="6.35" size="1.778" layer="94">Blue</text>
-<pin name="BLUE_C" x="5.08" y="5.08" visible="off" length="point" rot="R180"/>
-<pin name="GREEN_C" x="5.08" y="0" visible="off" length="point" rot="R180"/>
-<pin name="GREEN_A" x="-5.08" y="0" visible="off" length="point"/>
-<pin name="RED_C" x="5.08" y="-5.08" visible="off" length="point" rot="R180"/>
-<pin name="BLUE_A" x="-5.08" y="5.08" visible="off" length="point"/>
-<pin name="RED_A" x="-5.08" y="-5.08" visible="off" length="point"/>
-</symbol>
 <symbol name="R-US" urn="urn:adsk.eagle:symbol:6239479/1" library_version="2">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
 <wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
@@ -4358,27 +4259,6 @@ JST PH 2-pin thru-home side entry</description>
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-<symbol name="TS2" urn="urn:adsk.eagle:symbol:6239471/1" library_version="2">
-<wire x1="0" y1="1.905" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-4.445" y1="1.905" x2="-3.175" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-4.445" y1="-1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="-4.445" y1="1.905" x2="-4.445" y2="0" width="0.254" layer="94"/>
-<wire x1="-4.445" y1="0" x2="-4.445" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
-<wire x1="-4.445" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
-<circle x="0" y="-2.54" radius="0.127" width="0.4064" layer="94"/>
-<circle x="0" y="2.54" radius="0.127" width="0.4064" layer="94"/>
-<text x="-6.35" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="-3.81" y="3.175" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="P" x="0" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
-<pin name="S" x="0" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="S1" x="2.54" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="P1" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
 </symbol>
 <symbol name="PUSHBUTTON" urn="urn:adsk.eagle:symbol:6239671/1" library_version="2">
 <wire x1="-2.54" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
@@ -4972,30 +4852,6 @@ Source: http://www.osram.convergy.de/</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:6240818/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RGBLED" urn="urn:adsk.eagle:component:6241116/1" prefix="LED" library_version="2">
-<description>For 5050 RGB LEDs, the order of the LEDs may vary from one manufacturer to another!</description>
-<gates>
-<gate name="G$1" symbol="RGBLED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="5050" package="RGBLED5050">
-<connects>
-<connect gate="G$1" pin="BLUE_A" pad="3"/>
-<connect gate="G$1" pin="BLUE_C" pad="4"/>
-<connect gate="G$1" pin="GREEN_A" pad="1"/>
-<connect gate="G$1" pin="GREEN_C" pad="6"/>
-<connect gate="G$1" pin="RED_A" pad="2"/>
-<connect gate="G$1" pin="RED_C" pad="5"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6240865/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -5863,43 +5719,6 @@ Source: http://www.osram.convergy.de/</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SPST_TACT" urn="urn:adsk.eagle:component:6240971/1" prefix="SW" library_version="2">
-<description>SMT 6mm switch, EVQQ2 series
-&lt;p&gt;http://www.ladyada.net/library/eagle&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="TS2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-EVQQ2" package="EVQ-Q2">
-<connects>
-<connect gate="G$1" pin="P" pad="A"/>
-<connect gate="G$1" pin="P1" pad="A'"/>
-<connect gate="G$1" pin="S" pad="B"/>
-<connect gate="G$1" pin="S1" pad="B'"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6240643/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-KMR2" package="KMR2">
-<connects>
-<connect gate="G$1" pin="P" pad="1"/>
-<connect gate="G$1" pin="P1" pad="3"/>
-<connect gate="G$1" pin="S" pad="2"/>
-<connect gate="G$1" pin="S1" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6240885/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SWITCH_PUSHBUTTON" urn="urn:adsk.eagle:component:6241159/1" prefix="SW" uservalue="yes" library_version="2">
 <description>&lt;p&gt;&lt;b&gt;Buttons&lt;/b&gt;&lt;/p&gt;
 &lt;b&gt;SOFTTOUCHSMD_SJ&lt;/b&gt; - Soft touch temporary push button (Super Junk Akihabara)
@@ -6177,23 +5996,20 @@ Now with beefier pads!</description>
 <part name="ERRLED" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:6240557/1"/>
 <part name="POWERLED" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:6240557/1"/>
 <part name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
-<part name="LED6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="RGBLED" device="5050" package3d_urn="urn:adsk.eagle:package:6240865/1"/>
 <part name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="1KR"/>
-<part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1"/>
 <part name="R3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="330R"/>
 <part name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="330R"/>
 <part name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="330R"/>
 <part name="R6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="330R"/>
 <part name="R7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="330R"/>
-<part name="SW1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SPST_TACT" device="-KMR2" package3d_urn="urn:adsk.eagle:package:6240885/1"/>
-<part name="SW2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SWITCH_PUSHBUTTON" device="EVQ-PE" package3d_urn="urn:adsk.eagle:package:6240957/1"/>
+<part name="SW2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SWITCH_PUSHBUTTON" device="EVQ-PE" package3d_urn="urn:adsk.eagle:package:6240957/1" value="Push_Button"/>
 <part name="JP2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X8" device="BIG" package3d_urn="urn:adsk.eagle:package:6240707/1"/>
 <part name="JP3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
 <part name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="330R"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="LOWBATLED" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:6240557/1"/>
+<part name="REC_LOW_BAT_LED" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:6240557/1"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="S1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="31-XX" device="SKINNY" package3d_urn="urn:adsk.eagle:package:6240899/1"/>
+<part name="S1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="31-XX" device="SKINNY" package3d_urn="urn:adsk.eagle:package:6240899/1" value="Microcontroller and Mic power"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CN1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="JST_2PIN" device="-SMT-RA" package3d_urn="urn:adsk.eagle:package:6240692/1"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -6201,10 +6017,9 @@ Now with beefier pads!</description>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CN2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="JST_2PIN" device="-SMT-RA" package3d_urn="urn:adsk.eagle:package:6240692/1"/>
 <part name="R9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="330R"/>
-<part name="LOWBATLED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:6240557/1"/>
+<part name="GSM_LOW_BAT_LED" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:6240557/1"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="S2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="31-XX" device="SKINNY" package3d_urn="urn:adsk.eagle:package:6240899/1"/>
-<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="S2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="31-XX" device="SKINNY" package3d_urn="urn:adsk.eagle:package:6240899/1" value="GSM power"/>
 </parts>
 <sheets>
 <sheet>
@@ -6218,7 +6033,7 @@ Now with beefier pads!</description>
 <text x="68.58" y="96.52" size="1.778" layer="91" rot="R90">GND</text>
 <text x="71.12" y="99.06" size="1.778" layer="91" rot="R90">5V</text>
 <text x="60.96" y="96.52" size="1.778" layer="91" rot="R90">EN</text>
-<text x="-15.24" y="139.7" size="1.778" layer="91">5V Out EN</text>
+<text x="-15.24" y="139.7" size="1.778" layer="91">5V Out EN - Recorder On/Off</text>
 <text x="88.9" y="127" size="1.778" layer="91">Low Battery Indicator</text>
 <text x="129.54" y="22.86" size="1.778" layer="91" rot="R90">VBAT</text>
 <text x="137.16" y="22.86" size="1.778" layer="91" rot="R90">GND</text>
@@ -6228,7 +6043,7 @@ Now with beefier pads!</description>
 <text x="134.62" y="22.86" size="1.778" layer="91" rot="R90">EN</text>
 <text x="127" y="22.86" size="1.778" layer="91" rot="R90">VUSB</text>
 <text x="132.08" y="22.86" size="1.778" layer="91" rot="R90">VS</text>
-<text x="-190.5" y="50.8" size="1.778" layer="91">5V Out EN</text>
+<text x="137.16" y="-7.62" size="1.778" layer="91">5V Out EN - Transmitter On/Off</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="63.5" y="45.72" smashed="yes"/>
@@ -6240,17 +6055,17 @@ Now with beefier pads!</description>
 <attribute name="NAME" x="-70.612" y="-11.176" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-65.532" y="-13.335" size="1.778" layer="96"/>
 </instance>
-<instance part="SDLED" gate="G$1" x="-60.96" y="-17.78" smashed="yes" rot="R270">
-<attribute name="NAME" x="-70.612" y="-21.336" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-65.532" y="-23.495" size="1.778" layer="96"/>
+<instance part="SDLED" gate="G$1" x="154.94" y="-25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="164.592" y="-21.844" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="159.512" y="-19.685" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="NETSTATLED" gate="G$1" x="-60.96" y="-27.94" smashed="yes" rot="R270">
-<attribute name="NAME" x="-73.152" y="-31.496" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-65.532" y="-33.655" size="1.778" layer="96"/>
+<instance part="NETSTATLED" gate="G$1" x="154.94" y="-35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="167.132" y="-32.004" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="159.512" y="-29.845" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="ERRLED" gate="G$1" x="-60.96" y="-38.1" smashed="yes" rot="R270">
-<attribute name="NAME" x="-70.612" y="-41.656" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-65.532" y="-43.815" size="1.778" layer="96"/>
+<instance part="ERRLED" gate="G$1" x="154.94" y="-45.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="164.592" y="-42.164" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="159.512" y="-40.005" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="POWERLED" gate="G$1" x="-63.5" y="2.54" smashed="yes" rot="R270">
 <attribute name="NAME" x="-73.152" y="-1.016" size="1.778" layer="95"/>
@@ -6260,16 +6075,9 @@ Now with beefier pads!</description>
 <attribute name="NAME" x="71.755" y="110.49" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="50.8" y="110.49" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="LED6" gate="G$1" x="180.34" y="55.88" smashed="yes">
-<attribute name="NAME" x="176.53" y="64.77" size="1.778" layer="95"/>
-</instance>
 <instance part="R1" gate="G$1" x="111.76" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="110.2614" y="46.99" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="115.062" y="46.99" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R2" gate="G$1" x="134.62" y="106.68" smashed="yes">
-<attribute name="NAME" x="133.35" y="227.5586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="130.81" y="103.378" size="1.778" layer="96"/>
 </instance>
 <instance part="R3" gate="G$1" x="129.54" y="127" smashed="yes">
 <attribute name="NAME" x="125.73" y="128.4986" size="1.778" layer="95"/>
@@ -6279,21 +6087,17 @@ Now with beefier pads!</description>
 <attribute name="NAME" x="-44.45" y="4.0386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-44.45" y="-0.762" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="-40.64" y="-17.78" smashed="yes">
-<attribute name="NAME" x="-44.45" y="-16.2814" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-44.45" y="-21.082" size="1.778" layer="96"/>
+<instance part="R5" gate="G$1" x="137.16" y="-25.4" smashed="yes">
+<attribute name="NAME" x="133.35" y="-23.9014" size="1.778" layer="95"/>
+<attribute name="VALUE" x="133.35" y="-28.702" size="1.778" layer="96"/>
 </instance>
 <instance part="R6" gate="G$1" x="-40.64" y="-7.62" smashed="yes">
 <attribute name="NAME" x="-44.45" y="-6.1214" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-44.45" y="-10.922" size="1.778" layer="96"/>
 </instance>
-<instance part="R7" gate="G$1" x="-40.64" y="-27.94" smashed="yes">
-<attribute name="NAME" x="-44.45" y="-26.4414" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-44.45" y="-31.242" size="1.778" layer="96"/>
-</instance>
-<instance part="SW1" gate="G$1" x="-88.9" y="60.96" smashed="yes" rot="R270">
-<attribute name="NAME" x="-91.44" y="67.31" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-85.725" y="64.77" size="1.778" layer="96"/>
+<instance part="R7" gate="G$1" x="137.16" y="-35.56" smashed="yes">
+<attribute name="NAME" x="133.35" y="-34.0614" size="1.778" layer="95"/>
+<attribute name="VALUE" x="133.35" y="-38.862" size="1.778" layer="96"/>
 </instance>
 <instance part="SW2" gate="G$1" x="-25.4" y="76.2" smashed="yes">
 <attribute name="NAME" x="-30.48" y="79.756" size="1.27" layer="95"/>
@@ -6307,14 +6111,14 @@ Now with beefier pads!</description>
 <attribute name="NAME" x="55.245" y="-24.13" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="76.2" y="-24.13" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R8" gate="G$1" x="-40.64" y="-38.1" smashed="yes">
-<attribute name="NAME" x="-44.45" y="-36.6014" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-44.45" y="-41.402" size="1.778" layer="96"/>
+<instance part="R8" gate="G$1" x="137.16" y="-45.72" smashed="yes">
+<attribute name="NAME" x="133.35" y="-44.2214" size="1.778" layer="95"/>
+<attribute name="VALUE" x="133.35" y="-49.022" size="1.778" layer="96"/>
 </instance>
 <instance part="GND1" gate="1" x="-86.36" y="-48.26" smashed="yes">
 <attribute name="VALUE" x="-88.9" y="-50.8" size="1.778" layer="96"/>
 </instance>
-<instance part="LOWBATLED" gate="G$1" x="142.24" y="127" smashed="yes" rot="R90">
+<instance part="REC_LOW_BAT_LED" gate="G$1" x="142.24" y="127" smashed="yes" rot="R90">
 <attribute name="NAME" x="151.892" y="130.556" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="146.812" y="132.715" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -6349,19 +6153,16 @@ Now with beefier pads!</description>
 <attribute name="NAME" x="176.53" y="9.1186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="176.53" y="4.318" size="1.778" layer="96"/>
 </instance>
-<instance part="LOWBATLED1" gate="G$1" x="193.04" y="7.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="202.692" y="11.176" size="1.778" layer="95" rot="R180"/>
+<instance part="GSM_LOW_BAT_LED" gate="G$1" x="193.04" y="7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="207.772" y="11.176" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="197.612" y="13.335" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND7" gate="1" x="203.2" y="-15.24" smashed="yes">
-<attribute name="VALUE" x="200.66" y="-17.78" size="1.778" layer="96"/>
+<instance part="GND7" gate="1" x="203.2" y="-53.34" smashed="yes">
+<attribute name="VALUE" x="200.66" y="-55.88" size="1.778" layer="96"/>
 </instance>
 <instance part="S2" gate="1" x="190.5" y="-7.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="192.405" y="-13.97" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="187.325" y="-11.43" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="GND8" gate="1" x="-231.14" y="40.64" smashed="yes">
-<attribute name="VALUE" x="-233.68" y="38.1" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -6395,28 +6196,16 @@ Now with beefier pads!</description>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="-86.36" y1="-45.72" x2="-86.36" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="RECLED" gate="G$1" pin="C"/>
-<wire x1="-86.36" y1="-38.1" x2="-86.36" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="-86.36" y1="-27.94" x2="-86.36" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="-86.36" y1="-17.78" x2="-86.36" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="-45.72" x2="-86.36" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="-86.36" y1="-7.62" x2="-66.04" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="SDLED" gate="G$1" pin="C"/>
-<wire x1="-66.04" y1="-17.78" x2="-86.36" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="-86.36" y="-17.78"/>
-<pinref part="NETSTATLED" gate="G$1" pin="C"/>
-<wire x1="-66.04" y1="-27.94" x2="-86.36" y2="-27.94" width="0.1524" layer="91"/>
-<junction x="-86.36" y="-27.94"/>
-<pinref part="ERRLED" gate="G$1" pin="C"/>
-<wire x1="-66.04" y1="-38.1" x2="-86.36" y2="-38.1" width="0.1524" layer="91"/>
-<junction x="-86.36" y="-38.1"/>
 <wire x1="-86.36" y1="-7.62" x2="-86.36" y2="2.54" width="0.1524" layer="91"/>
 <junction x="-86.36" y="-7.62"/>
 <pinref part="POWERLED" gate="G$1" pin="C"/>
 <wire x1="-86.36" y1="2.54" x2="-68.58" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LOWBATLED" gate="G$1" pin="C"/>
+<pinref part="REC_LOW_BAT_LED" gate="G$1" pin="C"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="147.32" y1="127" x2="152.4" y2="127" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="127" x2="152.4" y2="119.38" width="0.1524" layer="91"/>
@@ -6461,18 +6250,26 @@ Now with beefier pads!</description>
 <junction x="111.76" y="35.56"/>
 </segment>
 <segment>
-<pinref part="LOWBATLED1" gate="G$1" pin="C"/>
+<pinref part="GSM_LOW_BAT_LED" gate="G$1" pin="C"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="198.12" y1="7.62" x2="203.2" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="7.62" x2="203.2" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="S2" gate="1" pin="P"/>
-<wire x1="203.2" y1="-7.62" x2="203.2" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-7.62" x2="203.2" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-25.4" x2="203.2" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-35.56" x2="203.2" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-45.72" x2="203.2" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="-7.62" x2="203.2" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="203.2" y="-7.62"/>
-</segment>
-<segment>
-<pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="-231.14" y1="43.18" x2="-231.14" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="SDLED" gate="G$1" pin="C"/>
+<wire x1="160.02" y1="-25.4" x2="203.2" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="203.2" y="-25.4"/>
+<pinref part="ERRLED" gate="G$1" pin="C"/>
+<wire x1="160.02" y1="-45.72" x2="203.2" y2="-45.72" width="0.1524" layer="91"/>
+<junction x="203.2" y="-45.72"/>
+<pinref part="NETSTATLED" gate="G$1" pin="C"/>
+<wire x1="160.02" y1="-35.56" x2="203.2" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="203.2" y="-35.56"/>
 </segment>
 </net>
 <net name="BCLK" class="0">
@@ -6590,19 +6387,6 @@ Now with beefier pads!</description>
 <wire x1="45.72" y1="139.7" x2="60.96" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="-35.56" y1="-27.94" x2="-25.4" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="-27.94" x2="-25.4" y2="-50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="-35.56" y1="-55.88" x2="-35.56" y2="-38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="RECLED" gate="G$1" pin="A"/>
@@ -6628,29 +6412,6 @@ Now with beefier pads!</description>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="-5.08" x2="30.48" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-7.62" x2="-35.56" y2="-7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="ERRLED" gate="G$1" pin="A"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="-45.72" y1="-38.1" x2="-58.42" y2="-38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="NETSTATLED" gate="G$1" pin="A"/>
-<wire x1="-58.42" y1="-27.94" x2="-45.72" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="-45.72" y1="-27.94" x2="-43.18" y2="-27.94" width="0.1524" layer="91"/>
-<junction x="-45.72" y="-27.94"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="SDLED" gate="G$1" pin="A"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="-58.42" y1="-17.78" x2="-45.72" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -6682,7 +6443,7 @@ Now with beefier pads!</description>
 <net name="N$16" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="LOWBATLED" gate="G$1" pin="A"/>
+<pinref part="REC_LOW_BAT_LED" gate="G$1" pin="A"/>
 <wire x1="139.7" y1="127" x2="134.62" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6714,7 +6475,10 @@ Now with beefier pads!</description>
 <net name="N$21" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="38/A19/PWM/SDA1"/>
-<wire x1="99.06" y1="-2.54" x2="101.6" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="-2.54" x2="119.38" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="-2.54" x2="119.38" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="-35.56" x2="132.08" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -6725,7 +6489,7 @@ Now with beefier pads!</description>
 <net name="N$23" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
-<pinref part="LOWBATLED1" gate="G$1" pin="A"/>
+<pinref part="GSM_LOW_BAT_LED" gate="G$1" pin="A"/>
 <wire x1="190.5" y1="7.62" x2="185.42" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6754,17 +6518,51 @@ Now with beefier pads!</description>
 <wire x1="160.02" y1="17.78" x2="144.78" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
-<segment>
-<wire x1="-114.3" y1="17.78" x2="-114.3" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="5"/>
 <wire x1="134.62" y1="17.78" x2="134.62" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="S2" gate="1" pin="S"/>
 <wire x1="134.62" y1="-7.62" x2="185.42" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="SDLED" gate="G$1" pin="A"/>
+<wire x1="142.24" y1="-25.4" x2="152.4" y2="-25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="ERRLED" gate="G$1" pin="A"/>
+<wire x1="142.24" y1="-45.72" x2="152.4" y2="-45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="39/A20/ALT-MISO0"/>
+<wire x1="99.06" y1="0" x2="121.92" y2="0" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="0" x2="121.92" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="-25.4" x2="132.08" y2="-25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="37/A18/PWM/SCL1"/>
+<wire x1="99.06" y1="-5.08" x2="116.84" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="-5.08" x2="116.84" y2="-45.72" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="-45.72" x2="132.08" y2="-45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="NETSTATLED" gate="G$1" pin="A"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="-35.56" x2="152.4" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
