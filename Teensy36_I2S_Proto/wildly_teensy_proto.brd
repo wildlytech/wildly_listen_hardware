@@ -1040,18 +1040,6 @@ design rules under a new name.</description>
 <contactref element="CON1" pad="P$2"/>
 <wire x1="63.5" y1="5.08" x2="43.18" y2="60.96" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="CTS_OF_GSM">
-<contactref element="U$1" pad="33"/>
-<contactref element="CON1" pad="P$3"/>
-<contactref element="R1" pad="2"/>
-<wire x1="66.04" y1="5.08" x2="86.36" y2="60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.29" y1="80.01" x2="86.36" y2="60.96" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="RTS_OF_GSM">
-<contactref element="U$1" pad="34"/>
-<contactref element="CON1" pad="P$15"/>
-<wire x1="63.5" y1="27.94" x2="83.82" y2="60.96" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="N$2">
 <contactref element="U$1" pad="5V"/>
 <contactref element="JP1" pad="1"/>
@@ -1114,8 +1102,6 @@ design rules under a new name.</description>
 <contactref element="R7" pad="1"/>
 <wire x1="-46.67" y1="80.01" x2="73.66" y2="60.96" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$22">
-</signal>
 <signal name="N$23">
 <contactref element="R9" pad="2"/>
 <contactref element="GSM_LOW_BAT_LED" pad="A"/>
@@ -1165,6 +1151,18 @@ design rules under a new name.</description>
 <contactref element="NETSTATLED" pad="A"/>
 <contactref element="R7" pad="2"/>
 <wire x1="-46.99" y1="61.18" x2="-44.77" y2="80.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="RTS_OF_GSM">
+<contactref element="U$1" pad="34"/>
+<contactref element="CON1" pad="P$3"/>
+<contactref element="R1" pad="2"/>
+<wire x1="66.04" y1="5.08" x2="83.82" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.29" y1="80.01" x2="83.82" y2="60.96" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CTS_OF_GSM">
+<contactref element="CON1" pad="P$15"/>
+<contactref element="U$1" pad="33"/>
+<wire x1="63.5" y1="27.94" x2="86.36" y2="60.96" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

@@ -6343,30 +6343,33 @@ Now with beefier pads!</description>
 </net>
 <net name="CTS_OF_GSM" class="0">
 <segment>
+<wire x1="162.56" y1="-15.24" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="CON1" gate="G$1" pin="INT"/>
+<wire x1="162.56" y1="66.04" x2="157.48" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="33/A14/CAN1TX/TX5/ALT-SCL0"/>
 <wire x1="30.48" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="91"/>
 <label x="0" y="2.54" size="1.778" layer="95"/>
 <wire x1="-2.54" y1="2.54" x2="-2.54" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="-15.24" x2="106.68" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="CON1" gate="G$1" pin="CS"/>
-<wire x1="119.38" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="60.96" x2="106.68" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="60.96" x2="106.68" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="55.88" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
-<junction x="111.76" y="60.96"/>
+<wire x1="-2.54" y1="-15.24" x2="162.56" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RTS_OF_GSM" class="0">
 <segment>
+<label x="0" y="0" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="U$1" gate="G$1" pin="34/A15/CAN1RX/RX5/ALT-SDA0"/>
 <wire x1="30.48" y1="0" x2="0" y2="0" width="0.1524" layer="91"/>
-<label x="0" y="0" size="1.778" layer="95"/>
 <wire x1="0" y1="0" x2="0" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="0" y1="-12.7" x2="162.56" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="-12.7" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="CON1" gate="G$1" pin="INT"/>
-<wire x1="162.56" y1="66.04" x2="157.48" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="0" y1="-12.7" x2="106.68" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="CON1" gate="G$1" pin="CS"/>
+<wire x1="119.38" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="60.96" x2="106.68" y2="60.96" width="0.1524" layer="91"/>
+<junction x="111.76" y="60.96"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="55.88" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-12.7" x2="106.68" y2="60.96" width="0.1524" layer="91"/>
+<label x="0" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -6479,11 +6482,6 @@ Now with beefier pads!</description>
 <wire x1="119.38" y1="-2.54" x2="119.38" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="-35.56" x2="132.08" y2="-35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<wire x1="101.6" y1="-12.7" x2="121.92" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
