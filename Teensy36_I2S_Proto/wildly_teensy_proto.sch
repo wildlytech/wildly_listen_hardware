@@ -9079,7 +9079,6 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GSM_POWER" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="JST_2PIN" device="-SMT-RA" package3d_urn="urn:adsk.eagle:package:6240692/1"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="10uF"/>
 <part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="100nF"/>
@@ -9111,22 +9110,23 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="T3" library="2N2222A" deviceset="2N2222A" device=""/>
 <part name="T1" library="2N2222A" deviceset="2N2222A" device=""/>
 <part name="T2" library="2N2222A" deviceset="2N2222A" device=""/>
-<part name="TEENSY_PINS_43-48" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
-<part name="TEENSY_PINS_19-24" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
-<part name="TEENSY_PINS_37-42" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
-<part name="TEENSY_PINS_13-18" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
-<part name="TEENSY_PINS_31-36" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
-<part name="TEENSY_PINS_7-12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
-<part name="TEENSY_PINS_25-30" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
-<part name="TEENSY_PINS_1-6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
+<part name="TEENSY_8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
+<part name="TEENSY_4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
+<part name="TEENSY_7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
+<part name="TEENSY_3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
+<part name="TEENSY_6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
+<part name="TEENSY_2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
+<part name="TEENSY_5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
+<part name="TEENSY_1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
 <part name="J1" library="61300311121" deviceset="61300311121" device=""/>
 <part name="J2" library="61300311121" deviceset="61300311121" device=""/>
-<part name="J3" library="61300211121" deviceset="61300211121" device=""/>
+<part name="FUEL_GAUGE" library="61300211121" deviceset="61300211121" device=""/>
+<part name="SOLAR_CHARGER" library="61300211121" deviceset="61300211121" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="-76.2" y="-33.02" size="1.778" layer="91">Adafruit I2S Microphone SPH0645LM4H </text>
+<text x="-76.2" y="-12.7" size="1.778" layer="91">Adafruit I2S Microphone SPH0645LM4H </text>
 <text x="-73.66" y="63.5" size="1.778" layer="91">Adafruit 5V Boost 500mA</text>
 <text x="-63.5" y="22.86" size="1.778" layer="91">5V Boost 1A</text>
 <text x="-67.056" y="85.09" size="1.778" layer="91" rot="R180">Bat</text>
@@ -9145,7 +9145,8 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <text x="-64.516" y="49.276" size="1.778" layer="91" rot="R180">VUSB</text>
 <text x="-66.294" y="43.688" size="1.778" layer="91" rot="R180">VS</text>
 <text x="93.98" y="127" size="1.778" layer="91">5V Out EN - Transmitter On/Off</text>
-<text x="147.32" y="129.54" size="1.778" layer="91">LIPO - FUEL GAUGE</text>
+<text x="147.32" y="132.08" size="1.778" layer="91">LIPO - FUEL GAUGE</text>
+<text x="190.5" y="132.08" size="1.778" layer="91">Solar Charger</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="63.5" y="45.72" smashed="yes"/>
@@ -9165,9 +9166,9 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <attribute name="NAME" x="-54.61" y="27.305" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-54.61" y="53.34" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="WILDLY_I2S_MIC" gate="A" x="-60.96" y="-17.78" smashed="yes" rot="R180">
-<attribute name="NAME" x="-54.61" y="-28.575" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-54.61" y="-7.62" size="1.778" layer="96" rot="R180"/>
+<instance part="WILDLY_I2S_MIC" gate="A" x="-60.96" y="2.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="-54.61" y="-8.255" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-54.61" y="12.7" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND3" gate="1" x="7.62" y="109.22" smashed="yes">
 <attribute name="VALUE" x="5.08" y="106.68" size="1.778" layer="96"/>
@@ -9184,10 +9185,6 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </instance>
 <instance part="GND6" gate="1" x="147.32" y="43.18" smashed="yes">
 <attribute name="VALUE" x="144.78" y="40.64" size="1.778" layer="96"/>
-</instance>
-<instance part="GSM_POWER" gate="G$1" x="-60.96" y="10.16" smashed="yes" rot="R180">
-<attribute name="NAME" x="-54.61" y="4.445" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-54.61" y="15.24" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND1" gate="1" x="119.38" y="109.22" smashed="yes">
 <attribute name="VALUE" x="116.84" y="106.68" size="1.778" layer="96"/>
@@ -9218,65 +9215,65 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <attribute name="NAME" x="-48.26" y="116.84" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-55.88" y="123.825" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="NETSTATLED" gate="G$1" x="78.74" y="-63.5" smashed="yes">
-<attribute name="NAME" x="82.296" y="-75.692" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="84.455" y="-68.072" size="1.778" layer="96" rot="R90"/>
+<instance part="NETSTATLED" gate="G$1" x="38.1" y="-55.88" smashed="yes">
+<attribute name="NAME" x="41.656" y="-68.072" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="43.815" y="-60.452" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="ERRLED" gate="G$1" x="147.32" y="-63.5" smashed="yes">
-<attribute name="NAME" x="150.876" y="-73.152" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="153.035" y="-68.072" size="1.778" layer="96" rot="R90"/>
+<instance part="ERRLED" gate="G$1" x="106.68" y="-55.88" smashed="yes">
+<attribute name="NAME" x="110.236" y="-65.532" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="112.395" y="-60.452" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="RECLED" gate="G$1" x="203.2" y="-63.5" smashed="yes">
-<attribute name="NAME" x="206.756" y="-73.152" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="208.915" y="-68.072" size="1.778" layer="96" rot="R90"/>
+<instance part="RECLED" gate="G$1" x="162.56" y="-55.88" smashed="yes">
+<attribute name="NAME" x="166.116" y="-65.532" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="168.275" y="-60.452" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R2" gate="G$1" x="185.42" y="-76.2" smashed="yes">
-<attribute name="NAME" x="181.61" y="-74.7014" size="1.778" layer="95"/>
-<attribute name="VALUE" x="181.61" y="-79.502" size="1.778" layer="96"/>
+<instance part="R2" gate="G$1" x="144.78" y="-68.58" smashed="yes">
+<attribute name="NAME" x="140.97" y="-67.0814" size="1.778" layer="95"/>
+<attribute name="VALUE" x="140.97" y="-71.882" size="1.778" layer="96"/>
 </instance>
-<instance part="R3" gate="G$1" x="132.08" y="-76.2" smashed="yes">
-<attribute name="NAME" x="128.27" y="-74.7014" size="1.778" layer="95"/>
-<attribute name="VALUE" x="128.27" y="-79.502" size="1.778" layer="96"/>
+<instance part="R3" gate="G$1" x="91.44" y="-68.58" smashed="yes">
+<attribute name="NAME" x="87.63" y="-67.0814" size="1.778" layer="95"/>
+<attribute name="VALUE" x="87.63" y="-71.882" size="1.778" layer="96"/>
 </instance>
-<instance part="R9" gate="G$1" x="63.5" y="-76.2" smashed="yes">
-<attribute name="NAME" x="59.69" y="-74.7014" size="1.778" layer="95"/>
-<attribute name="VALUE" x="59.69" y="-79.502" size="1.778" layer="96"/>
+<instance part="R9" gate="G$1" x="22.86" y="-68.58" smashed="yes">
+<attribute name="NAME" x="19.05" y="-67.0814" size="1.778" layer="95"/>
+<attribute name="VALUE" x="19.05" y="-71.882" size="1.778" layer="96"/>
 </instance>
-<instance part="R10" gate="G$1" x="203.2" y="-53.34" smashed="yes" rot="R90">
-<attribute name="NAME" x="201.7014" y="-57.15" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="206.502" y="-57.15" size="1.778" layer="96" rot="R90"/>
+<instance part="R10" gate="G$1" x="162.56" y="-45.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="161.0614" y="-49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="165.862" y="-49.53" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R11" gate="G$1" x="147.32" y="-53.34" smashed="yes" rot="R90">
-<attribute name="NAME" x="145.8214" y="-57.15" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="150.622" y="-57.15" size="1.778" layer="96" rot="R90"/>
+<instance part="R11" gate="G$1" x="106.68" y="-45.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="105.1814" y="-49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="109.982" y="-49.53" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R12" gate="G$1" x="78.74" y="-53.34" smashed="yes" rot="R90">
-<attribute name="NAME" x="77.2414" y="-57.15" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="82.042" y="-57.15" size="1.778" layer="96" rot="R90"/>
+<instance part="R12" gate="G$1" x="38.1" y="-45.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.6014" y="-49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="41.402" y="-49.53" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SDLED" gate="G$1" x="12.7" y="-66.04" smashed="yes">
-<attribute name="NAME" x="16.256" y="-75.692" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="18.415" y="-70.612" size="1.778" layer="96" rot="R90"/>
+<instance part="SDLED" gate="G$1" x="-27.94" y="-58.42" smashed="yes">
+<attribute name="NAME" x="-24.384" y="-68.072" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-22.225" y="-62.992" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R13" gate="G$1" x="-2.54" y="-78.74" smashed="yes">
-<attribute name="NAME" x="-6.35" y="-77.2414" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-6.35" y="-82.042" size="1.778" layer="96"/>
+<instance part="R13" gate="G$1" x="-43.18" y="-71.12" smashed="yes">
+<attribute name="NAME" x="-46.99" y="-69.6214" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-46.99" y="-74.422" size="1.778" layer="96"/>
 </instance>
-<instance part="R14" gate="G$1" x="12.7" y="-55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.2014" y="-59.69" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="16.002" y="-59.69" size="1.778" layer="96" rot="R90"/>
+<instance part="R14" gate="G$1" x="-27.94" y="-48.26" smashed="yes" rot="R90">
+<attribute name="NAME" x="-29.4386" y="-52.07" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-24.638" y="-52.07" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND9" gate="1" x="12.7" y="-91.44" smashed="yes">
-<attribute name="VALUE" x="10.16" y="-93.98" size="1.778" layer="96"/>
+<instance part="GND9" gate="1" x="-27.94" y="-83.82" smashed="yes">
+<attribute name="VALUE" x="-30.48" y="-86.36" size="1.778" layer="96"/>
 </instance>
-<instance part="GND10" gate="1" x="78.74" y="-91.44" smashed="yes">
-<attribute name="VALUE" x="76.2" y="-93.98" size="1.778" layer="96"/>
+<instance part="GND10" gate="1" x="38.1" y="-83.82" smashed="yes">
+<attribute name="VALUE" x="35.56" y="-86.36" size="1.778" layer="96"/>
 </instance>
-<instance part="GND11" gate="1" x="147.32" y="-91.44" smashed="yes">
-<attribute name="VALUE" x="144.78" y="-93.98" size="1.778" layer="96"/>
+<instance part="GND11" gate="1" x="106.68" y="-83.82" smashed="yes">
+<attribute name="VALUE" x="104.14" y="-86.36" size="1.778" layer="96"/>
 </instance>
-<instance part="GND12" gate="1" x="203.2" y="-91.44" smashed="yes">
-<attribute name="VALUE" x="200.66" y="-93.98" size="1.778" layer="96"/>
+<instance part="GND12" gate="1" x="162.56" y="-83.82" smashed="yes">
+<attribute name="VALUE" x="160.02" y="-86.36" size="1.778" layer="96"/>
 </instance>
 <instance part="REC_ON_OFF_SW" gate="G$1" x="15.24" y="116.84" smashed="yes">
 <attribute name="NAME" x="15.240940625" y="124.46188125" size="1.27046875" layer="95"/>
@@ -9290,62 +9287,61 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <attribute name="NAME" x="-13.97" y="76.2" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-13.97" y="66.04" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="T4" gate="G$1" x="10.16" y="-78.74" smashed="yes">
-<attribute name="NAME" x="0" y="-71.12" size="1.778" layer="95"/>
-<attribute name="VALUE" x="0" y="-73.66" size="1.778" layer="96"/>
+<instance part="T4" gate="G$1" x="-30.48" y="-71.12" smashed="yes">
+<attribute name="NAME" x="-40.64" y="-63.5" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-40.64" y="-66.04" size="1.778" layer="96"/>
 </instance>
-<instance part="T3" gate="G$1" x="76.2" y="-76.2" smashed="yes">
-<attribute name="NAME" x="63.5" y="-68.58" size="1.778" layer="95"/>
-<attribute name="VALUE" x="63.5" y="-71.12" size="1.778" layer="96"/>
+<instance part="T3" gate="G$1" x="35.56" y="-68.58" smashed="yes">
+<attribute name="NAME" x="22.86" y="-60.96" size="1.778" layer="95"/>
+<attribute name="VALUE" x="22.86" y="-63.5" size="1.778" layer="96"/>
 </instance>
-<instance part="T1" gate="G$1" x="144.78" y="-76.2" smashed="yes">
-<attribute name="NAME" x="134.62" y="-68.58" size="1.778" layer="95"/>
-<attribute name="VALUE" x="134.62" y="-71.12" size="1.778" layer="96"/>
+<instance part="T1" gate="G$1" x="104.14" y="-68.58" smashed="yes">
+<attribute name="NAME" x="93.98" y="-60.96" size="1.778" layer="95"/>
+<attribute name="VALUE" x="93.98" y="-63.5" size="1.778" layer="96"/>
 </instance>
-<instance part="T2" gate="G$1" x="200.66" y="-76.2" smashed="yes">
-<attribute name="NAME" x="190.5" y="-68.58" size="1.778" layer="95"/>
-<attribute name="VALUE" x="190.5" y="-71.12" size="1.778" layer="96"/>
+<instance part="T2" gate="G$1" x="160.02" y="-68.58" smashed="yes">
+<attribute name="NAME" x="149.86" y="-60.96" size="1.778" layer="95"/>
+<attribute name="VALUE" x="149.86" y="-63.5" size="1.778" layer="96"/>
 </instance>
-<instance part="TEENSY_PINS_43-48" gate="A" x="226.06" y="-15.24" smashed="yes">
+<instance part="TEENSY_8" gate="A" x="226.06" y="-15.24" smashed="yes">
 <attribute name="NAME" x="209.55" y="-4.445" size="1.778" layer="95"/>
 <attribute name="VALUE" x="219.71" y="-25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="TEENSY_PINS_19-24" gate="A" x="226.06" y="15.24" smashed="yes">
+<instance part="TEENSY_4" gate="A" x="226.06" y="15.24" smashed="yes">
 <attribute name="NAME" x="207.01" y="28.575" size="1.778" layer="95"/>
 <attribute name="VALUE" x="219.71" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="TEENSY_PINS_37-42" gate="A" x="200.66" y="-15.24" smashed="yes">
+<instance part="TEENSY_7" gate="A" x="200.66" y="-15.24" smashed="yes">
 <attribute name="NAME" x="181.61" y="-4.445" size="1.778" layer="95"/>
 <attribute name="VALUE" x="194.31" y="-25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="TEENSY_PINS_13-18" gate="A" x="200.66" y="15.24" smashed="yes">
+<instance part="TEENSY_3" gate="A" x="200.66" y="15.24" smashed="yes">
 <attribute name="NAME" x="179.07" y="28.575" size="1.778" layer="95"/>
 <attribute name="VALUE" x="194.31" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="TEENSY_PINS_31-36" gate="A" x="175.26" y="-15.24" smashed="yes">
+<instance part="TEENSY_6" gate="A" x="175.26" y="-15.24" smashed="yes">
 <attribute name="NAME" x="153.67" y="-4.445" size="1.778" layer="95"/>
 <attribute name="VALUE" x="168.91" y="-25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="TEENSY_PINS_7-12" gate="A" x="175.26" y="15.24" smashed="yes">
+<instance part="TEENSY_2" gate="A" x="175.26" y="15.24" smashed="yes">
 <attribute name="NAME" x="153.67" y="28.575" size="1.778" layer="95"/>
 <attribute name="VALUE" x="168.91" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="TEENSY_PINS_25-30" gate="A" x="149.86" y="-15.24" smashed="yes">
+<instance part="TEENSY_5" gate="A" x="149.86" y="-15.24" smashed="yes">
 <attribute name="NAME" x="125.73" y="-4.445" size="1.778" layer="95"/>
 <attribute name="VALUE" x="143.51" y="-25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="TEENSY_PINS_1-6" gate="A" x="149.86" y="15.24" smashed="yes">
+<instance part="TEENSY_1" gate="A" x="149.86" y="15.24" smashed="yes">
 <attribute name="NAME" x="125.73" y="28.575" size="1.778" layer="95"/>
 <attribute name="VALUE" x="143.51" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="J1" gate="G$1" x="152.4" y="119.38" smashed="yes">
+<instance part="J1" gate="G$1" x="152.4" y="119.38" smashed="yes"/>
+<instance part="J2" gate="G$1" x="165.1" y="119.38" smashed="yes"/>
+<instance part="FUEL_GAUGE" gate="G$1" x="160.02" y="111.76" smashed="yes">
 <attribute name="NAME" x="151.13" y="126.238" size="1.778" layer="95"/>
 </instance>
-<instance part="J2" gate="G$1" x="165.1" y="119.38" smashed="yes">
-<attribute name="NAME" x="163.83" y="126.238" size="1.778" layer="95"/>
-</instance>
-<instance part="J3" gate="G$1" x="160.02" y="111.76" smashed="yes">
-<attribute name="NAME" x="163.83" y="110.998" size="1.778" layer="95"/>
+<instance part="SOLAR_CHARGER" gate="G$1" x="198.12" y="121.92" smashed="yes">
+<attribute name="NAME" x="189.23" y="126.238" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -9354,7 +9350,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <net name="GND" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
-<label x="-67.564" y="-22.606" size="1.778" layer="95" rot="R180"/>
+<label x="-67.564" y="-2.286" size="1.778" layer="95" rot="R180"/>
 <wire x1="30.48" y1="88.9" x2="10.16" y2="88.9" width="0.1524" layer="91"/>
 <label x="2.54" y="88.9" size="1.778" layer="95"/>
 </segment>
@@ -9390,8 +9386,8 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </segment>
 <segment>
 <pinref part="WILDLY_I2S_MIC" gate="A" pin="2"/>
-<wire x1="-58.42" y1="-22.86" x2="-43.18" y2="-22.86" width="0.1524" layer="91"/>
-<label x="-43.18" y="-22.86" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="-2.54" x2="-43.18" y2="-2.54" width="0.1524" layer="91"/>
+<label x="-43.18" y="-2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="111.76" y1="119.38" x2="119.38" y2="119.38" width="0.1524" layer="91"/>
@@ -9429,38 +9425,33 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="12.7" y1="-83.82" x2="12.7" y2="-88.9" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-76.2" x2="-27.94" y2="-81.28" width="0.1524" layer="91"/>
 <pinref part="T4" gate="G$1" pin="E"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="78.74" y1="-81.28" x2="78.74" y2="-88.9" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-73.66" x2="38.1" y2="-81.28" width="0.1524" layer="91"/>
 <pinref part="T3" gate="G$1" pin="E"/>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="203.2" y1="-81.28" x2="203.2" y2="-88.9" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="-73.66" x2="162.56" y2="-81.28" width="0.1524" layer="91"/>
 <pinref part="T2" gate="G$1" pin="E"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="147.32" y1="-81.28" x2="147.32" y2="-88.9" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-73.66" x2="106.68" y2="-81.28" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="E"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_1-6" gate="A" pin="1"/>
+<pinref part="TEENSY_1" gate="A" pin="1"/>
 <wire x1="147.32" y1="22.86" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
 <label x="127" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_37-42" gate="A" pin="3"/>
+<pinref part="TEENSY_7" gate="A" pin="3"/>
 <wire x1="198.12" y1="-12.7" x2="182.88" y2="-12.7" width="0.1524" layer="91"/>
 <label x="182.88" y="-12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="111.76" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
-<label x="147.32" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX_OF_GSM" class="0">
@@ -9475,7 +9466,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="198.12" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_1-6" gate="A" pin="2"/>
+<pinref part="TEENSY_1" gate="A" pin="2"/>
 <wire x1="147.32" y1="20.32" x2="132.08" y2="20.32" width="0.1524" layer="91"/>
 <label x="127" y="20.32" size="1.778" layer="95"/>
 </segment>
@@ -9492,7 +9483,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="198.12" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_1-6" gate="A" pin="3"/>
+<pinref part="TEENSY_1" gate="A" pin="3"/>
 <wire x1="147.32" y1="17.78" x2="132.08" y2="17.78" width="0.1524" layer="91"/>
 <label x="127" y="17.78" size="1.778" layer="95"/>
 </segment>
@@ -9509,7 +9500,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="2.54" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_31-36" gate="A" pin="1"/>
+<pinref part="TEENSY_6" gate="A" pin="1"/>
 <wire x1="172.72" y1="-7.62" x2="157.48" y2="-7.62" width="0.1524" layer="91"/>
 <label x="157.48" y="-7.62" size="1.778" layer="95"/>
 </segment>
@@ -9526,7 +9517,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="198.12" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_43-48" gate="A" pin="6"/>
+<pinref part="TEENSY_8" gate="A" pin="6"/>
 <wire x1="223.52" y1="-20.32" x2="208.28" y2="-20.32" width="0.1524" layer="91"/>
 <label x="208.28" y="-20.32" size="1.778" layer="95"/>
 </segment>
@@ -9548,7 +9539,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="134.62" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_43-48" gate="A" pin="5"/>
+<pinref part="TEENSY_8" gate="A" pin="5"/>
 <wire x1="223.52" y1="-17.78" x2="208.28" y2="-17.78" width="0.1524" layer="91"/>
 <label x="208.28" y="-17.78" size="1.778" layer="95"/>
 </segment>
@@ -9561,11 +9552,11 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="180.34" y1="-76.2" x2="170.18" y2="-76.2" width="0.1524" layer="91"/>
-<label x="167.64" y="-76.2" size="1.778" layer="95"/>
+<wire x1="139.7" y1="-68.58" x2="129.54" y2="-68.58" width="0.1524" layer="91"/>
+<label x="127" y="-68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_43-48" gate="A" pin="3"/>
+<pinref part="TEENSY_8" gate="A" pin="3"/>
 <wire x1="223.52" y1="-12.7" x2="208.28" y2="-12.7" width="0.1524" layer="91"/>
 <label x="208.28" y="-12.7" size="1.778" layer="95"/>
 </segment>
@@ -9580,7 +9571,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="10.16" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_1-6" gate="A" pin="6"/>
+<pinref part="TEENSY_1" gate="A" pin="6"/>
 <wire x1="147.32" y1="10.16" x2="132.08" y2="10.16" width="0.1524" layer="91"/>
 <label x="127" y="10.16" size="1.778" layer="95"/>
 </segment>
@@ -9593,11 +9584,11 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="-76.2" x2="45.72" y2="-76.2" width="0.1524" layer="91"/>
-<label x="40.64" y="-76.2" size="1.778" layer="95"/>
+<wire x1="17.78" y1="-68.58" x2="5.08" y2="-68.58" width="0.1524" layer="91"/>
+<label x="0" y="-68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_43-48" gate="A" pin="1"/>
+<pinref part="TEENSY_8" gate="A" pin="1"/>
 <wire x1="223.52" y1="-7.62" x2="208.28" y2="-7.62" width="0.1524" layer="91"/>
 <label x="208.28" y="-7.62" size="1.778" layer="95"/>
 </segment>
@@ -9610,11 +9601,11 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="127" y1="-76.2" x2="114.3" y2="-76.2" width="0.1524" layer="91"/>
-<label x="111.76" y="-76.2" size="1.778" layer="95"/>
+<wire x1="86.36" y1="-68.58" x2="73.66" y2="-68.58" width="0.1524" layer="91"/>
+<label x="71.12" y="-68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_37-42" gate="A" pin="6"/>
+<pinref part="TEENSY_7" gate="A" pin="6"/>
 <wire x1="198.12" y1="-20.32" x2="182.88" y2="-20.32" width="0.1524" layer="91"/>
 <label x="182.88" y="-20.32" size="1.778" layer="95"/>
 </segment>
@@ -9627,11 +9618,11 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="-7.62" y1="-78.74" x2="-20.32" y2="-78.74" width="0.1524" layer="91"/>
-<label x="-22.86" y="-78.74" size="1.778" layer="95"/>
+<wire x1="-48.26" y1="-71.12" x2="-60.96" y2="-71.12" width="0.1524" layer="91"/>
+<label x="-63.5" y="-71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_43-48" gate="A" pin="2"/>
+<pinref part="TEENSY_8" gate="A" pin="2"/>
 <wire x1="223.52" y1="-10.16" x2="208.28" y2="-10.16" width="0.1524" layer="91"/>
 <label x="208.28" y="-10.16" size="1.778" layer="95"/>
 </segment>
@@ -9703,38 +9694,43 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="-81.28" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_25-30" gate="A" pin="1"/>
+<pinref part="TEENSY_5" gate="A" pin="1"/>
 <wire x1="147.32" y1="-7.62" x2="132.08" y2="-7.62" width="0.1524" layer="91"/>
 <label x="132.08" y="-7.62" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="109.22" x2="149.86" y2="109.22" width="0.1524" layer="91"/>
-<label x="147.32" y="109.22" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="GSM_BAT" class="0">
-<segment>
-<pinref part="GSM_POWER" gate="G$1" pin="2"/>
-<wire x1="-58.42" y1="10.16" x2="-45.72" y2="10.16" width="0.1524" layer="91"/>
-<label x="-45.72" y="10.16" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="7"/>
 <wire x1="-58.42" y1="45.72" x2="-45.72" y2="45.72" width="0.1524" layer="91"/>
 <label x="-45.72" y="45.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="FUEL_GAUGE" gate="G$1" pin="2"/>
+<wire x1="157.48" y1="109.22" x2="149.86" y2="109.22" width="0.1524" layer="91"/>
+<label x="144.78" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SOLAR_CHARGER" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="121.92" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
+<label x="182.88" y="121.92" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GSM_BAT_RETURN" class="0">
-<segment>
-<pinref part="GSM_POWER" gate="G$1" pin="1"/>
-<wire x1="-58.42" y1="7.62" x2="-45.72" y2="7.62" width="0.1524" layer="91"/>
-<label x="-45.72" y="7.62" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="4"/>
 <wire x1="-58.42" y1="38.1" x2="-45.72" y2="38.1" width="0.1524" layer="91"/>
 <label x="-45.72" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="FUEL_GAUGE" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="111.76" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
+<label x="137.16" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SOLAR_CHARGER" gate="G$1" pin="2"/>
+<wire x1="195.58" y1="119.38" x2="185.42" y2="119.38" width="0.1524" layer="91"/>
+<label x="172.72" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -9788,17 +9784,17 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <net name="MIC_BCLK" class="0">
 <segment>
 <pinref part="WILDLY_I2S_MIC" gate="A" pin="3"/>
-<wire x1="-58.42" y1="-20.32" x2="-43.18" y2="-20.32" width="0.1524" layer="91"/>
-<label x="-43.18" y="-20.32" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="0" x2="-43.18" y2="0" width="0.1524" layer="91"/>
+<label x="-43.18" y="0" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="9/PWM/RX2/CS0-1"/>
-<label x="-66.802" y="-19.812" size="1.778" layer="95" rot="R180"/>
+<label x="-66.802" y="0.508" size="1.778" layer="95" rot="R180"/>
 <wire x1="30.48" y1="63.5" x2="12.7" y2="63.5" width="0.1524" layer="91"/>
 <label x="2.54" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_7-12" gate="A" pin="5"/>
+<pinref part="TEENSY_2" gate="A" pin="5"/>
 <wire x1="172.72" y1="12.7" x2="157.48" y2="12.7" width="0.1524" layer="91"/>
 <label x="157.48" y="12.7" size="1.778" layer="95"/>
 </segment>
@@ -9806,17 +9802,17 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <net name="MIC_DOUT" class="0">
 <segment>
 <pinref part="WILDLY_I2S_MIC" gate="A" pin="4"/>
-<wire x1="-58.42" y1="-17.78" x2="-43.18" y2="-17.78" width="0.1524" layer="91"/>
-<label x="-43.18" y="-17.78" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="2.54" x2="-43.18" y2="2.54" width="0.1524" layer="91"/>
+<label x="-43.18" y="2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="13/LED/ALT-PWM/SCK0"/>
-<label x="-66.294" y="-17.272" size="1.778" layer="95" rot="R180"/>
+<label x="-66.294" y="3.048" size="1.778" layer="95" rot="R180"/>
 <label x="2.54" y="53.34" size="1.778" layer="95"/>
 <wire x1="30.48" y1="53.34" x2="10.16" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_37-42" gate="A" pin="2"/>
+<pinref part="TEENSY_7" gate="A" pin="2"/>
 <wire x1="198.12" y1="-10.16" x2="182.88" y2="-10.16" width="0.1524" layer="91"/>
 <label x="182.88" y="-10.16" size="1.778" layer="95"/>
 </segment>
@@ -9824,9 +9820,9 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <net name="MIC_LRCLK" class="0">
 <segment>
 <pinref part="WILDLY_I2S_MIC" gate="A" pin="5"/>
-<wire x1="-58.42" y1="-15.24" x2="-43.18" y2="-15.24" width="0.1524" layer="91"/>
-<label x="-43.18" y="-15.24" size="1.778" layer="95"/>
-<label x="-79.756" y="-16.002" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="5.08" x2="-43.18" y2="5.08" width="0.1524" layer="91"/>
+<label x="-43.18" y="5.08" size="1.778" layer="95"/>
+<label x="-79.756" y="4.318" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="23/A9/PWM/T"/>
@@ -9834,7 +9830,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="2.54" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_25-30" gate="A" pin="4"/>
+<pinref part="TEENSY_5" gate="A" pin="4"/>
 <wire x1="147.32" y1="-15.24" x2="132.08" y2="-15.24" width="0.1524" layer="91"/>
 <label x="132.08" y="-15.24" size="1.778" layer="95"/>
 </segment>
@@ -9846,7 +9842,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="0" y="-2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_43-48" gate="A" pin="4"/>
+<pinref part="TEENSY_8" gate="A" pin="4"/>
 <wire x1="223.52" y1="-15.24" x2="208.28" y2="-15.24" width="0.1524" layer="91"/>
 <label x="208.28" y="-15.24" size="1.778" layer="95"/>
 </segment>
@@ -9855,62 +9851,62 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="RECLED" gate="G$1" pin="A"/>
-<wire x1="203.2" y1="-58.42" x2="203.2" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="-50.8" x2="162.56" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="ERRLED" gate="G$1" pin="A"/>
-<wire x1="147.32" y1="-58.42" x2="147.32" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-50.8" x2="106.68" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
 <pinref part="NETSTATLED" gate="G$1" pin="A"/>
-<wire x1="78.74" y1="-58.42" x2="78.74" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-50.8" x2="38.1" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="RECLED" gate="G$1" pin="C"/>
-<wire x1="203.2" y1="-68.58" x2="203.2" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="-60.96" x2="162.56" y2="-63.5" width="0.1524" layer="91"/>
 <pinref part="T2" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="-76.2" x2="198.12" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-68.58" x2="157.48" y2="-68.58" width="0.1524" layer="91"/>
 <pinref part="T2" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="ERRLED" gate="G$1" pin="C"/>
-<wire x1="147.32" y1="-68.58" x2="147.32" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-60.96" x2="106.68" y2="-63.5" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="NETSTATLED" gate="G$1" pin="C"/>
-<wire x1="78.74" y1="-68.58" x2="78.74" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-60.96" x2="38.1" y2="-63.5" width="0.1524" layer="91"/>
 <pinref part="T3" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="-76.2" x2="73.66" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-68.58" x2="33.02" y2="-68.58" width="0.1524" layer="91"/>
 <pinref part="T3" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="-76.2" x2="142.24" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-68.58" x2="101.6" y2="-68.58" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="B"/>
 </segment>
 </net>
@@ -9918,20 +9914,20 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
 <pinref part="SDLED" gate="G$1" pin="A"/>
-<wire x1="12.7" y1="-60.96" x2="12.7" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-53.34" x2="-27.94" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="SDLED" gate="G$1" pin="C"/>
-<wire x1="12.7" y1="-71.12" x2="12.7" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-63.5" x2="-27.94" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="T4" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="2.54" y1="-78.74" x2="7.62" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="-71.12" x2="-33.02" y2="-71.12" width="0.1524" layer="91"/>
 <pinref part="T4" gate="G$1" pin="B"/>
 </segment>
 </net>
@@ -9943,37 +9939,37 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
-<label x="182.88" y="-50.8" size="1.778" layer="95"/>
+<label x="142.24" y="-43.18" size="1.778" layer="95"/>
 <pinref part="R12" gate="G$1" pin="2"/>
-<label x="60.96" y="-50.8" size="1.778" layer="95"/>
+<label x="20.32" y="-43.18" size="1.778" layer="95"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<label x="129.54" y="-50.8" size="1.778" layer="95"/>
-<wire x1="78.74" y1="-48.26" x2="147.32" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="-48.26" x2="147.32" y2="-48.26" width="0.1524" layer="91"/>
-<junction x="147.32" y="-48.26"/>
+<label x="88.9" y="-43.18" size="1.778" layer="95"/>
+<wire x1="38.1" y1="-40.64" x2="106.68" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="-40.64" x2="106.68" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="106.68" y="-40.64"/>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="-50.8" x2="12.7" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="-48.26" x2="78.74" y2="-48.26" width="0.1524" layer="91"/>
-<junction x="78.74" y="-48.26"/>
+<wire x1="-27.94" y1="-43.18" x2="-27.94" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-40.64" x2="38.1" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="38.1" y="-40.64"/>
 </segment>
 <segment>
 <pinref part="WILDLY_I2S_MIC" gate="A" pin="1"/>
-<wire x1="-58.42" y1="-25.4" x2="-43.18" y2="-25.4" width="0.1524" layer="91"/>
-<label x="-43.18" y="-25.4" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="-5.08" x2="-43.18" y2="-5.08" width="0.1524" layer="91"/>
+<label x="-43.18" y="-5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="3V3"/>
-<label x="-69.088" y="-25.146" size="1.778" layer="95" rot="R180"/>
+<label x="-69.088" y="-4.826" size="1.778" layer="95" rot="R180"/>
 <wire x1="30.48" y1="91.44" x2="10.16" y2="91.44" width="0.1524" layer="91"/>
 <label x="2.54" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_13-18" gate="A" pin="3"/>
+<pinref part="TEENSY_3" gate="A" pin="3"/>
 <wire x1="198.12" y1="17.78" x2="182.88" y2="17.78" width="0.1524" layer="91"/>
 <label x="182.88" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_25-30" gate="A" pin="3"/>
+<pinref part="TEENSY_5" gate="A" pin="3"/>
 <wire x1="147.32" y1="-12.7" x2="132.08" y2="-12.7" width="0.1524" layer="91"/>
 <label x="132.08" y="-12.7" size="1.778" layer="95"/>
 </segment>
@@ -9990,7 +9986,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="139.7" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_13-18" gate="A" pin="4"/>
+<pinref part="TEENSY_3" gate="A" pin="4"/>
 <wire x1="198.12" y1="15.24" x2="182.88" y2="15.24" width="0.1524" layer="91"/>
 <label x="182.88" y="15.24" size="1.778" layer="95"/>
 </segment>
@@ -10002,7 +9998,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="10.16" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_1-6" gate="A" pin="4"/>
+<pinref part="TEENSY_1" gate="A" pin="4"/>
 <wire x1="147.32" y1="15.24" x2="132.08" y2="15.24" width="0.1524" layer="91"/>
 <label x="127" y="15.24" size="1.778" layer="95"/>
 </segment>
@@ -10014,7 +10010,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="10.16" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_1-6" gate="A" pin="5"/>
+<pinref part="TEENSY_1" gate="A" pin="5"/>
 <wire x1="147.32" y1="12.7" x2="132.08" y2="12.7" width="0.1524" layer="91"/>
 <label x="127" y="12.7" size="1.778" layer="95"/>
 </segment>
@@ -10026,7 +10022,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_7-12" gate="A" pin="1"/>
+<pinref part="TEENSY_2" gate="A" pin="1"/>
 <wire x1="172.72" y1="22.86" x2="157.48" y2="22.86" width="0.1524" layer="91"/>
 <label x="157.48" y="22.86" size="1.778" layer="95"/>
 </segment>
@@ -10038,7 +10034,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_7-12" gate="A" pin="2"/>
+<pinref part="TEENSY_2" gate="A" pin="2"/>
 <wire x1="172.72" y1="20.32" x2="157.48" y2="20.32" width="0.1524" layer="91"/>
 <label x="157.48" y="20.32" size="1.778" layer="95"/>
 </segment>
@@ -10050,7 +10046,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_7-12" gate="A" pin="3"/>
+<pinref part="TEENSY_2" gate="A" pin="3"/>
 <wire x1="172.72" y1="17.78" x2="157.48" y2="17.78" width="0.1524" layer="91"/>
 <label x="157.48" y="17.78" size="1.778" layer="95"/>
 </segment>
@@ -10062,7 +10058,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_7-12" gate="A" pin="4"/>
+<pinref part="TEENSY_2" gate="A" pin="4"/>
 <wire x1="172.72" y1="15.24" x2="157.48" y2="15.24" width="0.1524" layer="91"/>
 <label x="157.48" y="15.24" size="1.778" layer="95"/>
 </segment>
@@ -10074,7 +10070,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_7-12" gate="A" pin="6"/>
+<pinref part="TEENSY_2" gate="A" pin="6"/>
 <wire x1="172.72" y1="10.16" x2="157.48" y2="10.16" width="0.1524" layer="91"/>
 <label x="157.48" y="10.16" size="1.778" layer="95"/>
 </segment>
@@ -10086,7 +10082,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_13-18" gate="A" pin="1"/>
+<pinref part="TEENSY_3" gate="A" pin="1"/>
 <wire x1="198.12" y1="22.86" x2="182.88" y2="22.86" width="0.1524" layer="91"/>
 <label x="182.88" y="22.86" size="1.778" layer="95"/>
 </segment>
@@ -10098,7 +10094,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_13-18" gate="A" pin="2"/>
+<pinref part="TEENSY_3" gate="A" pin="2"/>
 <wire x1="198.12" y1="20.32" x2="182.88" y2="20.32" width="0.1524" layer="91"/>
 <label x="182.88" y="20.32" size="1.778" layer="95"/>
 </segment>
@@ -10110,7 +10106,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_37-42" gate="A" pin="1"/>
+<pinref part="TEENSY_7" gate="A" pin="1"/>
 <wire x1="198.12" y1="-7.62" x2="182.88" y2="-7.62" width="0.1524" layer="91"/>
 <label x="182.88" y="-7.62" size="1.778" layer="95"/>
 </segment>
@@ -10122,7 +10118,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_31-36" gate="A" pin="6"/>
+<pinref part="TEENSY_6" gate="A" pin="6"/>
 <wire x1="172.72" y1="-20.32" x2="157.48" y2="-20.32" width="0.1524" layer="91"/>
 <label x="157.48" y="-20.32" size="1.778" layer="95"/>
 </segment>
@@ -10134,7 +10130,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_31-36" gate="A" pin="5"/>
+<pinref part="TEENSY_6" gate="A" pin="5"/>
 <wire x1="172.72" y1="-17.78" x2="157.48" y2="-17.78" width="0.1524" layer="91"/>
 <label x="157.48" y="-17.78" size="1.778" layer="95"/>
 </segment>
@@ -10146,7 +10142,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_31-36" gate="A" pin="4"/>
+<pinref part="TEENSY_6" gate="A" pin="4"/>
 <wire x1="172.72" y1="-15.24" x2="157.48" y2="-15.24" width="0.1524" layer="91"/>
 <label x="157.48" y="-15.24" size="1.778" layer="95"/>
 </segment>
@@ -10158,7 +10154,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_31-36" gate="A" pin="3"/>
+<pinref part="TEENSY_6" gate="A" pin="3"/>
 <wire x1="172.72" y1="-12.7" x2="157.48" y2="-12.7" width="0.1524" layer="91"/>
 <label x="157.48" y="-12.7" size="1.778" layer="95"/>
 </segment>
@@ -10175,7 +10171,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_31-36" gate="A" pin="2"/>
+<pinref part="TEENSY_6" gate="A" pin="2"/>
 <wire x1="172.72" y1="-10.16" x2="157.48" y2="-10.16" width="0.1524" layer="91"/>
 <label x="157.48" y="-10.16" size="1.778" layer="95"/>
 </segment>
@@ -10192,7 +10188,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_25-30" gate="A" pin="6"/>
+<pinref part="TEENSY_5" gate="A" pin="6"/>
 <wire x1="147.32" y1="-20.32" x2="132.08" y2="-20.32" width="0.1524" layer="91"/>
 <label x="132.08" y="-20.32" size="1.778" layer="95"/>
 </segment>
@@ -10204,7 +10200,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_25-30" gate="A" pin="5"/>
+<pinref part="TEENSY_5" gate="A" pin="5"/>
 <wire x1="147.32" y1="-17.78" x2="132.08" y2="-17.78" width="0.1524" layer="91"/>
 <label x="132.08" y="-17.78" size="1.778" layer="95"/>
 </segment>
@@ -10216,7 +10212,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_13-18" gate="A" pin="5"/>
+<pinref part="TEENSY_3" gate="A" pin="5"/>
 <wire x1="198.12" y1="12.7" x2="182.88" y2="12.7" width="0.1524" layer="91"/>
 <label x="182.88" y="12.7" size="1.778" layer="95"/>
 </segment>
@@ -10228,7 +10224,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_13-18" gate="A" pin="6"/>
+<pinref part="TEENSY_3" gate="A" pin="6"/>
 <wire x1="198.12" y1="10.16" x2="182.88" y2="10.16" width="0.1524" layer="91"/>
 <label x="182.88" y="10.16" size="1.778" layer="95"/>
 </segment>
@@ -10240,7 +10236,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_19-24" gate="A" pin="1"/>
+<pinref part="TEENSY_4" gate="A" pin="1"/>
 <wire x1="223.52" y1="22.86" x2="208.28" y2="22.86" width="0.1524" layer="91"/>
 <label x="208.28" y="22.86" size="1.778" layer="95"/>
 </segment>
@@ -10252,7 +10248,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_19-24" gate="A" pin="2"/>
+<pinref part="TEENSY_4" gate="A" pin="2"/>
 <wire x1="223.52" y1="20.32" x2="208.28" y2="20.32" width="0.1524" layer="91"/>
 <label x="208.28" y="20.32" size="1.778" layer="95"/>
 </segment>
@@ -10264,7 +10260,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_19-24" gate="A" pin="3"/>
+<pinref part="TEENSY_4" gate="A" pin="3"/>
 <wire x1="223.52" y1="17.78" x2="208.28" y2="17.78" width="0.1524" layer="91"/>
 <label x="208.28" y="17.78" size="1.778" layer="95"/>
 </segment>
@@ -10276,7 +10272,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_19-24" gate="A" pin="4"/>
+<pinref part="TEENSY_4" gate="A" pin="4"/>
 <wire x1="223.52" y1="15.24" x2="208.28" y2="15.24" width="0.1524" layer="91"/>
 <label x="208.28" y="15.24" size="1.778" layer="95"/>
 </segment>
@@ -10288,7 +10284,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_19-24" gate="A" pin="5"/>
+<pinref part="TEENSY_4" gate="A" pin="5"/>
 <wire x1="223.52" y1="12.7" x2="208.28" y2="12.7" width="0.1524" layer="91"/>
 <label x="208.28" y="12.7" size="1.778" layer="95"/>
 </segment>
@@ -10300,7 +10296,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="12.7" y="5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_19-24" gate="A" pin="6"/>
+<pinref part="TEENSY_4" gate="A" pin="6"/>
 <wire x1="223.52" y1="10.16" x2="208.28" y2="10.16" width="0.1524" layer="91"/>
 <label x="208.28" y="10.16" size="1.778" layer="95"/>
 </segment>
@@ -10312,7 +10308,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="106.68" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_25-30" gate="A" pin="2"/>
+<pinref part="TEENSY_5" gate="A" pin="2"/>
 <wire x1="147.32" y1="-10.16" x2="132.08" y2="-10.16" width="0.1524" layer="91"/>
 <label x="132.08" y="-10.16" size="1.778" layer="95"/>
 </segment>
@@ -10324,7 +10320,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="114.3" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_37-42" gate="A" pin="4"/>
+<pinref part="TEENSY_7" gate="A" pin="4"/>
 <wire x1="198.12" y1="-15.24" x2="182.88" y2="-15.24" width="0.1524" layer="91"/>
 <label x="182.88" y="-15.24" size="1.778" layer="95"/>
 </segment>
@@ -10336,7 +10332,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="114.3" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PINS_37-42" gate="A" pin="5"/>
+<pinref part="TEENSY_7" gate="A" pin="5"/>
 <wire x1="198.12" y1="-17.78" x2="182.88" y2="-17.78" width="0.1524" layer="91"/>
 <label x="182.88" y="-17.78" size="1.778" layer="95"/>
 </segment>
