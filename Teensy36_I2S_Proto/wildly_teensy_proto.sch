@@ -8720,151 +8720,6 @@ Source: http://www.osram.convergy.de/</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="1101M2S3CQE2">
-<packages>
-<package name="SW_1101M2S3CQE2">
-<wire x1="-3.3" y1="6.35" x2="3.3" y2="6.35" width="0.2" layer="21"/>
-<wire x1="3.3" y1="6.35" x2="3.3" y2="-6.35" width="0.2" layer="21"/>
-<wire x1="3.3" y1="-6.35" x2="-3.3" y2="-6.35" width="0.2" layer="21"/>
-<wire x1="-3.3" y1="-6.35" x2="-3.3" y2="6.35" width="0.2" layer="21"/>
-<wire x1="3.55" y1="6.6" x2="3.55" y2="-6.6" width="0.05" layer="39"/>
-<wire x1="3.55" y1="-6.6" x2="-3.55" y2="-6.6" width="0.05" layer="39"/>
-<wire x1="-3.55" y1="-6.6" x2="-3.55" y2="6.6" width="0.05" layer="39"/>
-<wire x1="-3.55" y1="6.6" x2="3.55" y2="6.6" width="0.05" layer="39"/>
-<circle x="-4.3" y="4.4" radius="0.360553125" width="0.05" layer="21"/>
-<circle x="-4.3" y="4.4" radius="0.282840625" width="0.05" layer="21"/>
-<circle x="-4.3" y="4.4" radius="0.22360625" width="0.05" layer="21"/>
-<circle x="-4.3" y="4.4" radius="0.14141875" width="0.05" layer="21"/>
-<circle x="-4.3" y="4.4" radius="0.22360625" width="0.05" layer="21"/>
-<circle x="-4.3" y="4.4" radius="0.22360625" width="0.05" layer="21"/>
-<text x="-3.40653125" y="6.813059375" size="1.272440625" layer="25">&gt;NAME</text>
-<text x="-3.50433125" y="-7.90976875" size="1.27156875" layer="27">&gt;VALUE</text>
-<pad name="1" x="0" y="4.7" drill="1.85" diameter="2.45" shape="square"/>
-<pad name="2" x="0" y="0" drill="1.85" diameter="2.45"/>
-<pad name="3" x="0" y="-4.7" drill="1.85" diameter="2.45"/>
-</package>
-</packages>
-<symbols>
-<symbol name="1101M2S3CQE2">
-<circle x="2.54" y="2.54" radius="0.508" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="0.508" width="0.254" layer="94"/>
-<circle x="2.54" y="-2.54" radius="0.508" width="0.254" layer="94"/>
-<wire x1="0.508" y1="0" x2="3.048" y2="2.032" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="0.359209375" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="0.254" width="0.254" layer="94"/>
-<circle x="0" y="-0.254" radius="0.254" width="0.254" layer="94"/>
-<circle x="2.54" y="2.54" radius="0.359209375" width="0.254" layer="94"/>
-<circle x="2.54" y="2.54" radius="0.254" width="0.254" layer="94"/>
-<circle x="2.54" y="2.54" radius="0.359209375" width="0.254" layer="94"/>
-<circle x="2.286" y="2.54" radius="0.254" width="0.254" layer="94"/>
-<circle x="2.54" y="-2.54" radius="0.254" width="0.254" layer="94"/>
-<circle x="2.54" y="-2.794" radius="0.254" width="0.254" layer="94"/>
-<text x="2.540940625" y="5.08188125" size="1.27046875" layer="95">&gt;NAME</text>
-<text x="2.54053125" y="-5.08106875" size="1.27026875" layer="96">&gt;VALUE</text>
-<pin name="2" x="-2.54" y="0" length="short" direction="pas"/>
-<pin name="1" x="5.08" y="2.54" length="short" direction="pas" rot="R180"/>
-<pin name="3" x="5.08" y="-2.54" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1101M2S3CQE2" prefix="S">
-<description>Switch, Slide, PC Terminal, SPST, ON-NONE-OFF, 0.4VA MAX@120VAC OR VDC MAX</description>
-<gates>
-<gate name="G$1" symbol="1101M2S3CQE2" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="SW_1101M2S3CQE2">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Switch, Slide, PC Terminal, SPST, ON-NONE-OFF, 0.4VA MAX@120VAC OR VDC MAX "/>
-<attribute name="MF" value="C&amp;K"/>
-<attribute name="MP" value="1101M2S3CQE2"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="800AWSP9M2QE">
-<description>&lt;Pushbutton Switches 3A 120VAC or 28VDC Off-(On) SPDT&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="800AWSP9M2QE">
-<description>&lt;b&gt;800AWSP9M2QE&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="-2.54" y="0" drill="1.12" diameter="1.68"/>
-<pad name="3" x="2.54" y="0" drill="1.12" diameter="1.68"/>
-<text x="-0.317" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-0.317" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-4.065" y1="2.54" x2="4.065" y2="2.54" width="0.2" layer="51"/>
-<wire x1="4.065" y1="2.54" x2="4.065" y2="-2.54" width="0.2" layer="51"/>
-<wire x1="4.065" y1="-2.54" x2="-4.065" y2="-2.54" width="0.2" layer="51"/>
-<wire x1="-4.065" y1="-2.54" x2="-4.065" y2="2.54" width="0.2" layer="51"/>
-<wire x1="-4.065" y1="2.54" x2="4.065" y2="2.54" width="0.1" layer="21"/>
-<wire x1="4.065" y1="2.54" x2="4.065" y2="-2.54" width="0.1" layer="21"/>
-<wire x1="4.065" y1="-2.54" x2="-4.065" y2="-2.54" width="0.1" layer="21"/>
-<wire x1="-4.065" y1="-2.54" x2="-4.065" y2="2.54" width="0.1" layer="21"/>
-<wire x1="-5.7" y1="3.54" x2="5.065" y2="3.54" width="0.1" layer="51"/>
-<wire x1="5.065" y1="3.54" x2="5.065" y2="-3.54" width="0.1" layer="51"/>
-<wire x1="5.065" y1="-3.54" x2="-5.7" y2="-3.54" width="0.1" layer="51"/>
-<wire x1="-5.7" y1="-3.54" x2="-5.7" y2="3.54" width="0.1" layer="51"/>
-<wire x1="-4.6" y1="0.1" x2="-4.6" y2="0.1" width="0.2" layer="21"/>
-<wire x1="-4.6" y1="0.1" x2="-4.6" y2="-0.1" width="0.2" layer="21" curve="-180"/>
-<wire x1="-4.6" y1="-0.1" x2="-4.6" y2="-0.1" width="0.2" layer="21"/>
-<wire x1="-4.6" y1="-0.1" x2="-4.6" y2="0.1" width="0.2" layer="21" curve="-180"/>
-</package>
-</packages>
-<symbols>
-<symbol name="800AWSP9M2QE">
-<wire x1="5.08" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<text x="24.13" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="24.13" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="NO_1" x="0" y="0" length="middle"/>
-<pin name="NO_2" x="27.94" y="0" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="800AWSP9M2QE" prefix="S">
-<description>&lt;b&gt;Pushbutton Switches 3A 120VAC or 28VDC Off-(On) SPDT&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.e-switch.com/system/asset/product_line/data_sheet/30/800A.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="800AWSP9M2QE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="800AWSP9M2QE">
-<connects>
-<connect gate="G$1" pin="NO_1" pad="1"/>
-<connect gate="G$1" pin="NO_2" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Pushbutton Switches 3A 120VAC or 28VDC Off-(On) SPDT" constant="no"/>
-<attribute name="HEIGHT" value="23mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="E-Switch" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="800AWSP9M2QE" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="612-800AWSP9M2QE" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=612-800AWSP9M2QE" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="2N2222A">
 <packages>
 <package name="TO127P584H533-3">
@@ -9057,6 +8912,148 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="EG1218">
+<description>&lt;Slide Switch&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="3PIN_SLIDE_SWITCH">
+<description>&lt;b&gt;Slide Switch&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="-2.5" y="0" drill="0.9" diameter="1.4"/>
+<pad name="2" x="0" y="0" drill="0.9" diameter="1.4"/>
+<pad name="3" x="2.5" y="0" drill="0.9" diameter="1.4"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-5.8" y1="2" x2="5.8" y2="2" width="0.2" layer="51"/>
+<wire x1="5.8" y1="2" x2="5.8" y2="-2" width="0.2" layer="51"/>
+<wire x1="5.8" y1="-2" x2="-5.8" y2="-2" width="0.2" layer="51"/>
+<wire x1="-5.8" y1="-2" x2="-5.8" y2="2" width="0.2" layer="51"/>
+<wire x1="-5.8" y1="2" x2="5.8" y2="2" width="0.2" layer="21"/>
+<wire x1="5.8" y1="2" x2="5.8" y2="-2" width="0.2" layer="21"/>
+<wire x1="5.8" y1="-2" x2="-5.8" y2="-2" width="0.2" layer="21"/>
+<wire x1="-5.8" y1="-2" x2="-5.8" y2="2" width="0.2" layer="21"/>
+<circle x="-2.643" y="3.09133125" radius="0.32281875" width="0.2" layer="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="EG1218">
+<wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-5.08" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="19.05" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="19.05" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="COM" x="0" y="-2.54" length="middle"/>
+<pin name="3" x="22.86" y="0" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="EG1218" prefix="S">
+<description>&lt;b&gt;Slide Switch&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="EG1218" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3PIN_SLIDE_SWITCH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="COM" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Slide Switch" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="E-Switch" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="EG1218" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="612-EG1218" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=612-EG1218" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="1-1825910-4">
+<packages>
+<package name="TE_1-1825910-4">
+<wire x1="-2.995" y1="2.995" x2="-2.995" y2="-2.995" width="0.127" layer="51"/>
+<wire x1="-2.995" y1="-2.995" x2="2.995" y2="-2.995" width="0.127" layer="51"/>
+<wire x1="2.995" y1="-2.995" x2="2.995" y2="2.995" width="0.127" layer="51"/>
+<wire x1="2.995" y1="2.995" x2="-2.995" y2="2.995" width="0.127" layer="51"/>
+<wire x1="-2" y1="3" x2="2" y2="3" width="0.127" layer="21"/>
+<wire x1="3" y1="1" x2="3" y2="-1" width="0.127" layer="21"/>
+<wire x1="-3" y1="1" x2="-3" y2="-1" width="0.127" layer="21"/>
+<wire x1="-2" y1="-3" x2="2" y2="-3" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.11803125" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.11803125" width="0.127" layer="51"/>
+<circle x="-4.733" y="2.2711" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-4.25" y1="3.25" x2="-4.25" y2="-3.25" width="0.05" layer="39"/>
+<wire x1="-4.25" y1="-3.25" x2="4.25" y2="-3.25" width="0.05" layer="39"/>
+<wire x1="4.25" y1="-3.25" x2="4.25" y2="3.25" width="0.05" layer="39"/>
+<wire x1="4.25" y1="3.25" x2="-4.25" y2="3.25" width="0.05" layer="39"/>
+<text x="-4.35708125" y="3.386059375" size="0.80100625" layer="25">&gt;NAME</text>
+<text x="-4.430509375" y="-4.36106875" size="0.800415625" layer="27">&gt;VALUE</text>
+<pad name="1" x="-3.25" y="2.25" drill="0.99" shape="square"/>
+<pad name="3" x="-3.25" y="-2.25" drill="0.99"/>
+<pad name="2" x="3.25" y="2.25" drill="0.99"/>
+<pad name="4" x="3.25" y="-2.25" drill="0.99"/>
+</package>
+</packages>
+<symbols>
+<symbol name="1-1825910-4">
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<text x="-2.541909375" y="5.08381875" size="1.801359375" layer="95">&gt;NAME</text>
+<text x="-2.541809375" y="-5.083609375" size="1.80128125" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1-1825910-4" prefix="SW">
+<description>Switch Tactile OFF (ON) SPST Round Button PC Pins 0.05A 24VDC 100000Cycles 1.56N Thru-Hole Loose</description>
+<gates>
+<gate name="G$1" symbol="1-1825910-4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TE_1-1825910-4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="COMMENT" value="1-1825910-4"/>
+<attribute name="DESCRIPTION" value=" Switch Tactile OFF _ON_ SPST Round Button PC Pins 0.05A 24VDC 100000Cycles 1.56N Thru-Hole "/>
+<attribute name="EU_ROHS_COMPLIANCE" value="Compliant"/>
+<attribute name="MF" value="TE Connectivity"/>
+<attribute name="MP" value="1-1825910-4"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="TE_PURCHASE_URL" value="https://www.te.com/usa-en/product-1-1825910-4.html?te_bu=Cor&amp;te_type=disp&amp;te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&amp;elqCampaignId=32493"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9103,9 +9100,6 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="REC_ON_OFF_SW" library="1101M2S3CQE2" deviceset="1101M2S3CQE2" device="" value="Microcontroller and Mic Power"/>
-<part name="GSM_ON_OFF_SW" library="1101M2S3CQE2" deviceset="1101M2S3CQE2" device="" value="GSM Power"/>
-<part name="REC_SW" library="800AWSP9M2QE" deviceset="800AWSP9M2QE" device="" value="Push_Button"/>
 <part name="T4" library="2N2222A" deviceset="2N2222A" device=""/>
 <part name="T3" library="2N2222A" deviceset="2N2222A" device=""/>
 <part name="T1" library="2N2222A" deviceset="2N2222A" device=""/>
@@ -9122,6 +9116,9 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="J2" library="61300311121" deviceset="61300311121" device=""/>
 <part name="FUEL_GAUGE" library="61300211121" deviceset="61300211121" device=""/>
 <part name="SOLAR_CHARGER" library="61300211121" deviceset="61300211121" device=""/>
+<part name="REC_ON_OFF_SW" library="EG1218" deviceset="EG1218" device="" value="Microcontroller and Mic Power"/>
+<part name="GSM_ON_OFF_SW1" library="EG1218" deviceset="EG1218" device="" value="GSM Power"/>
+<part name="REC_SW1" library="1-1825910-4" deviceset="1-1825910-4" device="" value="Push_Button"/>
 </parts>
 <sheets>
 <sheet>
@@ -9135,7 +9132,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <text x="-66.04" y="74.422" size="1.778" layer="91" rot="R180">GND</text>
 <text x="-67.564" y="71.628" size="1.778" layer="91" rot="R180">5V</text>
 <text x="-67.31" y="79.756" size="1.778" layer="91" rot="R180">EN</text>
-<text x="5.08" y="127" size="1.778" layer="91">5V Out EN - Recorder On/Off</text>
+<text x="22.86" y="137.16" size="1.778" layer="91">5V Out EN - Recorder On/Off</text>
 <text x="-65.024" y="46.482" size="1.778" layer="91" rot="R180">VBAT</text>
 <text x="-65.532" y="38.354" size="1.778" layer="91" rot="R180">GND</text>
 <text x="-66.294" y="35.814" size="1.778" layer="91" rot="R180">LB</text>
@@ -9144,7 +9141,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <text x="-66.294" y="41.148" size="1.778" layer="91" rot="R180">EN</text>
 <text x="-64.516" y="49.276" size="1.778" layer="91" rot="R180">VUSB</text>
 <text x="-66.294" y="43.688" size="1.778" layer="91" rot="R180">VS</text>
-<text x="93.98" y="127" size="1.778" layer="91">5V Out EN - Transmitter On/Off</text>
+<text x="93.98" y="137.16" size="1.778" layer="91">5V Out EN - Transmitter On/Off</text>
 <text x="147.32" y="132.08" size="1.778" layer="91">LIPO - FUEL GAUGE</text>
 <text x="190.5" y="132.08" size="1.778" layer="91">Solar Charger</text>
 </plain>
@@ -9170,8 +9167,8 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <attribute name="NAME" x="-54.61" y="-8.255" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-54.61" y="12.7" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND3" gate="1" x="7.62" y="109.22" smashed="yes">
-<attribute name="VALUE" x="5.08" y="106.68" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="20.32" y="111.76" smashed="yes">
+<attribute name="VALUE" x="17.78" y="109.22" size="1.778" layer="96"/>
 </instance>
 <instance part="REC_POWER" gate="G$1" x="-63.5" y="104.14" smashed="yes" rot="R180">
 <attribute name="NAME" x="-52.07" y="98.425" size="1.778" layer="95" rot="R180"/>
@@ -9186,8 +9183,8 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <instance part="GND6" gate="1" x="147.32" y="43.18" smashed="yes">
 <attribute name="VALUE" x="144.78" y="40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="119.38" y="109.22" smashed="yes">
-<attribute name="VALUE" x="116.84" y="106.68" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="96.52" y="111.76" smashed="yes">
+<attribute name="VALUE" x="93.98" y="109.22" size="1.778" layer="96"/>
 </instance>
 <instance part="C1" gate="G$1" x="121.92" y="73.66" smashed="yes">
 <attribute name="NAME" x="122.936" y="74.295" size="1.778" layer="95"/>
@@ -9275,18 +9272,6 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <instance part="GND12" gate="1" x="162.56" y="-83.82" smashed="yes">
 <attribute name="VALUE" x="160.02" y="-86.36" size="1.778" layer="96"/>
 </instance>
-<instance part="REC_ON_OFF_SW" gate="G$1" x="15.24" y="116.84" smashed="yes">
-<attribute name="NAME" x="15.240940625" y="124.46188125" size="1.27046875" layer="95"/>
-<attribute name="VALUE" x="15.24053125" y="121.91893125" size="1.27026875" layer="96"/>
-</instance>
-<instance part="GSM_ON_OFF_SW" gate="G$1" x="106.68" y="116.84" smashed="yes">
-<attribute name="NAME" x="106.680940625" y="124.46188125" size="1.27046875" layer="95"/>
-<attribute name="VALUE" x="106.68053125" y="121.91893125" size="1.27026875" layer="96"/>
-</instance>
-<instance part="REC_SW" gate="G$1" x="-20.32" y="71.12" smashed="yes">
-<attribute name="NAME" x="-13.97" y="76.2" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-13.97" y="66.04" size="1.778" layer="96" align="center-left"/>
-</instance>
 <instance part="T4" gate="G$1" x="-30.48" y="-71.12" smashed="yes">
 <attribute name="NAME" x="-40.64" y="-63.5" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-40.64" y="-66.04" size="1.778" layer="96"/>
@@ -9343,6 +9328,18 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <instance part="SOLAR_CHARGER" gate="G$1" x="198.12" y="121.92" smashed="yes">
 <attribute name="NAME" x="189.23" y="126.238" size="1.778" layer="95"/>
 </instance>
+<instance part="REC_ON_OFF_SW" gate="G$1" x="25.4" y="121.92" smashed="yes">
+<attribute name="NAME" x="29.21" y="132.08" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="24.13" y="127" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="GSM_ON_OFF_SW1" gate="G$1" x="101.6" y="121.92" smashed="yes">
+<attribute name="NAME" x="100.33" y="132.08" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="105.41" y="127" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="REC_SW1" gate="G$1" x="-10.16" y="71.12" smashed="yes">
+<attribute name="NAME" x="-15.241909375" y="76.20381875" size="1.801359375" layer="95"/>
+<attribute name="VALUE" x="-15.241809375" y="66.036390625" size="1.80128125" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9379,10 +9376,14 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="-45.72" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-20.32" y1="71.12" x2="-22.86" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="-22.86" y1="71.12" x2="-22.86" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="REC_SW" gate="G$1" pin="NO_1"/>
+<pinref part="REC_SW1" gate="G$1" pin="1"/>
+<pinref part="REC_SW1" gate="G$1" pin="2"/>
+<wire x1="-15.24" y1="73.66" x2="-15.24" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="71.12" x2="-15.24" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="71.12" x2="-15.24" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-15.24" y="71.12"/>
 </segment>
 <segment>
 <pinref part="WILDLY_I2S_MIC" gate="A" pin="2"/>
@@ -9390,16 +9391,16 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="-43.18" y="-2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="111.76" y1="119.38" x2="119.38" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="119.38" y1="119.38" x2="119.38" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="GSM_ON_OFF_SW" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="119.38" x2="96.52" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="GSM_ON_OFF_SW1" gate="G$1" pin="COM"/>
+<wire x1="96.52" y1="119.38" x2="101.6" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="12.7" y1="116.84" x2="7.62" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="119.38" x2="20.32" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="7.62" y1="116.84" x2="7.62" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="REC_ON_OFF_SW" gate="G$1" pin="2"/>
+<wire x1="20.32" y1="119.38" x2="20.32" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="REC_ON_OFF_SW" gate="G$1" pin="COM"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -9565,10 +9566,14 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <segment>
 <pinref part="U$1" gate="G$1" pin="4/PWM/SDA2/CAN0RX"/>
 <wire x1="30.48" y1="76.2" x2="10.16" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="71.12" x2="10.16" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="71.12" x2="10.16" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="REC_SW" gate="G$1" pin="NO_2"/>
 <label x="10.16" y="76.2" size="1.778" layer="95"/>
+<pinref part="REC_SW1" gate="G$1" pin="4"/>
+<pinref part="REC_SW1" gate="G$1" pin="3"/>
+<wire x1="-2.54" y1="73.66" x2="-2.54" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="71.12" x2="-2.54" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="71.12" x2="10.16" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-2.54" y="71.12"/>
 </segment>
 <segment>
 <pinref part="TEENSY_1" gate="A" pin="6"/>
@@ -9658,8 +9663,8 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="-50.8" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="20.32" y1="119.38" x2="45.72" y2="119.38" width="0.1524" layer="91"/>
-<label x="35.56" y="119.38" size="1.778" layer="95"/>
+<wire x1="0" y1="121.92" x2="25.4" y2="121.92" width="0.1524" layer="91"/>
+<label x="0" y="121.92" size="1.778" layer="95"/>
 <pinref part="REC_ON_OFF_SW" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -9746,9 +9751,9 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="-45.72" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="116.84" x2="104.14" y2="116.84" width="0.1524" layer="91"/>
-<label x="86.36" y="116.84" size="1.778" layer="95"/>
-<pinref part="GSM_ON_OFF_SW" gate="G$1" pin="2"/>
+<label x="81.28" y="121.92" size="1.778" layer="95"/>
+<pinref part="GSM_ON_OFF_SW1" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="121.92" x2="101.6" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GSM_LB" class="0">
@@ -9791,7 +9796,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="U$1" gate="G$1" pin="9/PWM/RX2/CS0-1"/>
 <label x="-66.802" y="0.508" size="1.778" layer="95" rot="R180"/>
 <wire x1="30.48" y1="63.5" x2="12.7" y2="63.5" width="0.1524" layer="91"/>
-<label x="2.54" y="63.5" size="1.778" layer="95"/>
+<label x="12.7" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="TEENSY_2" gate="A" pin="5"/>
@@ -9808,8 +9813,8 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <segment>
 <pinref part="U$1" gate="G$1" pin="13/LED/ALT-PWM/SCK0"/>
 <label x="-66.294" y="3.048" size="1.778" layer="95" rot="R180"/>
-<label x="2.54" y="53.34" size="1.778" layer="95"/>
-<wire x1="30.48" y1="53.34" x2="10.16" y2="53.34" width="0.1524" layer="91"/>
+<label x="12.7" y="53.34" size="1.778" layer="95"/>
+<wire x1="30.48" y1="53.34" x2="12.7" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TEENSY_7" gate="A" pin="2"/>
