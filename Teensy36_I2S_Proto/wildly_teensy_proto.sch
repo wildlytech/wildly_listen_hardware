@@ -8628,6 +8628,12 @@ Source: http://www.osram.convergy.de/</description>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
+<symbol name="VCC" urn="urn:adsk.eagle:symbol:26928/1" library_version="1">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
@@ -8643,75 +8649,13 @@ Source: http://www.osram.convergy.de/</description>
 </device>
 </devices>
 </deviceset>
-</devicesets>
-</library>
-<library name="jumper" urn="urn:adsk.eagle:library:252">
-<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="JP1" urn="urn:adsk.eagle:footprint:15398/1" library_version="1">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<wire x1="-1.016" y1="0" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="0" x2="-1.27" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.27" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.254" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-2.54" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="2.286" x2="1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="2.286" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="2.286" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="2.286" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.254" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-2.54" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-2.54" x2="1.016" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="-1.27" drill="0.9144" shape="long"/>
-<pad name="2" x="0" y="1.27" drill="0.9144" shape="long"/>
-<text x="-1.651" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="2.921" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
-<rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="JP1" urn="urn:adsk.eagle:package:15455/1" type="box" library_version="1">
-<description>JUMPER</description>
-<packageinstances>
-<packageinstance name="JP1"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="J1" urn="urn:adsk.eagle:symbol:15406/1" library_version="1">
-<wire x1="0" y1="2.54" x2="0" y2="3.81" width="0.4064" layer="94"/>
-<wire x1="0" y1="3.81" x2="0" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-3.81" width="0.4064" layer="94"/>
-<wire x1="0" y1="-3.81" x2="0" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="5.08" x2="1.905" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="1.905" y1="5.08" x2="1.905" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="1.905" y1="-5.08" x2="-1.905" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-1.905" y1="-5.08" x2="-1.905" y2="5.08" width="0.4064" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="4.445" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="1" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="JP1Q" urn="urn:adsk.eagle:component:15488/1" prefix="JP" uservalue="yes" library_version="1">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<deviceset name="VCC" urn="urn:adsk.eagle:component:26957/1" prefix="P+" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
-<gate name="A" symbol="J1" x="0" y="0"/>
+<gate name="VCC" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="JP1">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15455/1"/>
-</package3dinstances>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -9054,6 +8998,81 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 </deviceset>
 </devicesets>
 </library>
+<library name="jumper" urn="urn:adsk.eagle:library:252">
+<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="JP1" urn="urn:adsk.eagle:footprint:15398/1" library_version="1">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<wire x1="-1.016" y1="0" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="0" x2="-1.27" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.27" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.254" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-2.54" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="2.286" x2="1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="2.286" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="2.286" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="2.286" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.254" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-2.54" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-2.54" x2="1.016" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="-1.27" drill="0.9144" shape="long"/>
+<pad name="2" x="0" y="1.27" drill="0.9144" shape="long"/>
+<text x="-1.651" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="2.921" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
+<rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="JP1" urn="urn:adsk.eagle:package:15455/1" type="box" library_version="1">
+<description>JUMPER</description>
+<packageinstances>
+<packageinstance name="JP1"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="J1" urn="urn:adsk.eagle:symbol:15406/1" library_version="1">
+<wire x1="0" y1="2.54" x2="0" y2="3.81" width="0.4064" layer="94"/>
+<wire x1="0" y1="3.81" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.81" width="0.4064" layer="94"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="5.08" x2="1.905" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.905" y1="5.08" x2="1.905" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.905" y1="-5.08" x2="-1.905" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-1.905" y1="-5.08" x2="-1.905" y2="5.08" width="0.4064" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="1" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JP1Q" urn="urn:adsk.eagle:component:15488/1" prefix="JP" uservalue="yes" library_version="1">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="J1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JP1">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15455/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9067,12 +9086,10 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <parts>
 <part name="U$1" library="Teensy_3_6" deviceset="TEENSY3_6--ALLPINS" device=""/>
 <part name="MIKROELECTRONIKA_SARA_CLICK" library="mikrobus_lib" deviceset="MIKROE_BUS_CONN" device=""/>
-<part name="WILDLY_5V_0.5A_BOOST" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
 <part name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="1KR"/>
 <part name="WILDLY_5V_1A_BOOST" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X8" device="BIG" package3d_urn="urn:adsk.eagle:package:6240707/1"/>
 <part name="WILDLY_I2S_MIC" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
-<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="REC_POWER" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="JST_2PIN" device="-SMT-RA" package3d_urn="urn:adsk.eagle:package:6240692/1"/>
+<part name="BATT" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="JST_2PIN" device="-SMT-RA" package3d_urn="urn:adsk.eagle:package:6240692/1"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -9083,7 +9100,6 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <part name="C3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="10uF"/>
 <part name="C4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="100nF"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GSM_POWER_JUMPER" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1Q" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 <part name="NETSTATLED" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:6240557/1"/>
 <part name="ERRLED" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:6240557/1"/>
 <part name="RECLED" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:6240557/1"/>
@@ -9104,46 +9120,50 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <part name="T3" library="2N2222A" deviceset="2N2222A" device=""/>
 <part name="T1" library="2N2222A" deviceset="2N2222A" device=""/>
 <part name="T2" library="2N2222A" deviceset="2N2222A" device=""/>
-<part name="TEENSY_8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
-<part name="TEENSY_4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
-<part name="TEENSY_7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
-<part name="TEENSY_3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
-<part name="TEENSY_6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
-<part name="TEENSY_2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
-<part name="TEENSY_5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
-<part name="TEENSY_1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
+<part name="TEENSY_PIN_8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
+<part name="TEENSY_PIN_4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
+<part name="TEENSY_PIN_7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
+<part name="TEENSY_PIN_3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
+<part name="TEENSY_PIN_6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
+<part name="TEENSY_PIN_2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
+<part name="TEENSY_PIN_5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
+<part name="TEENSY_PIN_1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
 <part name="J1" library="61300311121" deviceset="61300311121" device=""/>
 <part name="J2" library="61300311121" deviceset="61300311121" device=""/>
 <part name="FUEL_GAUGE" library="61300211121" deviceset="61300211121" device=""/>
 <part name="SOLAR_CHARGER" library="61300211121" deviceset="61300211121" device=""/>
-<part name="REC_ON_OFF_SW" library="EG1218" deviceset="EG1218" device="" value="Microcontroller and Mic Power"/>
-<part name="GSM_ON_OFF_SW1" library="EG1218" deviceset="EG1218" device="" value="GSM Power"/>
+<part name="ON_OFF_SW" library="EG1218" deviceset="EG1218" device="" value="GSM Power"/>
 <part name="REC_SW1" library="1-1825910-4" deviceset="1-1825910-4" device="" value="Push_Button"/>
+<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="5V_INPUT" library="61300211121" deviceset="61300211121" device=""/>
+<part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="V_BATT"/>
+<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="V_BATT"/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="V_BATT"/>
+<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="V_BATT"/>
+<part name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1Q" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="-76.2" y="-12.7" size="1.778" layer="91">Adafruit I2S Microphone SPH0645LM4H </text>
-<text x="-73.66" y="63.5" size="1.778" layer="91">Adafruit 5V Boost 500mA</text>
-<text x="-63.5" y="22.86" size="1.778" layer="91">5V Boost 1A</text>
-<text x="-67.056" y="85.09" size="1.778" layer="91" rot="R180">Bat</text>
-<text x="-66.04" y="82.55" size="1.778" layer="91" rot="R180">GND</text>
-<text x="-67.564" y="76.962" size="1.778" layer="91" rot="R180">LB</text>
-<text x="-66.04" y="74.422" size="1.778" layer="91" rot="R180">GND</text>
-<text x="-67.564" y="71.628" size="1.778" layer="91" rot="R180">5V</text>
-<text x="-67.31" y="79.756" size="1.778" layer="91" rot="R180">EN</text>
-<text x="22.86" y="137.16" size="1.778" layer="91">5V Out EN - Recorder On/Off</text>
-<text x="-65.024" y="46.482" size="1.778" layer="91" rot="R180">VBAT</text>
-<text x="-65.532" y="38.354" size="1.778" layer="91" rot="R180">GND</text>
-<text x="-66.294" y="35.814" size="1.778" layer="91" rot="R180">LB</text>
-<text x="-65.024" y="33.274" size="1.778" layer="91" rot="R180">GND</text>
-<text x="-66.548" y="30.734" size="1.778" layer="91" rot="R180">5V</text>
-<text x="-66.294" y="41.148" size="1.778" layer="91" rot="R180">EN</text>
-<text x="-64.516" y="49.276" size="1.778" layer="91" rot="R180">VUSB</text>
-<text x="-66.294" y="43.688" size="1.778" layer="91" rot="R180">VS</text>
-<text x="93.98" y="137.16" size="1.778" layer="91">5V Out EN - Transmitter On/Off</text>
-<text x="147.32" y="132.08" size="1.778" layer="91">LIPO - FUEL GAUGE</text>
-<text x="190.5" y="132.08" size="1.778" layer="91">Solar Charger</text>
+<text x="-91.44" y="-5.08" size="1.778" layer="91">Adafruit I2S Microphone SPH0645LM4H </text>
+<text x="-78.74" y="50.8" size="1.778" layer="91">5V Boost 1A</text>
+<text x="-80.264" y="74.422" size="1.778" layer="91" rot="R180">VBAT</text>
+<text x="-80.772" y="66.294" size="1.778" layer="91" rot="R180">GND</text>
+<text x="-81.534" y="63.754" size="1.778" layer="91" rot="R180">LB</text>
+<text x="-80.264" y="61.214" size="1.778" layer="91" rot="R180">GND</text>
+<text x="-81.788" y="58.674" size="1.778" layer="91" rot="R180">5V</text>
+<text x="-81.534" y="69.088" size="1.778" layer="91" rot="R180">EN</text>
+<text x="-79.756" y="77.216" size="1.778" layer="91" rot="R180">VUSB</text>
+<text x="-81.534" y="71.628" size="1.778" layer="91" rot="R180">VS</text>
+<text x="27.94" y="142.24" size="1.778" layer="91">5V Out EN - Transmitter On/Off</text>
+<text x="99.06" y="142.24" size="1.778" layer="91">LIPO - FUEL GAUGE</text>
+<text x="160.02" y="139.7" size="1.778" layer="91">Solar Charger</text>
+<text x="-17.78" y="142.24" size="1.778" layer="91">5V - SUPPLY</text>
+<text x="-78.74" y="144.78" size="1.778" layer="91">LiPo Battery Connector</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="63.5" y="45.72" smashed="yes"/>
@@ -9151,28 +9171,21 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <attribute name="NAME" x="154.94" y="95.25" size="1.778" layer="95"/>
 <attribute name="VALUE" x="160.02" y="50.8" size="1.778" layer="96"/>
 </instance>
-<instance part="WILDLY_5V_0.5A_BOOST" gate="A" x="-63.5" y="78.74" smashed="yes" rot="R180">
-<attribute name="NAME" x="-57.15" y="67.945" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-57.15" y="88.9" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="R1" gate="G$1" x="147.32" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="145.8214" y="67.31" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="150.622" y="67.31" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="WILDLY_5V_1A_BOOST" gate="G$1" x="-60.96" y="38.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="-54.61" y="27.305" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-54.61" y="53.34" size="1.778" layer="96" rot="R180"/>
+<instance part="WILDLY_5V_1A_BOOST" gate="G$1" x="-76.2" y="66.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="-59.69" y="55.245" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-69.85" y="81.28" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="WILDLY_I2S_MIC" gate="A" x="-60.96" y="2.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="-54.61" y="-8.255" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-54.61" y="12.7" size="1.778" layer="96" rot="R180"/>
+<instance part="WILDLY_I2S_MIC" gate="A" x="-76.2" y="10.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="-69.85" y="-0.635" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-69.85" y="20.32" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND3" gate="1" x="20.32" y="111.76" smashed="yes">
-<attribute name="VALUE" x="17.78" y="109.22" size="1.778" layer="96"/>
-</instance>
-<instance part="REC_POWER" gate="G$1" x="-63.5" y="104.14" smashed="yes" rot="R180">
-<attribute name="NAME" x="-52.07" y="98.425" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-57.15" y="109.22" size="1.778" layer="96" rot="R180"/>
+<instance part="BATT" gate="G$1" x="-78.74" y="134.62" smashed="yes" rot="R180">
+<attribute name="NAME" x="-67.31" y="128.905" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-72.39" y="139.7" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND4" gate="1" x="-22.86" y="63.5" smashed="yes">
 <attribute name="VALUE" x="-25.4" y="60.96" size="1.778" layer="96"/>
@@ -9183,8 +9196,8 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <instance part="GND6" gate="1" x="147.32" y="43.18" smashed="yes">
 <attribute name="VALUE" x="144.78" y="40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="96.52" y="111.76" smashed="yes">
-<attribute name="VALUE" x="93.98" y="109.22" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="30.48" y="116.84" smashed="yes">
+<attribute name="VALUE" x="27.94" y="114.3" size="1.778" layer="96"/>
 </instance>
 <instance part="C1" gate="G$1" x="121.92" y="73.66" smashed="yes">
 <attribute name="NAME" x="122.936" y="74.295" size="1.778" layer="95"/>
@@ -9207,10 +9220,6 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 </instance>
 <instance part="GND8" gate="1" x="208.28" y="38.1" smashed="yes">
 <attribute name="VALUE" x="210.82" y="35.56" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="GSM_POWER_JUMPER" gate="A" x="-60.96" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="-48.26" y="116.84" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-55.88" y="123.825" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="NETSTATLED" gate="G$1" x="38.1" y="-55.88" smashed="yes">
 <attribute name="NAME" x="41.656" y="-68.072" size="1.778" layer="95" rot="R90"/>
@@ -9288,57 +9297,87 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <attribute name="NAME" x="149.86" y="-60.96" size="1.778" layer="95"/>
 <attribute name="VALUE" x="149.86" y="-63.5" size="1.778" layer="96"/>
 </instance>
-<instance part="TEENSY_8" gate="A" x="226.06" y="-15.24" smashed="yes">
-<attribute name="NAME" x="209.55" y="-4.445" size="1.778" layer="95"/>
-<attribute name="VALUE" x="219.71" y="-25.4" size="1.778" layer="96"/>
+<instance part="TEENSY_PIN_8" gate="A" x="251.46" y="-15.24" smashed="yes">
+<attribute name="NAME" x="234.95" y="-1.905" size="1.778" layer="95"/>
+<attribute name="VALUE" x="245.11" y="-25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="TEENSY_4" gate="A" x="226.06" y="15.24" smashed="yes">
-<attribute name="NAME" x="207.01" y="28.575" size="1.778" layer="95"/>
-<attribute name="VALUE" x="219.71" y="5.08" size="1.778" layer="96"/>
+<instance part="TEENSY_PIN_4" gate="A" x="251.46" y="15.24" smashed="yes">
+<attribute name="NAME" x="237.49" y="28.575" size="1.778" layer="95"/>
+<attribute name="VALUE" x="245.11" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="TEENSY_7" gate="A" x="200.66" y="-15.24" smashed="yes">
-<attribute name="NAME" x="181.61" y="-4.445" size="1.778" layer="95"/>
-<attribute name="VALUE" x="194.31" y="-25.4" size="1.778" layer="96"/>
+<instance part="TEENSY_PIN_7" gate="A" x="218.44" y="-15.24" smashed="yes">
+<attribute name="NAME" x="201.93" y="-1.905" size="1.778" layer="95"/>
+<attribute name="VALUE" x="212.09" y="-25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="TEENSY_3" gate="A" x="200.66" y="15.24" smashed="yes">
-<attribute name="NAME" x="179.07" y="28.575" size="1.778" layer="95"/>
-<attribute name="VALUE" x="194.31" y="5.08" size="1.778" layer="96"/>
+<instance part="TEENSY_PIN_3" gate="A" x="218.44" y="15.24" smashed="yes">
+<attribute name="NAME" x="201.93" y="28.575" size="1.778" layer="95"/>
+<attribute name="VALUE" x="212.09" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="TEENSY_6" gate="A" x="175.26" y="-15.24" smashed="yes">
-<attribute name="NAME" x="153.67" y="-4.445" size="1.778" layer="95"/>
-<attribute name="VALUE" x="168.91" y="-25.4" size="1.778" layer="96"/>
+<instance part="TEENSY_PIN_6" gate="A" x="185.42" y="-15.24" smashed="yes">
+<attribute name="NAME" x="166.37" y="-1.905" size="1.778" layer="95"/>
+<attribute name="VALUE" x="179.07" y="-25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="TEENSY_2" gate="A" x="175.26" y="15.24" smashed="yes">
-<attribute name="NAME" x="153.67" y="28.575" size="1.778" layer="95"/>
-<attribute name="VALUE" x="168.91" y="5.08" size="1.778" layer="96"/>
+<instance part="TEENSY_PIN_2" gate="A" x="185.42" y="15.24" smashed="yes">
+<attribute name="NAME" x="166.37" y="28.575" size="1.778" layer="95"/>
+<attribute name="VALUE" x="179.07" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="TEENSY_5" gate="A" x="149.86" y="-15.24" smashed="yes">
-<attribute name="NAME" x="125.73" y="-4.445" size="1.778" layer="95"/>
+<instance part="TEENSY_PIN_5" gate="A" x="149.86" y="-15.24" smashed="yes">
+<attribute name="NAME" x="130.81" y="-1.905" size="1.778" layer="95"/>
 <attribute name="VALUE" x="143.51" y="-25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="TEENSY_1" gate="A" x="149.86" y="15.24" smashed="yes">
-<attribute name="NAME" x="125.73" y="28.575" size="1.778" layer="95"/>
+<instance part="TEENSY_PIN_1" gate="A" x="149.86" y="15.24" smashed="yes">
+<attribute name="NAME" x="130.81" y="28.575" size="1.778" layer="95"/>
 <attribute name="VALUE" x="143.51" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="J1" gate="G$1" x="152.4" y="119.38" smashed="yes"/>
-<instance part="J2" gate="G$1" x="165.1" y="119.38" smashed="yes"/>
-<instance part="FUEL_GAUGE" gate="G$1" x="160.02" y="111.76" smashed="yes">
-<attribute name="NAME" x="151.13" y="126.238" size="1.778" layer="95"/>
+<instance part="J1" gate="G$1" x="104.14" y="129.54" smashed="yes"/>
+<instance part="J2" gate="G$1" x="116.84" y="129.54" smashed="yes"/>
+<instance part="FUEL_GAUGE" gate="G$1" x="111.76" y="121.92" smashed="yes">
+<attribute name="NAME" x="102.87" y="136.398" size="1.778" layer="95"/>
 </instance>
-<instance part="SOLAR_CHARGER" gate="G$1" x="198.12" y="121.92" smashed="yes">
-<attribute name="NAME" x="189.23" y="126.238" size="1.778" layer="95"/>
+<instance part="SOLAR_CHARGER" gate="G$1" x="167.64" y="129.54" smashed="yes">
+<attribute name="NAME" x="158.75" y="133.858" size="1.778" layer="95"/>
 </instance>
-<instance part="REC_ON_OFF_SW" gate="G$1" x="25.4" y="121.92" smashed="yes">
-<attribute name="NAME" x="29.21" y="132.08" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="24.13" y="127" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="GSM_ON_OFF_SW1" gate="G$1" x="101.6" y="121.92" smashed="yes">
-<attribute name="NAME" x="100.33" y="132.08" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="105.41" y="127" size="1.778" layer="96" align="center-left"/>
+<instance part="ON_OFF_SW" gate="G$1" x="35.56" y="127" smashed="yes">
+<attribute name="NAME" x="39.37" y="137.16" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="39.37" y="132.08" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="REC_SW1" gate="G$1" x="-10.16" y="71.12" smashed="yes">
 <attribute name="NAME" x="-15.241909375" y="76.20381875" size="1.801359375" layer="95"/>
 <attribute name="VALUE" x="-15.241809375" y="66.036390625" size="1.80128125" layer="96"/>
+</instance>
+<instance part="GND3" gate="1" x="-63.5" y="119.38" smashed="yes">
+<attribute name="VALUE" x="-66.04" y="116.84" size="1.778" layer="96"/>
+</instance>
+<instance part="GND7" gate="1" x="154.94" y="119.38" smashed="yes">
+<attribute name="VALUE" x="152.4" y="116.84" size="1.778" layer="96"/>
+</instance>
+<instance part="GND13" gate="1" x="88.9" y="114.3" smashed="yes">
+<attribute name="VALUE" x="86.36" y="111.76" size="1.778" layer="96"/>
+</instance>
+<instance part="GND14" gate="1" x="-43.18" y="53.34" smashed="yes">
+<attribute name="VALUE" x="-45.72" y="50.8" size="1.778" layer="96"/>
+</instance>
+<instance part="5V_INPUT" gate="G$1" x="-7.62" y="129.54" smashed="yes">
+<attribute name="NAME" x="-16.51" y="136.398" size="1.778" layer="95"/>
+</instance>
+<instance part="GND15" gate="1" x="-17.78" y="119.38" smashed="yes">
+<attribute name="VALUE" x="-20.32" y="116.84" size="1.778" layer="96"/>
+</instance>
+<instance part="P+1" gate="VCC" x="-45.72" y="142.24" smashed="yes">
+<attribute name="VALUE" x="-48.26" y="139.7" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+2" gate="VCC" x="-50.8" y="86.36" smashed="yes">
+<attribute name="VALUE" x="-53.34" y="83.82" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+3" gate="VCC" x="127" y="127" smashed="yes">
+<attribute name="VALUE" x="124.46" y="124.46" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+4" gate="VCC" x="149.86" y="139.7" smashed="yes">
+<attribute name="VALUE" x="147.32" y="137.16" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP1" gate="A" x="-45.72" y="-40.64" smashed="yes" rot="R270">
+<attribute name="NAME" x="-48.26" y="-38.1" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-50.8" y="-45.085" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -9347,7 +9386,7 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <net name="GND" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
-<label x="-67.564" y="-2.286" size="1.778" layer="95" rot="R180"/>
+<label x="-82.804" y="5.334" size="1.778" layer="95" rot="R180"/>
 <wire x1="30.48" y1="88.9" x2="10.16" y2="88.9" width="0.1524" layer="91"/>
 <label x="2.54" y="88.9" size="1.778" layer="95"/>
 </segment>
@@ -9366,14 +9405,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <junction x="147.32" y="55.88"/>
 </segment>
 <segment>
-<pinref part="WILDLY_5V_0.5A_BOOST" gate="A" pin="2"/>
-<wire x1="-60.96" y1="73.66" x2="-50.8" y2="73.66" width="0.1524" layer="91"/>
-<label x="-50.8" y="73.66" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="2"/>
-<wire x1="-58.42" y1="33.02" x2="-45.72" y2="33.02" width="0.1524" layer="91"/>
-<label x="-45.72" y="33.02" size="1.778" layer="95"/>
+<wire x1="-73.66" y1="60.96" x2="-60.96" y2="60.96" width="0.1524" layer="91"/>
+<label x="-60.96" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -9387,20 +9421,14 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 </segment>
 <segment>
 <pinref part="WILDLY_I2S_MIC" gate="A" pin="2"/>
-<wire x1="-58.42" y1="-2.54" x2="-43.18" y2="-2.54" width="0.1524" layer="91"/>
-<label x="-43.18" y="-2.54" size="1.778" layer="95"/>
+<wire x1="-73.66" y1="5.08" x2="-58.42" y2="5.08" width="0.1524" layer="91"/>
+<label x="-58.42" y="5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="96.52" y1="119.38" x2="96.52" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="GSM_ON_OFF_SW1" gate="G$1" pin="COM"/>
-<wire x1="96.52" y1="119.38" x2="101.6" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="25.4" y1="119.38" x2="20.32" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="20.32" y1="119.38" x2="20.32" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="REC_ON_OFF_SW" gate="G$1" pin="COM"/>
+<wire x1="30.48" y1="124.46" x2="30.48" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="ON_OFF_SW" gate="G$1" pin="COM"/>
+<wire x1="30.48" y1="124.46" x2="35.56" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -9445,14 +9473,44 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <pinref part="T1" gate="G$1" pin="E"/>
 </segment>
 <segment>
-<pinref part="TEENSY_1" gate="A" pin="1"/>
+<pinref part="TEENSY_PIN_1" gate="A" pin="1"/>
 <wire x1="147.32" y1="22.86" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
 <label x="127" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_7" gate="A" pin="3"/>
-<wire x1="198.12" y1="-12.7" x2="182.88" y2="-12.7" width="0.1524" layer="91"/>
-<label x="182.88" y="-12.7" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_7" gate="A" pin="3"/>
+<wire x1="215.9" y1="-12.7" x2="200.66" y2="-12.7" width="0.1524" layer="91"/>
+<label x="200.66" y="-12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BATT" gate="G$1" pin="1"/>
+<wire x1="-76.2" y1="132.08" x2="-63.5" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="132.08" x2="-63.5" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SOLAR_CHARGER" gate="G$1" pin="2"/>
+<wire x1="165.1" y1="127" x2="154.94" y2="127" width="0.1524" layer="91"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="154.94" y1="121.92" x2="154.94" y2="127" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="88.9" y1="116.84" x2="88.9" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="FUEL_GAUGE" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="121.92" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="4"/>
+<wire x1="-73.66" y1="66.04" x2="-43.18" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="GND14" gate="1" pin="GND"/>
+<wire x1="-43.18" y1="66.04" x2="-43.18" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="-17.78" y1="121.92" x2="-17.78" y2="127" width="0.1524" layer="91"/>
+<pinref part="5V_INPUT" gate="G$1" pin="2"/>
+<wire x1="-17.78" y1="127" x2="-10.16" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TX_OF_GSM" class="0">
@@ -9467,7 +9525,7 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="198.12" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_1" gate="A" pin="2"/>
+<pinref part="TEENSY_PIN_1" gate="A" pin="2"/>
 <wire x1="147.32" y1="20.32" x2="132.08" y2="20.32" width="0.1524" layer="91"/>
 <label x="127" y="20.32" size="1.778" layer="95"/>
 </segment>
@@ -9484,7 +9542,7 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="198.12" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_1" gate="A" pin="3"/>
+<pinref part="TEENSY_PIN_1" gate="A" pin="3"/>
 <wire x1="147.32" y1="17.78" x2="132.08" y2="17.78" width="0.1524" layer="91"/>
 <label x="127" y="17.78" size="1.778" layer="95"/>
 </segment>
@@ -9501,9 +9559,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="2.54" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_6" gate="A" pin="1"/>
-<wire x1="172.72" y1="-7.62" x2="157.48" y2="-7.62" width="0.1524" layer="91"/>
-<label x="157.48" y="-7.62" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_6" gate="A" pin="1"/>
+<wire x1="182.88" y1="-7.62" x2="167.64" y2="-7.62" width="0.1524" layer="91"/>
+<label x="162.56" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CTS_OF_GSM" class="0">
@@ -9518,9 +9576,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="198.12" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_8" gate="A" pin="6"/>
-<wire x1="223.52" y1="-20.32" x2="208.28" y2="-20.32" width="0.1524" layer="91"/>
-<label x="208.28" y="-20.32" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_8" gate="A" pin="6"/>
+<wire x1="248.92" y1="-20.32" x2="233.68" y2="-20.32" width="0.1524" layer="91"/>
+<label x="223.52" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RTS_OF_GSM" class="0">
@@ -9540,9 +9598,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="134.62" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_8" gate="A" pin="5"/>
-<wire x1="223.52" y1="-17.78" x2="208.28" y2="-17.78" width="0.1524" layer="91"/>
-<label x="208.28" y="-17.78" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_8" gate="A" pin="5"/>
+<wire x1="248.92" y1="-17.78" x2="233.68" y2="-17.78" width="0.1524" layer="91"/>
+<label x="223.52" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RECLED" class="0">
@@ -9557,9 +9615,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="127" y="-68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_8" gate="A" pin="3"/>
-<wire x1="223.52" y1="-12.7" x2="208.28" y2="-12.7" width="0.1524" layer="91"/>
-<label x="208.28" y="-12.7" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_8" gate="A" pin="3"/>
+<wire x1="248.92" y1="-12.7" x2="233.68" y2="-12.7" width="0.1524" layer="91"/>
+<label x="233.68" y="-12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM3" class="0">
@@ -9576,7 +9634,7 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <junction x="-2.54" y="71.12"/>
 </segment>
 <segment>
-<pinref part="TEENSY_1" gate="A" pin="6"/>
+<pinref part="TEENSY_PIN_1" gate="A" pin="6"/>
 <wire x1="147.32" y1="10.16" x2="132.08" y2="10.16" width="0.1524" layer="91"/>
 <label x="127" y="10.16" size="1.778" layer="95"/>
 </segment>
@@ -9593,9 +9651,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="0" y="-68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_8" gate="A" pin="1"/>
-<wire x1="223.52" y1="-7.62" x2="208.28" y2="-7.62" width="0.1524" layer="91"/>
-<label x="208.28" y="-7.62" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_8" gate="A" pin="1"/>
+<wire x1="248.92" y1="-7.62" x2="233.68" y2="-7.62" width="0.1524" layer="91"/>
+<label x="228.6" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ERRLED" class="0">
@@ -9610,9 +9668,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="71.12" y="-68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_7" gate="A" pin="6"/>
-<wire x1="198.12" y1="-20.32" x2="182.88" y2="-20.32" width="0.1524" layer="91"/>
-<label x="182.88" y="-20.32" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_7" gate="A" pin="6"/>
+<wire x1="215.9" y1="-20.32" x2="200.66" y2="-20.32" width="0.1524" layer="91"/>
+<label x="200.66" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDLED" class="0">
@@ -9627,207 +9685,66 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="-63.5" y="-71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_8" gate="A" pin="2"/>
-<wire x1="223.52" y1="-10.16" x2="208.28" y2="-10.16" width="0.1524" layer="91"/>
-<label x="208.28" y="-10.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="REC_BAT" class="0">
-<segment>
-<pinref part="REC_POWER" gate="G$1" pin="2"/>
-<wire x1="-60.96" y1="104.14" x2="-50.8" y2="104.14" width="0.1524" layer="91"/>
-<label x="-50.8" y="104.14" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="WILDLY_5V_0.5A_BOOST" gate="A" pin="6"/>
-<wire x1="-60.96" y1="83.82" x2="-50.8" y2="83.82" width="0.1524" layer="91"/>
-<label x="-50.8" y="83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="REC_BAT_RETURN" class="0">
-<segment>
-<pinref part="REC_POWER" gate="G$1" pin="1"/>
-<wire x1="-60.96" y1="101.6" x2="-50.8" y2="101.6" width="0.1524" layer="91"/>
-<label x="-50.8" y="101.6" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="WILDLY_5V_0.5A_BOOST" gate="A" pin="5"/>
-<wire x1="-60.96" y1="81.28" x2="-50.8" y2="81.28" width="0.1524" layer="91"/>
-<label x="-50.8" y="81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="REC_5V_EN" class="0">
-<segment>
-<pinref part="WILDLY_5V_0.5A_BOOST" gate="A" pin="4"/>
-<wire x1="-60.96" y1="78.74" x2="-50.8" y2="78.74" width="0.1524" layer="91"/>
-<label x="-50.8" y="78.74" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="0" y1="121.92" x2="25.4" y2="121.92" width="0.1524" layer="91"/>
-<label x="0" y="121.92" size="1.778" layer="95"/>
-<pinref part="REC_ON_OFF_SW" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="REC_LB" class="0">
-<segment>
-<pinref part="WILDLY_5V_0.5A_BOOST" gate="A" pin="3"/>
-<wire x1="-60.96" y1="76.2" x2="-50.8" y2="76.2" width="0.1524" layer="91"/>
-<label x="-50.8" y="76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="REC_5V" class="0">
-<segment>
-<pinref part="WILDLY_5V_0.5A_BOOST" gate="A" pin="1"/>
-<wire x1="-60.96" y1="71.12" x2="-50.8" y2="71.12" width="0.1524" layer="91"/>
-<label x="-50.8" y="71.12" size="1.778" layer="95"/>
-</segment>
-<segment>
-<label x="111.76" y="78.74" size="1.778" layer="95"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="78.74" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="78.74" x2="121.92" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="78.74" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VIN"/>
-<wire x1="99.06" y1="78.74" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
-<junction x="111.76" y="78.74"/>
-<wire x1="121.92" y1="78.74" x2="127" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GSM_POWER_JUMPER" gate="A" pin="2"/>
-<wire x1="-68.58" y1="119.38" x2="-78.74" y2="119.38" width="0.1524" layer="91"/>
-<label x="-81.28" y="119.38" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TEENSY_5" gate="A" pin="1"/>
-<wire x1="147.32" y1="-7.62" x2="132.08" y2="-7.62" width="0.1524" layer="91"/>
-<label x="132.08" y="-7.62" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="GSM_BAT" class="0">
-<segment>
-<pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="7"/>
-<wire x1="-58.42" y1="45.72" x2="-45.72" y2="45.72" width="0.1524" layer="91"/>
-<label x="-45.72" y="45.72" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="FUEL_GAUGE" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="109.22" x2="149.86" y2="109.22" width="0.1524" layer="91"/>
-<label x="144.78" y="109.22" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SOLAR_CHARGER" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="121.92" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
-<label x="182.88" y="121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="GSM_BAT_RETURN" class="0">
-<segment>
-<pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="4"/>
-<wire x1="-58.42" y1="38.1" x2="-45.72" y2="38.1" width="0.1524" layer="91"/>
-<label x="-45.72" y="38.1" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="FUEL_GAUGE" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="111.76" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
-<label x="137.16" y="111.76" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SOLAR_CHARGER" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="119.38" x2="185.42" y2="119.38" width="0.1524" layer="91"/>
-<label x="172.72" y="119.38" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_8" gate="A" pin="2"/>
+<wire x1="248.92" y1="-10.16" x2="233.68" y2="-10.16" width="0.1524" layer="91"/>
+<label x="233.68" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="6"/>
-<wire x1="-58.42" y1="43.18" x2="-45.72" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="71.12" x2="-60.96" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GSM_5V_EN" class="0">
-<segment>
-<pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="5"/>
-<wire x1="-58.42" y1="40.64" x2="-45.72" y2="40.64" width="0.1524" layer="91"/>
-<label x="-45.72" y="40.64" size="1.778" layer="95"/>
-</segment>
-<segment>
-<label x="81.28" y="121.92" size="1.778" layer="95"/>
-<pinref part="GSM_ON_OFF_SW1" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="121.92" x2="101.6" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GSM_LB" class="0">
+<net name="LB" class="0">
 <segment>
 <pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="3"/>
-<wire x1="-58.42" y1="35.56" x2="-45.72" y2="35.56" width="0.1524" layer="91"/>
-<label x="-45.72" y="35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="GSM_5V" class="0">
-<segment>
-<pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="1"/>
-<wire x1="-58.42" y1="30.48" x2="-45.72" y2="30.48" width="0.1524" layer="91"/>
-<label x="-45.72" y="30.48" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="MIKROELECTRONIKA_SARA_CLICK" gate="G$1" pin="5V"/>
-<label x="198.12" y="60.96" size="1.778" layer="95"/>
-<wire x1="193.04" y1="60.96" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="60.96" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="60.96" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="55.88" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
-<junction x="203.2" y="60.96"/>
-</segment>
-<segment>
-<pinref part="GSM_POWER_JUMPER" gate="A" pin="1"/>
-<wire x1="-53.34" y1="119.38" x2="-43.18" y2="119.38" width="0.1524" layer="91"/>
-<label x="-45.72" y="119.38" size="1.778" layer="95"/>
+<wire x1="-73.66" y1="63.5" x2="-60.96" y2="63.5" width="0.1524" layer="91"/>
+<label x="-60.96" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MIC_BCLK" class="0">
 <segment>
 <pinref part="WILDLY_I2S_MIC" gate="A" pin="3"/>
-<wire x1="-58.42" y1="0" x2="-43.18" y2="0" width="0.1524" layer="91"/>
-<label x="-43.18" y="0" size="1.778" layer="95"/>
+<wire x1="-73.66" y1="7.62" x2="-58.42" y2="7.62" width="0.1524" layer="91"/>
+<label x="-58.42" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="9/PWM/RX2/CS0-1"/>
-<label x="-66.802" y="0.508" size="1.778" layer="95" rot="R180"/>
+<label x="-82.042" y="8.128" size="1.778" layer="95" rot="R180"/>
 <wire x1="30.48" y1="63.5" x2="12.7" y2="63.5" width="0.1524" layer="91"/>
 <label x="12.7" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_2" gate="A" pin="5"/>
-<wire x1="172.72" y1="12.7" x2="157.48" y2="12.7" width="0.1524" layer="91"/>
-<label x="157.48" y="12.7" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_2" gate="A" pin="5"/>
+<wire x1="182.88" y1="12.7" x2="167.64" y2="12.7" width="0.1524" layer="91"/>
+<label x="167.64" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MIC_DOUT" class="0">
 <segment>
 <pinref part="WILDLY_I2S_MIC" gate="A" pin="4"/>
-<wire x1="-58.42" y1="2.54" x2="-43.18" y2="2.54" width="0.1524" layer="91"/>
-<label x="-43.18" y="2.54" size="1.778" layer="95"/>
+<wire x1="-73.66" y1="10.16" x2="-58.42" y2="10.16" width="0.1524" layer="91"/>
+<label x="-58.42" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="13/LED/ALT-PWM/SCK0"/>
-<label x="-66.294" y="3.048" size="1.778" layer="95" rot="R180"/>
+<label x="-81.534" y="10.668" size="1.778" layer="95" rot="R180"/>
 <label x="12.7" y="53.34" size="1.778" layer="95"/>
 <wire x1="30.48" y1="53.34" x2="12.7" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="TEENSY_7" gate="A" pin="2"/>
-<wire x1="198.12" y1="-10.16" x2="182.88" y2="-10.16" width="0.1524" layer="91"/>
-<label x="182.88" y="-10.16" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_7" gate="A" pin="2"/>
+<wire x1="215.9" y1="-10.16" x2="200.66" y2="-10.16" width="0.1524" layer="91"/>
+<label x="198.12" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MIC_LRCLK" class="0">
 <segment>
 <pinref part="WILDLY_I2S_MIC" gate="A" pin="5"/>
-<wire x1="-58.42" y1="5.08" x2="-43.18" y2="5.08" width="0.1524" layer="91"/>
-<label x="-43.18" y="5.08" size="1.778" layer="95"/>
-<label x="-79.756" y="4.318" size="1.778" layer="95"/>
+<wire x1="-73.66" y1="12.7" x2="-58.42" y2="12.7" width="0.1524" layer="91"/>
+<label x="-58.42" y="12.7" size="1.778" layer="95"/>
+<label x="-94.996" y="11.938" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="23/A9/PWM/T"/>
@@ -9835,7 +9752,7 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="2.54" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_5" gate="A" pin="4"/>
+<pinref part="TEENSY_PIN_5" gate="A" pin="4"/>
 <wire x1="147.32" y1="-15.24" x2="132.08" y2="-15.24" width="0.1524" layer="91"/>
 <label x="132.08" y="-15.24" size="1.778" layer="95"/>
 </segment>
@@ -9847,9 +9764,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="0" y="-2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_8" gate="A" pin="4"/>
-<wire x1="223.52" y1="-15.24" x2="208.28" y2="-15.24" width="0.1524" layer="91"/>
-<label x="208.28" y="-15.24" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_8" gate="A" pin="4"/>
+<wire x1="248.92" y1="-15.24" x2="233.68" y2="-15.24" width="0.1524" layer="91"/>
+<label x="223.52" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -9956,27 +9873,35 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <wire x1="-27.94" y1="-43.18" x2="-27.94" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="-40.64" x2="38.1" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="38.1" y="-40.64"/>
+<pinref part="JP1" gate="A" pin="2"/>
+<wire x1="-38.1" y1="-40.64" x2="-27.94" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="-27.94" y="-40.64"/>
 </segment>
 <segment>
 <pinref part="WILDLY_I2S_MIC" gate="A" pin="1"/>
-<wire x1="-58.42" y1="-5.08" x2="-43.18" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-43.18" y="-5.08" size="1.778" layer="95"/>
+<wire x1="-73.66" y1="2.54" x2="-58.42" y2="2.54" width="0.1524" layer="91"/>
+<label x="-58.42" y="2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="3V3"/>
-<label x="-69.088" y="-4.826" size="1.778" layer="95" rot="R180"/>
+<label x="-84.328" y="2.794" size="1.778" layer="95" rot="R180"/>
 <wire x1="30.48" y1="91.44" x2="10.16" y2="91.44" width="0.1524" layer="91"/>
 <label x="2.54" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_3" gate="A" pin="3"/>
-<wire x1="198.12" y1="17.78" x2="182.88" y2="17.78" width="0.1524" layer="91"/>
-<label x="182.88" y="17.78" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_3" gate="A" pin="3"/>
+<wire x1="215.9" y1="17.78" x2="200.66" y2="17.78" width="0.1524" layer="91"/>
+<label x="200.66" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_5" gate="A" pin="3"/>
+<pinref part="TEENSY_PIN_5" gate="A" pin="3"/>
 <wire x1="147.32" y1="-12.7" x2="132.08" y2="-12.7" width="0.1524" layer="91"/>
 <label x="132.08" y="-12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="1"/>
+<wire x1="-53.34" y1="-40.64" x2="-66.04" y2="-40.64" width="0.1524" layer="91"/>
+<label x="-66.04" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="NET_STAT" class="0">
@@ -9991,9 +9916,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="139.7" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_3" gate="A" pin="4"/>
-<wire x1="198.12" y1="15.24" x2="182.88" y2="15.24" width="0.1524" layer="91"/>
-<label x="182.88" y="15.24" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_3" gate="A" pin="4"/>
+<wire x1="215.9" y1="15.24" x2="200.66" y2="15.24" width="0.1524" layer="91"/>
+<label x="200.66" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM1" class="0">
@@ -10003,7 +9928,7 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="10.16" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_1" gate="A" pin="4"/>
+<pinref part="TEENSY_PIN_1" gate="A" pin="4"/>
 <wire x1="147.32" y1="15.24" x2="132.08" y2="15.24" width="0.1524" layer="91"/>
 <label x="127" y="15.24" size="1.778" layer="95"/>
 </segment>
@@ -10015,7 +9940,7 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="10.16" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_1" gate="A" pin="5"/>
+<pinref part="TEENSY_PIN_1" gate="A" pin="5"/>
 <wire x1="147.32" y1="12.7" x2="132.08" y2="12.7" width="0.1524" layer="91"/>
 <label x="127" y="12.7" size="1.778" layer="95"/>
 </segment>
@@ -10027,9 +9952,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="12.7" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_2" gate="A" pin="1"/>
-<wire x1="172.72" y1="22.86" x2="157.48" y2="22.86" width="0.1524" layer="91"/>
-<label x="157.48" y="22.86" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_2" gate="A" pin="1"/>
+<wire x1="182.88" y1="22.86" x2="167.64" y2="22.86" width="0.1524" layer="91"/>
+<label x="167.64" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM5" class="0">
@@ -10039,9 +9964,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="12.7" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_2" gate="A" pin="2"/>
-<wire x1="172.72" y1="20.32" x2="157.48" y2="20.32" width="0.1524" layer="91"/>
-<label x="157.48" y="20.32" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_2" gate="A" pin="2"/>
+<wire x1="182.88" y1="20.32" x2="167.64" y2="20.32" width="0.1524" layer="91"/>
+<label x="167.64" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM6" class="0">
@@ -10051,9 +9976,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="12.7" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_2" gate="A" pin="3"/>
-<wire x1="172.72" y1="17.78" x2="157.48" y2="17.78" width="0.1524" layer="91"/>
-<label x="157.48" y="17.78" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_2" gate="A" pin="3"/>
+<wire x1="182.88" y1="17.78" x2="167.64" y2="17.78" width="0.1524" layer="91"/>
+<label x="167.64" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM7" class="0">
@@ -10063,9 +9988,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="12.7" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_2" gate="A" pin="4"/>
-<wire x1="172.72" y1="15.24" x2="157.48" y2="15.24" width="0.1524" layer="91"/>
-<label x="157.48" y="15.24" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_2" gate="A" pin="4"/>
+<wire x1="182.88" y1="15.24" x2="167.64" y2="15.24" width="0.1524" layer="91"/>
+<label x="167.64" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM8" class="0">
@@ -10075,9 +10000,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="12.7" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_2" gate="A" pin="6"/>
-<wire x1="172.72" y1="10.16" x2="157.48" y2="10.16" width="0.1524" layer="91"/>
-<label x="157.48" y="10.16" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_2" gate="A" pin="6"/>
+<wire x1="182.88" y1="10.16" x2="167.64" y2="10.16" width="0.1524" layer="91"/>
+<label x="167.64" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -10087,9 +10012,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="12.7" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_3" gate="A" pin="1"/>
-<wire x1="198.12" y1="22.86" x2="182.88" y2="22.86" width="0.1524" layer="91"/>
-<label x="182.88" y="22.86" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_3" gate="A" pin="1"/>
+<wire x1="215.9" y1="22.86" x2="200.66" y2="22.86" width="0.1524" layer="91"/>
+<label x="200.66" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -10099,9 +10024,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="12.7" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_3" gate="A" pin="2"/>
-<wire x1="198.12" y1="20.32" x2="182.88" y2="20.32" width="0.1524" layer="91"/>
-<label x="182.88" y="20.32" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_3" gate="A" pin="2"/>
+<wire x1="215.9" y1="20.32" x2="200.66" y2="20.32" width="0.1524" layer="91"/>
+<label x="200.66" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -10111,9 +10036,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="12.7" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_7" gate="A" pin="1"/>
-<wire x1="198.12" y1="-7.62" x2="182.88" y2="-7.62" width="0.1524" layer="91"/>
-<label x="182.88" y="-7.62" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_7" gate="A" pin="1"/>
+<wire x1="215.9" y1="-7.62" x2="200.66" y2="-7.62" width="0.1524" layer="91"/>
+<label x="200.66" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -10123,9 +10048,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="12.7" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_6" gate="A" pin="6"/>
-<wire x1="172.72" y1="-20.32" x2="157.48" y2="-20.32" width="0.1524" layer="91"/>
-<label x="157.48" y="-20.32" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_6" gate="A" pin="6"/>
+<wire x1="182.88" y1="-20.32" x2="167.64" y2="-20.32" width="0.1524" layer="91"/>
+<label x="167.64" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -10135,9 +10060,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="12.7" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_6" gate="A" pin="5"/>
-<wire x1="172.72" y1="-17.78" x2="157.48" y2="-17.78" width="0.1524" layer="91"/>
-<label x="157.48" y="-17.78" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_6" gate="A" pin="5"/>
+<wire x1="182.88" y1="-17.78" x2="167.64" y2="-17.78" width="0.1524" layer="91"/>
+<label x="167.64" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A3" class="0">
@@ -10147,43 +10072,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="12.7" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_6" gate="A" pin="4"/>
-<wire x1="172.72" y1="-15.24" x2="157.48" y2="-15.24" width="0.1524" layer="91"/>
-<label x="157.48" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="A4" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="18/A4/PWM/T/SDA0"/>
-<wire x1="30.48" y1="40.64" x2="12.7" y2="40.64" width="0.1524" layer="91"/>
-<label x="12.7" y="40.64" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TEENSY_6" gate="A" pin="3"/>
-<wire x1="172.72" y1="-12.7" x2="157.48" y2="-12.7" width="0.1524" layer="91"/>
-<label x="157.48" y="-12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="121.92" x2="139.7" y2="121.92" width="0.1524" layer="91"/>
-<label x="139.7" y="121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="A5" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="19/A5/PWM/T/SCL0"/>
-<wire x1="30.48" y1="38.1" x2="12.7" y2="38.1" width="0.1524" layer="91"/>
-<label x="12.7" y="38.1" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TEENSY_6" gate="A" pin="2"/>
-<wire x1="172.72" y1="-10.16" x2="157.48" y2="-10.16" width="0.1524" layer="91"/>
-<label x="157.48" y="-10.16" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="119.38" x2="139.7" y2="119.38" width="0.1524" layer="91"/>
-<label x="139.7" y="119.38" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_6" gate="A" pin="4"/>
+<wire x1="182.88" y1="-15.24" x2="167.64" y2="-15.24" width="0.1524" layer="91"/>
+<label x="167.64" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM13" class="0">
@@ -10193,7 +10084,7 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="12.7" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_5" gate="A" pin="6"/>
+<pinref part="TEENSY_PIN_5" gate="A" pin="6"/>
 <wire x1="147.32" y1="-20.32" x2="132.08" y2="-20.32" width="0.1524" layer="91"/>
 <label x="132.08" y="-20.32" size="1.778" layer="95"/>
 </segment>
@@ -10205,7 +10096,7 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="12.7" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_5" gate="A" pin="5"/>
+<pinref part="TEENSY_PIN_5" gate="A" pin="5"/>
 <wire x1="147.32" y1="-17.78" x2="132.08" y2="-17.78" width="0.1524" layer="91"/>
 <label x="132.08" y="-17.78" size="1.778" layer="95"/>
 </segment>
@@ -10217,9 +10108,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="12.7" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_3" gate="A" pin="5"/>
-<wire x1="198.12" y1="12.7" x2="182.88" y2="12.7" width="0.1524" layer="91"/>
-<label x="182.88" y="12.7" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_3" gate="A" pin="5"/>
+<wire x1="215.9" y1="12.7" x2="200.66" y2="12.7" width="0.1524" layer="91"/>
+<label x="200.66" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ALT-PWM" class="0">
@@ -10229,9 +10120,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="12.7" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_3" gate="A" pin="6"/>
-<wire x1="198.12" y1="10.16" x2="182.88" y2="10.16" width="0.1524" layer="91"/>
-<label x="182.88" y="10.16" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_3" gate="A" pin="6"/>
+<wire x1="215.9" y1="10.16" x2="200.66" y2="10.16" width="0.1524" layer="91"/>
+<label x="200.66" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ALT-RX1" class="0">
@@ -10241,9 +10132,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="12.7" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_4" gate="A" pin="1"/>
-<wire x1="223.52" y1="22.86" x2="208.28" y2="22.86" width="0.1524" layer="91"/>
-<label x="208.28" y="22.86" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_4" gate="A" pin="1"/>
+<wire x1="248.92" y1="22.86" x2="233.68" y2="22.86" width="0.1524" layer="91"/>
+<label x="233.68" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ALT-MOSI" class="0">
@@ -10253,9 +10144,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="12.7" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_4" gate="A" pin="2"/>
-<wire x1="223.52" y1="20.32" x2="208.28" y2="20.32" width="0.1524" layer="91"/>
-<label x="208.28" y="20.32" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_4" gate="A" pin="2"/>
+<wire x1="248.92" y1="20.32" x2="233.68" y2="20.32" width="0.1524" layer="91"/>
+<label x="233.68" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM9" class="0">
@@ -10265,9 +10156,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="12.7" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_4" gate="A" pin="3"/>
-<wire x1="223.52" y1="17.78" x2="208.28" y2="17.78" width="0.1524" layer="91"/>
-<label x="208.28" y="17.78" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_4" gate="A" pin="3"/>
+<wire x1="248.92" y1="17.78" x2="233.68" y2="17.78" width="0.1524" layer="91"/>
+<label x="233.68" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM10" class="0">
@@ -10277,9 +10168,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="12.7" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_4" gate="A" pin="4"/>
-<wire x1="223.52" y1="15.24" x2="208.28" y2="15.24" width="0.1524" layer="91"/>
-<label x="208.28" y="15.24" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_4" gate="A" pin="4"/>
+<wire x1="248.92" y1="15.24" x2="233.68" y2="15.24" width="0.1524" layer="91"/>
+<label x="233.68" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM11" class="0">
@@ -10289,9 +10180,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="12.7" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_4" gate="A" pin="5"/>
-<wire x1="223.52" y1="12.7" x2="208.28" y2="12.7" width="0.1524" layer="91"/>
-<label x="208.28" y="12.7" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_4" gate="A" pin="5"/>
+<wire x1="248.92" y1="12.7" x2="233.68" y2="12.7" width="0.1524" layer="91"/>
+<label x="233.68" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM12" class="0">
@@ -10301,9 +10192,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="12.7" y="5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_4" gate="A" pin="6"/>
-<wire x1="223.52" y1="10.16" x2="208.28" y2="10.16" width="0.1524" layer="91"/>
-<label x="208.28" y="10.16" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_4" gate="A" pin="6"/>
+<wire x1="248.92" y1="10.16" x2="233.68" y2="10.16" width="0.1524" layer="91"/>
+<label x="233.68" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AGND" class="0">
@@ -10313,7 +10204,7 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="106.68" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_5" gate="A" pin="2"/>
+<pinref part="TEENSY_PIN_5" gate="A" pin="2"/>
 <wire x1="147.32" y1="-10.16" x2="132.08" y2="-10.16" width="0.1524" layer="91"/>
 <label x="132.08" y="-10.16" size="1.778" layer="95"/>
 </segment>
@@ -10325,9 +10216,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="114.3" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_7" gate="A" pin="4"/>
-<wire x1="198.12" y1="-15.24" x2="182.88" y2="-15.24" width="0.1524" layer="91"/>
-<label x="182.88" y="-15.24" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_7" gate="A" pin="4"/>
+<wire x1="215.9" y1="-15.24" x2="200.66" y2="-15.24" width="0.1524" layer="91"/>
+<label x="200.66" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DAC0" class="0">
@@ -10337,15 +10228,128 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <label x="114.3" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY_7" gate="A" pin="5"/>
-<wire x1="198.12" y1="-17.78" x2="182.88" y2="-17.78" width="0.1524" layer="91"/>
-<label x="182.88" y="-17.78" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_7" gate="A" pin="5"/>
+<wire x1="215.9" y1="-17.78" x2="200.66" y2="-17.78" width="0.1524" layer="91"/>
+<label x="200.66" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="149.86" y1="116.84" x2="139.7" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="127" x2="91.44" y2="127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="FUEL_GAUGE_SDA" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="18/A4/PWM/T/SDA0"/>
+<wire x1="30.48" y1="40.64" x2="12.7" y2="40.64" width="0.1524" layer="91"/>
+<label x="2.54" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TEENSY_PIN_6" gate="A" pin="3"/>
+<wire x1="182.88" y1="-12.7" x2="167.64" y2="-12.7" width="0.1524" layer="91"/>
+<label x="154.94" y="-12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="132.08" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
+<label x="76.2" y="132.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FUEL_GAUGE_SCL" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="19/A5/PWM/T/SCL0"/>
+<wire x1="30.48" y1="38.1" x2="12.7" y2="38.1" width="0.1524" layer="91"/>
+<label x="2.54" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TEENSY_PIN_6" gate="A" pin="2"/>
+<wire x1="182.88" y1="-10.16" x2="167.64" y2="-10.16" width="0.1524" layer="91"/>
+<label x="154.94" y="-10.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="129.54" x2="91.44" y2="129.54" width="0.1524" layer="91"/>
+<label x="76.2" y="129.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="5V_SUPPLY" class="0">
+<segment>
+<pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="1"/>
+<wire x1="-73.66" y1="58.42" x2="-60.96" y2="58.42" width="0.1524" layer="91"/>
+<label x="-60.96" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MIKROELECTRONIKA_SARA_CLICK" gate="G$1" pin="5V"/>
+<label x="198.12" y="60.96" size="1.778" layer="95"/>
+<wire x1="193.04" y1="60.96" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="60.96" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="60.96" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="55.88" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
+<junction x="203.2" y="60.96"/>
+</segment>
+<segment>
+<label x="111.76" y="78.74" size="1.778" layer="95"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="78.74" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="78.74" x2="121.92" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="78.74" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VIN"/>
+<wire x1="99.06" y1="78.74" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
+<junction x="111.76" y="78.74"/>
+<wire x1="121.92" y1="78.74" x2="127" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="5V_INPUT" gate="G$1" pin="1"/>
+<wire x1="-10.16" y1="129.54" x2="-22.86" y2="129.54" width="0.1524" layer="91"/>
+<label x="-25.4" y="129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TEENSY_PIN_5" gate="A" pin="1"/>
+<wire x1="147.32" y1="-7.62" x2="132.08" y2="-7.62" width="0.1524" layer="91"/>
+<label x="129.54" y="-7.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="5V_EN" class="0">
+<segment>
+<pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="5"/>
+<wire x1="-73.66" y1="68.58" x2="-60.96" y2="68.58" width="0.1524" layer="91"/>
+<label x="-60.96" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="17.78" y="127" size="1.778" layer="95"/>
+<pinref part="ON_OFF_SW" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="127" x2="35.56" y2="127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="BATT" gate="G$1" pin="2"/>
+<wire x1="-76.2" y1="134.62" x2="-45.72" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="P+1" gate="VCC" pin="VCC"/>
+<wire x1="-45.72" y1="134.62" x2="-45.72" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="FUEL_GAUGE" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="119.38" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="114.3" x2="127" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="P+3" gate="VCC" pin="VCC"/>
+<wire x1="127" y1="114.3" x2="127" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SOLAR_CHARGER" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="129.54" x2="149.86" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="P+4" gate="VCC" pin="VCC"/>
+<wire x1="149.86" y1="129.54" x2="149.86" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="7"/>
+<wire x1="-73.66" y1="73.66" x2="-50.8" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="P+2" gate="VCC" pin="VCC"/>
+<wire x1="-50.8" y1="73.66" x2="-50.8" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
