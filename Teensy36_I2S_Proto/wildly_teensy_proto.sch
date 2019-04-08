@@ -8664,68 +8664,6 @@ Source: http://www.osram.convergy.de/</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="2N2222A">
-<packages>
-<package name="TO127P584H533-3">
-<text x="-2.13186875" y="3.448590625" size="1.27" layer="25" ratio="18">&gt;NAME</text>
-<text x="-2.324540625" y="-4.356759375" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<circle x="0" y="0" radius="2.92" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="2.92" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="3.17" width="0.05" layer="39"/>
-<circle x="-3.81" y="0" radius="0.1" width="0.2" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="0.73" diameter="1.13" shape="square"/>
-<pad name="2" x="0" y="-1.27" drill="0.73" diameter="1.13"/>
-<pad name="3" x="1.27" y="0" drill="0.73" diameter="1.13"/>
-</package>
-</packages>
-<symbols>
-<symbol name="2N2222A">
-<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
-<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
-<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
-<pin name="B" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="E" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="C" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="2N2222A" prefix="Q">
-<description>2N2222A 50 V 800 mA NPN Silicon Switching Transistor - TO-18 (TO-206AA)</description>
-<gates>
-<gate name="G$1" symbol="2N2222A" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TO127P584H533-3">
-<connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" "/>
-<attribute name="MF" value="Microsemi Corporation"/>
-<attribute name="MP" value="2N2222A"/>
-<attribute name="PACKAGE" value="TO-18-3 Micrel"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="61300311121">
 <packages>
 <package name="61300311121">
@@ -9073,6 +9011,88 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 </deviceset>
 </devicesets>
 </library>
+<library name="BC847BLT1G">
+<description>&lt;Transistor NPN 45V 100mA hfe200 SOT23 ON Semi BC847BLT1G NPN Bipolar Transistor, 0.1 A, 45 V, 3-Pin SOT-23&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOT96P237X111-3N">
+<description>&lt;b&gt;SOT-23 (TO-236) CASE 318-08&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.2" y="0.955" dx="1" dy="0.6" layer="1"/>
+<smd name="2" x="-1.2" y="-0.955" dx="1" dy="0.6" layer="1"/>
+<smd name="3" x="1.2" y="0" dx="1" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.95" y1="1.77" x2="1.95" y2="1.77" width="0.05" layer="51"/>
+<wire x1="1.95" y1="1.77" x2="1.95" y2="-1.77" width="0.05" layer="51"/>
+<wire x1="1.95" y1="-1.77" x2="-1.95" y2="-1.77" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="-1.77" x2="-1.95" y2="1.77" width="0.05" layer="51"/>
+<wire x1="-0.65" y1="1.46" x2="0.65" y2="1.46" width="0.1" layer="51"/>
+<wire x1="0.65" y1="1.46" x2="0.65" y2="-1.46" width="0.1" layer="51"/>
+<wire x1="0.65" y1="-1.46" x2="-0.65" y2="-1.46" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="-1.46" x2="-0.65" y2="1.46" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="0.505" x2="0.305" y2="1.46" width="0.1" layer="51"/>
+<wire x1="-0.35" y1="1.46" x2="0.35" y2="1.46" width="0.2" layer="21"/>
+<wire x1="0.35" y1="1.46" x2="0.35" y2="-1.46" width="0.2" layer="21"/>
+<wire x1="0.35" y1="-1.46" x2="-0.35" y2="-1.46" width="0.2" layer="21"/>
+<wire x1="-0.35" y1="-1.46" x2="-0.35" y2="1.46" width="0.2" layer="21"/>
+<wire x1="-1.7" y1="1.505" x2="-0.7" y2="1.505" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BC847BLT1G">
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="7.62" y1="1.27" x2="10.16" y2="3.81" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-1.27" x2="10.16" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-3.81" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="3.81" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<circle x="8.89" y="0" radius="4.016" width="0.254" layer="94"/>
+<text x="13.97" y="1.27" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="-1.27" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="B" x="0" y="0" visible="pad" length="short"/>
+<pin name="E" x="10.16" y="-7.62" visible="pad" length="short" rot="R90"/>
+<pin name="C" x="10.16" y="7.62" visible="pad" length="short" rot="R270"/>
+<polygon width="0.254" layer="94">
+<vertex x="8.382" y="-2.54"/>
+<vertex x="8.89" y="-2.032"/>
+<vertex x="9.398" y="-3.048"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BC847BLT1G" prefix="Q">
+<description>&lt;b&gt;Transistor NPN 45V 100mA hfe200 SOT23 ON Semi BC847BLT1G NPN Bipolar Transistor, 0.1 A, 45 V, 3-Pin SOT-23&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="BC847BLT1G" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT96P237X111-3N">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ALLIED_NUMBER" value="70099492" constant="no"/>
+<attribute name="ALLIED_PRICE-STOCK" value="http://www.alliedelec.com/on-semiconductor-bc847blt1g/70099492/" constant="no"/>
+<attribute name="DESCRIPTION" value="Transistor NPN 45V 100mA hfe200 SOT23 ON Semi BC847BLT1G NPN Bipolar Transistor, 0.1 A, 45 V, 3-Pin SOT-23" constant="no"/>
+<attribute name="HEIGHT" value="1.11mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BC847BLT1G" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-BC847BLT1G" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=863-BC847BLT1G" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="5452759" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/5452759" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9116,10 +9136,6 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="T4" library="2N2222A" deviceset="2N2222A" device=""/>
-<part name="T3" library="2N2222A" deviceset="2N2222A" device=""/>
-<part name="T1" library="2N2222A" deviceset="2N2222A" device=""/>
-<part name="T2" library="2N2222A" deviceset="2N2222A" device=""/>
 <part name="TEENSY_PIN_8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
 <part name="TEENSY_PIN_4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
 <part name="TEENSY_PIN_7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
@@ -9145,6 +9161,14 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="V_BATT"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="V_BATT"/>
 <part name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1Q" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
+<part name="T4" library="BC847BLT1G" deviceset="BC847BLT1G" device=""/>
+<part name="T3" library="BC847BLT1G" deviceset="BC847BLT1G" device=""/>
+<part name="T1" library="BC847BLT1G" deviceset="BC847BLT1G" device=""/>
+<part name="T2" library="BC847BLT1G" deviceset="BC847BLT1G" device=""/>
+<part name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="0R"/>
+<part name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="0R"/>
+<part name="R6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="0R"/>
+<part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9164,6 +9188,7 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <text x="160.02" y="139.7" size="1.778" layer="91">Solar Charger</text>
 <text x="-17.78" y="142.24" size="1.778" layer="91">5V - SUPPLY</text>
 <text x="-78.74" y="144.78" size="1.778" layer="91">LiPo Battery Connector</text>
+<text x="-88.9" y="43.18" size="1.778" layer="91">Note - When powering the board from boost R4 = 0 ohm should be mounted</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="63.5" y="45.72" smashed="yes"/>
@@ -9222,7 +9247,7 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <attribute name="VALUE" x="210.82" y="35.56" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="NETSTATLED" gate="G$1" x="38.1" y="-55.88" smashed="yes">
-<attribute name="NAME" x="41.656" y="-68.072" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="41.656" y="-65.532" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="43.815" y="-60.452" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="ERRLED" gate="G$1" x="106.68" y="-55.88" smashed="yes">
@@ -9233,17 +9258,17 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <attribute name="NAME" x="166.116" y="-65.532" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="168.275" y="-60.452" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R2" gate="G$1" x="144.78" y="-68.58" smashed="yes">
-<attribute name="NAME" x="140.97" y="-67.0814" size="1.778" layer="95"/>
-<attribute name="VALUE" x="140.97" y="-71.882" size="1.778" layer="96"/>
+<instance part="R2" gate="G$1" x="139.7" y="-73.66" smashed="yes">
+<attribute name="NAME" x="135.89" y="-72.1614" size="1.778" layer="95"/>
+<attribute name="VALUE" x="135.89" y="-76.962" size="1.778" layer="96"/>
 </instance>
-<instance part="R3" gate="G$1" x="91.44" y="-68.58" smashed="yes">
-<attribute name="NAME" x="87.63" y="-67.0814" size="1.778" layer="95"/>
-<attribute name="VALUE" x="87.63" y="-71.882" size="1.778" layer="96"/>
+<instance part="R3" gate="G$1" x="86.36" y="-73.66" smashed="yes">
+<attribute name="NAME" x="82.55" y="-72.1614" size="1.778" layer="95"/>
+<attribute name="VALUE" x="82.55" y="-76.962" size="1.778" layer="96"/>
 </instance>
-<instance part="R9" gate="G$1" x="22.86" y="-68.58" smashed="yes">
-<attribute name="NAME" x="19.05" y="-67.0814" size="1.778" layer="95"/>
-<attribute name="VALUE" x="19.05" y="-71.882" size="1.778" layer="96"/>
+<instance part="R9" gate="G$1" x="15.24" y="-73.66" smashed="yes">
+<attribute name="NAME" x="11.43" y="-72.1614" size="1.778" layer="95"/>
+<attribute name="VALUE" x="11.43" y="-76.962" size="1.778" layer="96"/>
 </instance>
 <instance part="R10" gate="G$1" x="162.56" y="-45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="161.0614" y="-49.53" size="1.778" layer="95" rot="R90"/>
@@ -9258,44 +9283,28 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <attribute name="VALUE" x="41.402" y="-49.53" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SDLED" gate="G$1" x="-27.94" y="-58.42" smashed="yes">
-<attribute name="NAME" x="-24.384" y="-68.072" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="-24.384" y="-62.992" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-22.225" y="-62.992" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R13" gate="G$1" x="-43.18" y="-71.12" smashed="yes">
-<attribute name="NAME" x="-46.99" y="-69.6214" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-46.99" y="-74.422" size="1.778" layer="96"/>
+<instance part="R13" gate="G$1" x="-50.8" y="-73.66" smashed="yes">
+<attribute name="NAME" x="-54.61" y="-72.1614" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-54.61" y="-76.962" size="1.778" layer="96"/>
 </instance>
 <instance part="R14" gate="G$1" x="-27.94" y="-48.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="-29.4386" y="-52.07" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-24.638" y="-52.07" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND9" gate="1" x="-27.94" y="-83.82" smashed="yes">
-<attribute name="VALUE" x="-30.48" y="-86.36" size="1.778" layer="96"/>
+<instance part="GND9" gate="1" x="-27.94" y="-91.44" smashed="yes">
+<attribute name="VALUE" x="-30.48" y="-93.98" size="1.778" layer="96"/>
 </instance>
-<instance part="GND10" gate="1" x="38.1" y="-83.82" smashed="yes">
-<attribute name="VALUE" x="35.56" y="-86.36" size="1.778" layer="96"/>
+<instance part="GND10" gate="1" x="38.1" y="-91.44" smashed="yes">
+<attribute name="VALUE" x="35.56" y="-93.98" size="1.778" layer="96"/>
 </instance>
-<instance part="GND11" gate="1" x="106.68" y="-83.82" smashed="yes">
-<attribute name="VALUE" x="104.14" y="-86.36" size="1.778" layer="96"/>
+<instance part="GND11" gate="1" x="106.68" y="-91.44" smashed="yes">
+<attribute name="VALUE" x="104.14" y="-93.98" size="1.778" layer="96"/>
 </instance>
-<instance part="GND12" gate="1" x="162.56" y="-83.82" smashed="yes">
-<attribute name="VALUE" x="160.02" y="-86.36" size="1.778" layer="96"/>
-</instance>
-<instance part="T4" gate="G$1" x="-30.48" y="-71.12" smashed="yes">
-<attribute name="NAME" x="-40.64" y="-63.5" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-40.64" y="-66.04" size="1.778" layer="96"/>
-</instance>
-<instance part="T3" gate="G$1" x="35.56" y="-68.58" smashed="yes">
-<attribute name="NAME" x="22.86" y="-60.96" size="1.778" layer="95"/>
-<attribute name="VALUE" x="22.86" y="-63.5" size="1.778" layer="96"/>
-</instance>
-<instance part="T1" gate="G$1" x="104.14" y="-68.58" smashed="yes">
-<attribute name="NAME" x="93.98" y="-60.96" size="1.778" layer="95"/>
-<attribute name="VALUE" x="93.98" y="-63.5" size="1.778" layer="96"/>
-</instance>
-<instance part="T2" gate="G$1" x="160.02" y="-68.58" smashed="yes">
-<attribute name="NAME" x="149.86" y="-60.96" size="1.778" layer="95"/>
-<attribute name="VALUE" x="149.86" y="-63.5" size="1.778" layer="96"/>
+<instance part="GND12" gate="1" x="162.56" y="-91.44" smashed="yes">
+<attribute name="VALUE" x="160.02" y="-93.98" size="1.778" layer="96"/>
 </instance>
 <instance part="TEENSY_PIN_8" gate="A" x="251.46" y="-15.24" smashed="yes">
 <attribute name="NAME" x="234.95" y="-1.905" size="1.778" layer="95"/>
@@ -9354,8 +9363,8 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <instance part="GND13" gate="1" x="88.9" y="114.3" smashed="yes">
 <attribute name="VALUE" x="86.36" y="111.76" size="1.778" layer="96"/>
 </instance>
-<instance part="GND14" gate="1" x="-43.18" y="53.34" smashed="yes">
-<attribute name="VALUE" x="-45.72" y="50.8" size="1.778" layer="96"/>
+<instance part="GND14" gate="1" x="-33.02" y="53.34" smashed="yes">
+<attribute name="VALUE" x="-35.56" y="50.8" size="1.778" layer="96"/>
 </instance>
 <instance part="5V_INPUT" gate="G$1" x="-7.62" y="129.54" smashed="yes">
 <attribute name="NAME" x="-16.51" y="136.398" size="1.778" layer="95"/>
@@ -9375,9 +9384,40 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <instance part="P+4" gate="VCC" x="149.86" y="139.7" smashed="yes">
 <attribute name="VALUE" x="147.32" y="137.16" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JP1" gate="A" x="-45.72" y="-40.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="-48.26" y="-38.1" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-50.8" y="-45.085" size="1.778" layer="96"/>
+<instance part="JP1" gate="A" x="-5.08" y="91.44" smashed="yes" rot="R270">
+<attribute name="NAME" x="-7.62" y="93.98" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-10.16" y="86.995" size="1.778" layer="96"/>
+</instance>
+<instance part="T4" gate="G$1" x="-38.1" y="-73.66" smashed="yes">
+<attribute name="NAME" x="-24.13" y="-69.85" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-26.67" y="-80.01" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="T3" gate="G$1" x="27.94" y="-73.66" smashed="yes">
+<attribute name="NAME" x="41.91" y="-69.85" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="39.37" y="-80.01" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="T1" gate="G$1" x="96.52" y="-73.66" smashed="yes">
+<attribute name="NAME" x="110.49" y="-69.85" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="107.95" y="-80.01" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="T2" gate="G$1" x="152.4" y="-73.66" smashed="yes">
+<attribute name="NAME" x="166.37" y="-69.85" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="163.83" y="-80.01" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="R4" gate="G$1" x="-53.34" y="58.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="-57.15" y="56.9214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-49.53" y="56.642" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R5" gate="G$1" x="208.28" y="81.28" smashed="yes" rot="R180">
+<attribute name="NAME" x="204.47" y="79.7814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="214.63" y="79.502" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R6" gate="G$1" x="208.28" y="76.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="204.47" y="74.7014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="214.63" y="74.422" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND16" gate="1" x="114.3" y="10.16" smashed="yes">
+<attribute name="VALUE" x="111.76" y="7.62" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -9403,11 +9443,6 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <wire x1="147.32" y1="55.88" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="55.88" x2="147.32" y2="55.88" width="0.1524" layer="91"/>
 <junction x="147.32" y="55.88"/>
-</segment>
-<segment>
-<pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="2"/>
-<wire x1="-73.66" y1="60.96" x2="-60.96" y2="60.96" width="0.1524" layer="91"/>
-<label x="-60.96" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -9454,28 +9489,14 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="-27.94" y1="-76.2" x2="-27.94" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-81.28" x2="-27.94" y2="-88.9" width="0.1524" layer="91"/>
 <pinref part="T4" gate="G$1" pin="E"/>
 </segment>
 <segment>
-<pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="38.1" y1="-73.66" x2="38.1" y2="-81.28" width="0.1524" layer="91"/>
-<pinref part="T3" gate="G$1" pin="E"/>
-</segment>
-<segment>
-<pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="162.56" y1="-73.66" x2="162.56" y2="-81.28" width="0.1524" layer="91"/>
-<pinref part="T2" gate="G$1" pin="E"/>
-</segment>
-<segment>
-<pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="106.68" y1="-73.66" x2="106.68" y2="-81.28" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="E"/>
-</segment>
-<segment>
 <pinref part="TEENSY_PIN_1" gate="A" pin="1"/>
-<wire x1="147.32" y1="22.86" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
-<label x="127" y="22.86" size="1.778" layer="95"/>
+<wire x1="147.32" y1="22.86" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="GND16" gate="1" pin="GND"/>
+<wire x1="114.3" y1="22.86" x2="114.3" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TEENSY_PIN_7" gate="A" pin="3"/>
@@ -9502,15 +9523,35 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 </segment>
 <segment>
 <pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="4"/>
-<wire x1="-73.66" y1="66.04" x2="-43.18" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="66.04" x2="-48.26" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="-43.18" y1="66.04" x2="-43.18" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="66.04" x2="-33.02" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="66.04" x2="-33.02" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="2"/>
+<wire x1="-73.66" y1="60.96" x2="-48.26" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="60.96" x2="-48.26" y2="66.04" width="0.1524" layer="91"/>
+<junction x="-48.26" y="66.04"/>
 </segment>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="-17.78" y1="121.92" x2="-17.78" y2="127" width="0.1524" layer="91"/>
 <pinref part="5V_INPUT" gate="G$1" pin="2"/>
 <wire x1="-17.78" y1="127" x2="-10.16" y2="127" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="T3" gate="G$1" pin="E"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="38.1" y1="-81.28" x2="38.1" y2="-88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="T1" gate="G$1" pin="E"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="106.68" y1="-81.28" x2="106.68" y2="-88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="T2" gate="G$1" pin="E"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="162.56" y1="-81.28" x2="162.56" y2="-88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TX_OF_GSM" class="0">
@@ -9522,12 +9563,17 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <segment>
 <pinref part="MIKROELECTRONIKA_SARA_CLICK" gate="G$1" pin="TX"/>
 <wire x1="193.04" y1="76.2" x2="203.2" y2="76.2" width="0.1524" layer="91"/>
-<label x="198.12" y="76.2" size="1.778" layer="95"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="TEENSY_PIN_1" gate="A" pin="2"/>
 <wire x1="147.32" y1="20.32" x2="132.08" y2="20.32" width="0.1524" layer="91"/>
 <label x="127" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="213.36" y1="76.2" x2="228.6" y2="76.2" width="0.1524" layer="91"/>
+<label x="215.9" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX_OF_GSM" class="0">
@@ -9539,12 +9585,17 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <segment>
 <pinref part="MIKROELECTRONIKA_SARA_CLICK" gate="G$1" pin="RX"/>
 <wire x1="193.04" y1="81.28" x2="203.2" y2="81.28" width="0.1524" layer="91"/>
-<label x="198.12" y="81.28" size="1.778" layer="95"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="TEENSY_PIN_1" gate="A" pin="3"/>
 <wire x1="147.32" y1="17.78" x2="132.08" y2="17.78" width="0.1524" layer="91"/>
 <label x="127" y="17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="213.36" y1="81.28" x2="228.6" y2="81.28" width="0.1524" layer="91"/>
+<label x="215.9" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RESET_GSM" class="0">
@@ -9611,8 +9662,8 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="-68.58" x2="129.54" y2="-68.58" width="0.1524" layer="91"/>
-<label x="127" y="-68.58" size="1.778" layer="95"/>
+<wire x1="134.62" y1="-73.66" x2="124.46" y2="-73.66" width="0.1524" layer="91"/>
+<label x="121.92" y="-73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="TEENSY_PIN_8" gate="A" pin="3"/>
@@ -9647,8 +9698,8 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="-68.58" x2="5.08" y2="-68.58" width="0.1524" layer="91"/>
-<label x="0" y="-68.58" size="1.778" layer="95"/>
+<wire x1="10.16" y1="-73.66" x2="-2.54" y2="-73.66" width="0.1524" layer="91"/>
+<label x="-5.08" y="-73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="TEENSY_PIN_8" gate="A" pin="1"/>
@@ -9664,8 +9715,8 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="-68.58" x2="73.66" y2="-68.58" width="0.1524" layer="91"/>
-<label x="71.12" y="-68.58" size="1.778" layer="95"/>
+<wire x1="81.28" y1="-73.66" x2="68.58" y2="-73.66" width="0.1524" layer="91"/>
+<label x="66.04" y="-73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="TEENSY_PIN_7" gate="A" pin="6"/>
@@ -9681,8 +9732,8 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="-48.26" y1="-71.12" x2="-60.96" y2="-71.12" width="0.1524" layer="91"/>
-<label x="-63.5" y="-71.12" size="1.778" layer="95"/>
+<wire x1="-55.88" y1="-73.66" x2="-68.58" y2="-73.66" width="0.1524" layer="91"/>
+<label x="-71.12" y="-73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="TEENSY_PIN_8" gate="A" pin="2"/>
@@ -9793,43 +9844,22 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <net name="N$2" class="0">
 <segment>
 <pinref part="RECLED" gate="G$1" pin="C"/>
-<wire x1="162.56" y1="-60.96" x2="162.56" y2="-63.5" width="0.1524" layer="91"/>
 <pinref part="T2" gate="G$1" pin="C"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="-68.58" x2="157.48" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="T2" gate="G$1" pin="B"/>
+<wire x1="162.56" y1="-60.96" x2="162.56" y2="-66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="ERRLED" gate="G$1" pin="C"/>
-<wire x1="106.68" y1="-60.96" x2="106.68" y2="-63.5" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="C"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="NETSTATLED" gate="G$1" pin="C"/>
-<wire x1="38.1" y1="-60.96" x2="38.1" y2="-63.5" width="0.1524" layer="91"/>
-<pinref part="T3" gate="G$1" pin="C"/>
+<wire x1="106.68" y1="-60.96" x2="106.68" y2="-66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="-68.58" x2="33.02" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-73.66" x2="27.94" y2="-73.66" width="0.1524" layer="91"/>
 <pinref part="T3" gate="G$1" pin="B"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="-68.58" x2="101.6" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -9839,17 +9869,10 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <wire x1="-27.94" y1="-53.34" x2="-27.94" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="SDLED" gate="G$1" pin="C"/>
-<wire x1="-27.94" y1="-63.5" x2="-27.94" y2="-66.04" width="0.1524" layer="91"/>
-<pinref part="T4" gate="G$1" pin="C"/>
-</segment>
-</net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="-38.1" y1="-71.12" x2="-33.02" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="-73.66" x2="-38.1" y2="-73.66" width="0.1524" layer="91"/>
 <pinref part="T4" gate="G$1" pin="B"/>
 </segment>
 </net>
@@ -9873,9 +9896,6 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <wire x1="-27.94" y1="-43.18" x2="-27.94" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="-40.64" x2="38.1" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="38.1" y="-40.64"/>
-<pinref part="JP1" gate="A" pin="2"/>
-<wire x1="-38.1" y1="-40.64" x2="-27.94" y2="-40.64" width="0.1524" layer="91"/>
-<junction x="-27.94" y="-40.64"/>
 </segment>
 <segment>
 <pinref part="WILDLY_I2S_MIC" gate="A" pin="1"/>
@@ -9885,8 +9905,9 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <segment>
 <pinref part="U$1" gate="G$1" pin="3V3"/>
 <label x="-84.328" y="2.794" size="1.778" layer="95" rot="R180"/>
-<wire x1="30.48" y1="91.44" x2="10.16" y2="91.44" width="0.1524" layer="91"/>
-<label x="2.54" y="91.44" size="1.778" layer="95"/>
+<wire x1="30.48" y1="91.44" x2="2.54" y2="91.44" width="0.1524" layer="91"/>
+<label x="15.24" y="91.44" size="1.778" layer="95"/>
+<pinref part="JP1" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="TEENSY_PIN_3" gate="A" pin="3"/>
@@ -9900,8 +9921,8 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
-<wire x1="-53.34" y1="-40.64" x2="-66.04" y2="-40.64" width="0.1524" layer="91"/>
-<label x="-66.04" y="-40.64" size="1.778" layer="95"/>
+<wire x1="-12.7" y1="91.44" x2="-20.32" y2="91.44" width="0.1524" layer="91"/>
+<label x="-20.32" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="NET_STAT" class="0">
@@ -10275,11 +10296,6 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 </net>
 <net name="5V_SUPPLY" class="0">
 <segment>
-<pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="1"/>
-<wire x1="-73.66" y1="58.42" x2="-60.96" y2="58.42" width="0.1524" layer="91"/>
-<label x="-60.96" y="58.42" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="MIKROELECTRONIKA_SARA_CLICK" gate="G$1" pin="5V"/>
 <label x="198.12" y="60.96" size="1.778" layer="95"/>
 <wire x1="193.04" y1="60.96" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
@@ -10311,6 +10327,16 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <pinref part="TEENSY_PIN_5" gate="A" pin="1"/>
 <wire x1="147.32" y1="-7.62" x2="132.08" y2="-7.62" width="0.1524" layer="91"/>
 <label x="129.54" y="-7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="-73.66" y1="58.42" x2="-58.42" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="-48.26" y1="58.42" x2="-40.64" y2="58.42" width="0.1524" layer="91"/>
+<label x="-48.26" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V_EN" class="0">
@@ -10350,6 +10376,34 @@ Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P040040.pdf"&gt; Datas
 <wire x1="-73.66" y1="73.66" x2="-50.8" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <wire x1="-50.8" y1="73.66" x2="-50.8" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="SDLED" gate="G$1" pin="C"/>
+<pinref part="T4" gate="G$1" pin="C"/>
+<wire x1="-27.94" y1="-63.5" x2="-27.94" y2="-66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="NETSTATLED" gate="G$1" pin="C"/>
+<pinref part="T3" gate="G$1" pin="C"/>
+<wire x1="38.1" y1="-60.96" x2="38.1" y2="-66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="T1" gate="G$1" pin="B"/>
+<wire x1="91.44" y1="-73.66" x2="96.52" y2="-73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="-73.66" x2="152.4" y2="-73.66" width="0.1524" layer="91"/>
+<pinref part="T2" gate="G$1" pin="B"/>
 </segment>
 </net>
 </nets>
