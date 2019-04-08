@@ -8634,6 +8634,18 @@ Source: http://www.osram.convergy.de/</description>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="+3V3" urn="urn:adsk.eagle:symbol:26950/1" library_version="1">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="+5V" urn="urn:adsk.eagle:symbol:26929/1" library_version="1">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
@@ -8653,6 +8665,32 @@ Source: http://www.osram.convergy.de/</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="VCC" symbol="VCC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+3V3" urn="urn:adsk.eagle:component:26981/1" prefix="+3V3" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="+3V3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+5V" urn="urn:adsk.eagle:component:26963/1" prefix="P+" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="+5V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -9169,6 +9207,16 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <part name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="0R"/>
 <part name="R6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="0R"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9201,7 +9249,7 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <attribute name="VALUE" x="150.622" y="67.31" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="WILDLY_5V_1A_BOOST" gate="G$1" x="-76.2" y="66.04" smashed="yes" rot="R180">
-<attribute name="NAME" x="-59.69" y="55.245" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="-64.77" y="55.245" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-69.85" y="81.28" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="WILDLY_I2S_MIC" gate="A" x="-76.2" y="10.16" smashed="yes" rot="R180">
@@ -9363,8 +9411,8 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <instance part="GND13" gate="1" x="88.9" y="114.3" smashed="yes">
 <attribute name="VALUE" x="86.36" y="111.76" size="1.778" layer="96"/>
 </instance>
-<instance part="GND14" gate="1" x="-33.02" y="53.34" smashed="yes">
-<attribute name="VALUE" x="-35.56" y="50.8" size="1.778" layer="96"/>
+<instance part="GND14" gate="1" x="-43.18" y="53.34" smashed="yes">
+<attribute name="VALUE" x="-45.72" y="50.8" size="1.778" layer="96"/>
 </instance>
 <instance part="5V_INPUT" gate="G$1" x="-7.62" y="129.54" smashed="yes">
 <attribute name="NAME" x="-16.51" y="136.398" size="1.778" layer="95"/>
@@ -9418,6 +9466,36 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 </instance>
 <instance part="GND16" gate="1" x="114.3" y="10.16" smashed="yes">
 <attribute name="VALUE" x="111.76" y="7.62" size="1.778" layer="96"/>
+</instance>
+<instance part="P+5" gate="1" x="-35.56" y="68.58" smashed="yes">
+<attribute name="VALUE" x="-38.1" y="63.5" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+6" gate="1" x="-27.94" y="139.7" smashed="yes">
+<attribute name="VALUE" x="-30.48" y="134.62" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+8" gate="1" x="223.52" y="68.58" smashed="yes">
+<attribute name="VALUE" x="220.98" y="63.5" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+9" gate="1" x="127" y="2.54" smashed="yes">
+<attribute name="VALUE" x="124.46" y="-2.54" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+7" gate="1" x="124.46" y="88.9" smashed="yes">
+<attribute name="VALUE" x="121.92" y="83.82" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V3" gate="G$1" x="-20.32" y="106.68" smashed="yes">
+<attribute name="VALUE" x="-22.86" y="101.6" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V6" gate="G$1" x="-27.94" y="-30.48" smashed="yes">
+<attribute name="VALUE" x="-30.48" y="-35.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V7" gate="G$1" x="38.1" y="-30.48" smashed="yes">
+<attribute name="VALUE" x="35.56" y="-35.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V8" gate="G$1" x="106.68" y="-30.48" smashed="yes">
+<attribute name="VALUE" x="104.14" y="-35.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V9" gate="G$1" x="162.56" y="-30.48" smashed="yes">
+<attribute name="VALUE" x="160.02" y="-35.56" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -9525,8 +9603,8 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="4"/>
 <wire x1="-73.66" y1="66.04" x2="-48.26" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="-48.26" y1="66.04" x2="-33.02" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="66.04" x2="-33.02" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="66.04" x2="-43.18" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="66.04" x2="-43.18" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="2"/>
 <wire x1="-73.66" y1="60.96" x2="-48.26" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="60.96" x2="-48.26" y2="66.04" width="0.1524" layer="91"/>
@@ -9878,41 +9956,15 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 </net>
 <net name="3V3" class="0">
 <segment>
-<pinref part="MIKROELECTRONIKA_SARA_CLICK" gate="G$1" pin="3V3"/>
-<wire x1="154.94" y1="60.96" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
-<label x="137.16" y="58.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R10" gate="G$1" pin="2"/>
-<label x="142.24" y="-43.18" size="1.778" layer="95"/>
-<pinref part="R12" gate="G$1" pin="2"/>
-<label x="20.32" y="-43.18" size="1.778" layer="95"/>
-<pinref part="R11" gate="G$1" pin="2"/>
-<label x="88.9" y="-43.18" size="1.778" layer="95"/>
-<wire x1="38.1" y1="-40.64" x2="106.68" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="-40.64" x2="106.68" y2="-40.64" width="0.1524" layer="91"/>
-<junction x="106.68" y="-40.64"/>
-<pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="-27.94" y1="-43.18" x2="-27.94" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="-40.64" x2="38.1" y2="-40.64" width="0.1524" layer="91"/>
-<junction x="38.1" y="-40.64"/>
-</segment>
-<segment>
-<pinref part="WILDLY_I2S_MIC" gate="A" pin="1"/>
-<wire x1="-73.66" y1="2.54" x2="-58.42" y2="2.54" width="0.1524" layer="91"/>
-<label x="-58.42" y="2.54" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="3V3"/>
 <label x="-84.328" y="2.794" size="1.778" layer="95" rot="R180"/>
 <wire x1="30.48" y1="91.44" x2="2.54" y2="91.44" width="0.1524" layer="91"/>
-<label x="15.24" y="91.44" size="1.778" layer="95"/>
 <pinref part="JP1" gate="A" pin="2"/>
 </segment>
 <segment>
-<pinref part="TEENSY_PIN_3" gate="A" pin="3"/>
-<wire x1="215.9" y1="17.78" x2="200.66" y2="17.78" width="0.1524" layer="91"/>
-<label x="200.66" y="17.78" size="1.778" layer="95"/>
+<pinref part="WILDLY_I2S_MIC" gate="A" pin="1"/>
+<wire x1="-73.66" y1="2.54" x2="-53.34" y2="2.54" width="0.1524" layer="91"/>
+<label x="-58.42" y="2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="TEENSY_PIN_5" gate="A" pin="3"/>
@@ -9920,9 +9972,14 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <label x="132.08" y="-12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="1"/>
-<wire x1="-12.7" y1="91.44" x2="-20.32" y2="91.44" width="0.1524" layer="91"/>
-<label x="-20.32" y="91.44" size="1.778" layer="95"/>
+<pinref part="TEENSY_PIN_3" gate="A" pin="3"/>
+<wire x1="215.9" y1="17.78" x2="200.66" y2="17.78" width="0.1524" layer="91"/>
+<label x="200.66" y="17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MIKROELECTRONIKA_SARA_CLICK" gate="G$1" pin="3V3"/>
+<wire x1="154.94" y1="60.96" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
+<label x="137.16" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="NET_STAT" class="0">
@@ -10296,47 +10353,9 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 </net>
 <net name="5V_SUPPLY" class="0">
 <segment>
-<pinref part="MIKROELECTRONIKA_SARA_CLICK" gate="G$1" pin="5V"/>
-<label x="198.12" y="60.96" size="1.778" layer="95"/>
-<wire x1="193.04" y1="60.96" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="60.96" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="60.96" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="55.88" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
-<junction x="203.2" y="60.96"/>
-</segment>
-<segment>
-<label x="111.76" y="78.74" size="1.778" layer="95"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="78.74" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="78.74" x2="121.92" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="78.74" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VIN"/>
-<wire x1="99.06" y1="78.74" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
-<junction x="111.76" y="78.74"/>
-<wire x1="121.92" y1="78.74" x2="127" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="5V_INPUT" gate="G$1" pin="1"/>
-<wire x1="-10.16" y1="129.54" x2="-22.86" y2="129.54" width="0.1524" layer="91"/>
-<label x="-25.4" y="129.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TEENSY_PIN_5" gate="A" pin="1"/>
-<wire x1="147.32" y1="-7.62" x2="132.08" y2="-7.62" width="0.1524" layer="91"/>
-<label x="129.54" y="-7.62" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="1"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="-73.66" y1="58.42" x2="-58.42" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="-48.26" y1="58.42" x2="-40.64" y2="58.42" width="0.1524" layer="91"/>
-<label x="-48.26" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V_EN" class="0">
@@ -10404,6 +10423,82 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="-73.66" x2="152.4" y2="-73.66" width="0.1524" layer="91"/>
 <pinref part="T2" gate="G$1" pin="B"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<pinref part="5V_INPUT" gate="G$1" pin="1"/>
+<wire x1="-10.16" y1="129.54" x2="-27.94" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="P+6" gate="1" pin="+5V"/>
+<wire x1="-27.94" y1="129.54" x2="-27.94" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="MIKROELECTRONIKA_SARA_CLICK" gate="G$1" pin="5V"/>
+<wire x1="193.04" y1="60.96" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="60.96" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="60.96" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="55.88" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
+<junction x="203.2" y="60.96"/>
+<wire x1="213.36" y1="60.96" x2="223.52" y2="60.96" width="0.1524" layer="91"/>
+<junction x="213.36" y="60.96"/>
+<pinref part="P+8" gate="1" pin="+5V"/>
+<wire x1="223.52" y1="60.96" x2="223.52" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="TEENSY_PIN_5" gate="A" pin="1"/>
+<wire x1="147.32" y1="-7.62" x2="127" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="P+9" gate="1" pin="+5V"/>
+<wire x1="127" y1="-7.62" x2="127" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="78.74" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VIN"/>
+<wire x1="99.06" y1="78.74" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="78.74" x2="121.92" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="78.74" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
+<junction x="111.76" y="78.74"/>
+<wire x1="121.92" y1="78.74" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
+<junction x="121.92" y="78.74"/>
+<wire x1="124.46" y1="78.74" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="P+7" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="-48.26" y1="58.42" x2="-35.56" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="P+5" gate="1" pin="+5V"/>
+<wire x1="-35.56" y1="58.42" x2="-35.56" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+3V3" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="1"/>
+<wire x1="-12.7" y1="91.44" x2="-20.32" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<wire x1="-20.32" y1="91.44" x2="-20.32" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+<wire x1="-27.94" y1="-43.18" x2="-27.94" y2="-33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="+3V7" gate="G$1" pin="+3V3"/>
+<wire x1="38.1" y1="-40.64" x2="38.1" y2="-33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="+3V8" gate="G$1" pin="+3V3"/>
+<wire x1="106.68" y1="-40.64" x2="106.68" y2="-33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="+3V9" gate="G$1" pin="+3V3"/>
+<wire x1="162.56" y1="-40.64" x2="162.56" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
