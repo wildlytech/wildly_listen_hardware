@@ -3101,92 +3101,6 @@ type 0309, grid 2.5 mm</description>
 <pad name="8" x="12.25" y="0" drill="1" diameter="2.1844"/>
 <text x="13.12" y="-5.81" size="1.27" layer="25" rot="R180">&gt;NAME</text>
 </package>
-<package name="JST-PH-2-SMT-RA" urn="urn:adsk.eagle:footprint:6240046/1" library_version="2">
-<description>2-Pin JST PH Series Right-Angle Connector (+/- for batteries)</description>
-<wire x1="-4" y1="3" x2="4" y2="3" width="0.2032" layer="51"/>
-<wire x1="4" y1="3" x2="4" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="-4" y1="-4.5" x2="-4" y2="3" width="0.2032" layer="51"/>
-<wire x1="3.2" y1="-2" x2="-3.2" y2="-2" width="0.2032" layer="51"/>
-<wire x1="-3.2" y1="-2" x2="-3.2" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="-3.2" y1="-4.5" x2="-4" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="4" y1="-4.5" x2="3.2" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="3.2" y1="-4.5" x2="3.2" y2="-2" width="0.2032" layer="51"/>
-<wire x1="-2.25" y1="3" x2="2.25" y2="3" width="0.127" layer="21"/>
-<wire x1="4" y1="-0.5" x2="4" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="4" y1="-4.5" x2="3.15" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="3.15" y1="-4.5" x2="3.15" y2="-2" width="0.127" layer="21"/>
-<wire x1="3.15" y1="-2" x2="1.75" y2="-2" width="0.127" layer="21"/>
-<wire x1="-1.75" y1="-2" x2="-3.15" y2="-2" width="0.127" layer="21"/>
-<wire x1="-3.15" y1="-2" x2="-3.15" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="-3.15" y1="-4.5" x2="-4" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="-4" y1="-4.5" x2="-4" y2="-0.5" width="0.127" layer="21"/>
-<smd name="2" x="-1" y="-3.7" dx="1" dy="4.6" layer="1"/>
-<smd name="1" x="1" y="-3.7" dx="1" dy="4.6" layer="1"/>
-<smd name="NC1" x="-3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<smd name="NC2" x="3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<text x="-2.54" y="3.81" size="1.27" layer="25" font="vector">&gt;Name</text>
-<text x="-2.54" y="-7.62" size="1.27" layer="27" font="vector">&gt;Value</text>
-<text x="2.286" y="-6.096" size="1.4224" layer="21" ratio="12">+</text>
-<text x="-3.429" y="-6.096" size="1.4224" layer="21" ratio="12">-</text>
-</package>
-<package name="JST-PH-2-THM" urn="urn:adsk.eagle:footprint:6240047/1" library_version="2">
-<description>4UCon #01528
-http://www.4uconnector.com/online/object/4udrawing/01528.pdf</description>
-<wire x1="3" y1="-1.7" x2="0.5" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="0.5" y1="-1.7" x2="0.5" y2="-2.2" width="0.127" layer="21"/>
-<wire x1="0.5" y1="-2.2" x2="-0.5" y2="-2.2" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="-2.2" x2="-0.5" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="-1.7" x2="-3" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="-3" y1="-1.7" x2="-3" y2="2.8" width="0.127" layer="21"/>
-<wire x1="-3" y1="2.8" x2="3" y2="2.8" width="0.127" layer="21"/>
-<wire x1="3" y1="2.8" x2="3" y2="-1.7" width="0.127" layer="21"/>
-<pad name="1" x="1" y="0" drill="0.8" diameter="1.4224" rot="R180"/>
-<pad name="2" x="-1" y="0" drill="0.8" diameter="1.4224" rot="R180"/>
-<text x="-2.8" y="-3.5" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="4.064" y="0.762" size="1.27" layer="21" font="vector" rot="R180">+</text>
-<text x="-3.302" y="0.762" size="1.27" layer="21" font="vector" rot="R180">-</text>
-</package>
-<package name="JST-PH-2-THM-RA" urn="urn:adsk.eagle:footprint:6240048/1" library_version="2">
-<description>&lt;b&gt;S2B-PH-K-S&lt;/b&gt; 
-&lt;p&gt;
-JST PH 2-pin thru-home side entry</description>
-<wire x1="-3" y1="6.3" x2="3" y2="6.3" width="0.127" layer="51"/>
-<wire x1="3" y1="6.3" x2="3" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="-3" y1="-1.4" x2="-3" y2="6.3" width="0.127" layer="51"/>
-<wire x1="-2.2" y1="-1.4" x2="-3" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="3" y1="-1.4" x2="2.2" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="-2.2" y1="-1.4" x2="-2.2" y2="-0.3" width="0.127" layer="21"/>
-<wire x1="-2.2" y1="-0.3" x2="2.1" y2="-0.3" width="0.127" layer="21"/>
-<wire x1="2.1" y1="-0.3" x2="2.1" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="2.1" y1="-1.4" x2="2.2" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="-0.3" y1="6.3" x2="-0.3" y2="3.4" width="0.127" layer="21"/>
-<wire x1="-0.3" y1="3.4" x2="0.3" y2="3.4" width="0.127" layer="21"/>
-<wire x1="0.3" y1="3.4" x2="0.3" y2="6.3" width="0.127" layer="21"/>
-<pad name="2" x="-1" y="0" drill="0.8" diameter="1.4224"/>
-<pad name="1" x="1" y="0" drill="0.8" diameter="1.4224"/>
-<text x="-2.7" y="-3.8" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="0.486" y="-2.096" size="1.4224" layer="21" ratio="12">+</text>
-<text x="-1.429" y="-1.896" size="1.4224" layer="21" ratio="12">-</text>
-</package>
-<package name="JST-PH-2-SMT" urn="urn:adsk.eagle:footprint:6240117/1" library_version="2">
-<wire x1="-4" y1="2.5" x2="4" y2="2.5" width="0.2032" layer="51"/>
-<wire x1="4" y1="2.5" x2="4" y2="-2.5" width="0.2032" layer="51"/>
-<wire x1="-4" y1="-2.5" x2="-4" y2="2.5" width="0.2032" layer="51"/>
-<wire x1="4" y1="-2.5" x2="-4" y2="-2.5" width="0.2032" layer="51"/>
-<wire x1="-2.25" y1="2.5" x2="2.25" y2="2.5" width="0.127" layer="21"/>
-<wire x1="4" y1="-0.5" x2="4" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="4" y1="-2.5" x2="1.75" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-1.75" y1="-2.5" x2="-4" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-4" y1="-2.5" x2="-4" y2="-0.5" width="0.127" layer="21"/>
-<smd name="1" x="-1" y="-1.8" dx="1" dy="5.5" layer="1"/>
-<smd name="2" x="1" y="-1.8" dx="1" dy="5.5" layer="1"/>
-<smd name="NC1" x="-3.4" y="0" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<smd name="NC2" x="3.4" y="0" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<text x="-2.54" y="3.81" size="1.27" layer="25" font="vector">&gt;Name</text>
-<text x="-2.54" y="-7.62" size="1.27" layer="27" font="vector">&gt;Value</text>
-<text x="-2.914" y="-6.096" size="1.4224" layer="21" ratio="12">+</text>
-<text x="2.271" y="-6.096" size="1.4224" layer="21" ratio="12">-</text>
-</package>
 <package name="C0402" urn="urn:adsk.eagle:footprint:6239683/1" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 chip</description>
@@ -5511,32 +5425,6 @@ type 0309, grid 2.5 mm</description>
 <packageinstance name="1X08-3.5MM"/>
 </packageinstances>
 </package3d>
-<package3d name="JST-PH-2-SMT-RA" urn="urn:adsk.eagle:package:6240692/1" type="box" library_version="2">
-<description>2-Pin JST PH Series Right-Angle Connector (+/- for batteries)</description>
-<packageinstances>
-<packageinstance name="JST-PH-2-SMT-RA"/>
-</packageinstances>
-</package3d>
-<package3d name="JST-PH-2-THM" urn="urn:adsk.eagle:package:6240693/1" type="box" library_version="2">
-<description>4UCon #01528
-http://www.4uconnector.com/online/object/4udrawing/01528.pdf</description>
-<packageinstances>
-<packageinstance name="JST-PH-2-THM"/>
-</packageinstances>
-</package3d>
-<package3d name="JST-PH-2-THM-RA" urn="urn:adsk.eagle:package:6240694/1" type="box" library_version="2">
-<description>&lt;b&gt;S2B-PH-K-S&lt;/b&gt; 
-&lt;p&gt;
-JST PH 2-pin thru-home side entry</description>
-<packageinstances>
-<packageinstance name="JST-PH-2-THM-RA"/>
-</packageinstances>
-</package3d>
-<package3d name="JST-PH-2-SMT" urn="urn:adsk.eagle:package:6240763/1" type="box" library_version="2">
-<packageinstances>
-<packageinstance name="JST-PH-2-SMT"/>
-</packageinstances>
-</package3d>
 <package3d name="C0402" urn="urn:adsk.eagle:package:6240340/1" type="box" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 chip</description>
@@ -6133,16 +6021,6 @@ Metric Code Size 5664</description>
 <pin name="6" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="7" x="-2.54" y="-7.62" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="8" x="-2.54" y="-10.16" visible="pad" length="short" direction="pas" function="dot"/>
-</symbol>
-<symbol name="PINHD2" urn="urn:adsk.eagle:symbol:6239527/1" library_version="2">
-<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
-<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
 <symbol name="C-US" urn="urn:adsk.eagle:symbol:6239482/1" library_version="2">
 <wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
@@ -7639,69 +7517,6 @@ Source: http://www.osram.convergy.de/</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="JST_2PIN" urn="urn:adsk.eagle:component:6241017/1" prefix="CN" uservalue="yes" library_version="2">
-<description>&lt;b&gt;JST 2-Pin Connectors of various flavors&lt;/b&gt;
-
-&lt;ul&gt;
-&lt;li&gt;SMT-RA (S2B-PH-SM4) 4UConnector #17311&lt;/li&gt;
-&lt;li&gt;SMT  (B2B-PH-SM4)&lt;/li&gt;
-&lt;li&gt;THM-RA (S2B-PH)&lt;/li&gt;
-&lt;li&gt;THM  (B2B-PH)&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="PINHD2" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="-SMT-RA" package="JST-PH-2-SMT-RA">
-<connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6240692/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-THM" package="JST-PH-2-THM">
-<connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6240693/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-THM-RA" package="JST-PH-2-THM-RA">
-<connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6240694/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-SMT" package="JST-PH-2-SMT">
-<connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6240763/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="C-US" urn="urn:adsk.eagle:component:6240982/1" prefix="C" uservalue="yes" library_version="2">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, American symbol</description>
 <gates>
@@ -9131,6 +8946,72 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 </deviceset>
 </devicesets>
 </library>
+<library name="B2B-PH-SM4-TB_LF__SN_">
+<packages>
+<package name="JST_B2B-PH-SM4-TB(LF)(SN)">
+<wire x1="-3.975" y1="4.75" x2="3.975" y2="4.75" width="0.2" layer="51"/>
+<wire x1="3.975" y1="4.75" x2="3.975" y2="-0.25" width="0.2" layer="51"/>
+<wire x1="3.975" y1="-0.25" x2="-3.975" y2="-0.25" width="0.2" layer="51"/>
+<wire x1="-3.975" y1="-0.25" x2="-3.975" y2="4.75" width="0.2" layer="51"/>
+<wire x1="4.5" y1="5" x2="4.5" y2="-3" width="0.05" layer="39"/>
+<wire x1="4.5" y1="-3" x2="-4.5" y2="-3" width="0.05" layer="39"/>
+<wire x1="-4.5" y1="-3" x2="-4.5" y2="5" width="0.05" layer="39"/>
+<wire x1="-4.5" y1="5" x2="4.5" y2="5" width="0.05" layer="39"/>
+<text x="-4.50581875" y="5.00646875" size="1.271640625" layer="25">&gt;NAME</text>
+<text x="-4.50348125" y="-4.50348125" size="1.27098125" layer="27">&gt;VALUE</text>
+<circle x="-2.083" y="-2.424" radius="0.2" width="0" layer="21"/>
+<wire x1="-3.975" y1="4.75" x2="3.975" y2="4.75" width="0.2" layer="21"/>
+<wire x1="3.975" y1="4.75" x2="3.975" y2="4" width="0.2" layer="21"/>
+<wire x1="-3.975" y1="4.75" x2="-3.975" y2="4" width="0.2" layer="21"/>
+<wire x1="-3.975" y1="0.5" x2="-3.975" y2="-0.25" width="0.2" layer="21"/>
+<wire x1="-3.975" y1="-0.25" x2="-1.75" y2="-0.25" width="0.2" layer="21"/>
+<wire x1="1.75" y1="-0.25" x2="3.975" y2="-0.25" width="0.2" layer="21"/>
+<wire x1="3.975" y1="-0.25" x2="3.975" y2="0.5" width="0.2" layer="21"/>
+<smd name="1" x="-1" y="0" dx="1" dy="5.5" layer="1"/>
+<smd name="2" x="1" y="0" dx="1" dy="5.5" layer="1"/>
+<smd name="3" x="-3.4" y="2.25" dx="1.6" dy="3" layer="1"/>
+<smd name="4" x="3.4" y="2.25" dx="1.6" dy="3" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="B2B-PH-SM4-TB(LF)(SN)">
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<text x="-2.54361875" y="3.052340625" size="1.271809375" layer="95">&gt;NAME</text>
+<text x="-2.54098125" y="-7.622940625" size="1.270490625" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" length="short" direction="pas"/>
+<pin name="2" x="-5.08" y="-2.54" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="B2B-PH-SM4-TB(LF)(SN)" prefix="J">
+<description>PH Series 2 Position 2 mm Pitch Surface Mount Top Entry Shrouded Header</description>
+<gates>
+<gate name="G$1" symbol="B2B-PH-SM4-TB(LF)(SN)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_B2B-PH-SM4-TB(LF)(SN)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" PH Series 2 Position 2 mm Pitch Surface Mount Top Entry Shrouded Header "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="455-1734-1-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.in/product-detail/en/jst-sales-america-inc/B2B-PH-SM4-TB_LF__SN_/455-1734-1-ND/926831?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="JST Sales"/>
+<attribute name="MP" value="B2B-PH-SM4-TB_LF__SN_"/>
+<attribute name="PACKAGE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9147,7 +9028,6 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <part name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="1KR"/>
 <part name="WILDLY_5V_1A_BOOST" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X8" device="BIG" package3d_urn="urn:adsk.eagle:package:6240707/1"/>
 <part name="WILDLY_I2S_MIC" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:6240711/1"/>
-<part name="BATT" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="JST_2PIN" device="-SMT-RA" package3d_urn="urn:adsk.eagle:package:6240692/1"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -9217,6 +9097,8 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="BATT" library="B2B-PH-SM4-TB_LF__SN_" deviceset="B2B-PH-SM4-TB(LF)(SN)" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9255,10 +9137,6 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <instance part="WILDLY_I2S_MIC" gate="A" x="-76.2" y="10.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="-69.85" y="-0.635" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-69.85" y="20.32" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="BATT" gate="G$1" x="-78.74" y="134.62" smashed="yes" rot="R180">
-<attribute name="NAME" x="-67.31" y="128.905" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-72.39" y="139.7" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND4" gate="1" x="-22.86" y="63.5" smashed="yes">
 <attribute name="VALUE" x="-25.4" y="60.96" size="1.778" layer="96"/>
@@ -9497,6 +9375,12 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <instance part="+3V9" gate="G$1" x="162.56" y="-30.48" smashed="yes">
 <attribute name="VALUE" x="160.02" y="-35.56" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="GND17" gate="1" x="-38.1" y="-2.54" smashed="yes">
+<attribute name="VALUE" x="-40.64" y="-5.08" size="1.778" layer="96"/>
+</instance>
+<instance part="BATT" gate="G$1" x="-78.74" y="132.08" smashed="yes" rot="R180">
+<attribute name="NAME" x="-76.19638125" y="129.027659375" size="1.271809375" layer="95" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9534,8 +9418,9 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 </segment>
 <segment>
 <pinref part="WILDLY_I2S_MIC" gate="A" pin="2"/>
-<wire x1="-73.66" y1="5.08" x2="-58.42" y2="5.08" width="0.1524" layer="91"/>
-<label x="-58.42" y="5.08" size="1.778" layer="95"/>
+<wire x1="-73.66" y1="5.08" x2="-38.1" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="-38.1" y1="5.08" x2="-38.1" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -9582,10 +9467,10 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <label x="200.66" y="-12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BATT" gate="G$1" pin="1"/>
-<wire x1="-76.2" y1="132.08" x2="-63.5" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="132.08" x2="-63.5" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="132.08" x2="-63.5" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="BATT" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="SOLAR_CHARGER" gate="G$1" pin="2"/>
@@ -9696,7 +9581,7 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <net name="CTS_OF_GSM" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="33/A14/CAN1TX/TX5/ALT-SCL0"/>
-<wire x1="30.48" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="91"/>
 <label x="0" y="2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -9788,7 +9673,7 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <net name="ERRLED" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="39/A20/ALT-MISO0"/>
-<wire x1="99.06" y1="0" x2="121.92" y2="0" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="0" x2="119.38" y2="0" width="0.1524" layer="91"/>
 <label x="101.6" y="0" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -10143,18 +10028,6 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <label x="167.64" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="A3" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="17/A3/PWM/T/ALT-SDA0"/>
-<wire x1="30.48" y1="43.18" x2="12.7" y2="43.18" width="0.1524" layer="91"/>
-<label x="12.7" y="43.18" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TEENSY_PIN_6" gate="A" pin="4"/>
-<wire x1="182.88" y1="-15.24" x2="167.64" y2="-15.24" width="0.1524" layer="91"/>
-<label x="167.64" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="PWM13" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="21/A7/PWM/CS0-3/ALT-MOSI1/ALT-RX1"/>
@@ -10372,10 +10245,10 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="BATT" gate="G$1" pin="2"/>
-<wire x1="-76.2" y1="134.62" x2="-45.72" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="134.62" x2="-45.72" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <wire x1="-45.72" y1="134.62" x2="-45.72" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="BATT" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="FUEL_GAUGE" gate="G$1" pin="2"/>
@@ -10499,6 +10372,23 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
 <wire x1="162.56" y1="-40.64" x2="162.56" y2="-33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PWM_SARA" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="17/A3/PWM/T/ALT-SDA0"/>
+<wire x1="30.48" y1="43.18" x2="12.7" y2="43.18" width="0.1524" layer="91"/>
+<label x="2.54" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TEENSY_PIN_6" gate="A" pin="4"/>
+<wire x1="182.88" y1="-15.24" x2="167.64" y2="-15.24" width="0.1524" layer="91"/>
+<label x="167.64" y="-15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MIKROELECTRONIKA_SARA_CLICK" gate="G$1" pin="PWM"/>
+<wire x1="193.04" y1="91.44" x2="205.74" y2="91.44" width="0.1524" layer="91"/>
+<label x="198.12" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
