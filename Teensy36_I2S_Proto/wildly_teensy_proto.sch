@@ -9524,18 +9524,13 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <label x="2.54" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MIKROELECTRONIKA_SARA_CLICK" gate="G$1" pin="TX"/>
-<wire x1="193.04" y1="76.2" x2="203.2" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="TEENSY_PIN_1" gate="A" pin="2"/>
 <wire x1="147.32" y1="20.32" x2="132.08" y2="20.32" width="0.1524" layer="91"/>
 <label x="127" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="76.2" x2="228.6" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="76.2" x2="220.98" y2="76.2" width="0.1524" layer="91"/>
 <label x="215.9" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -9546,18 +9541,13 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <label x="2.54" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MIKROELECTRONIKA_SARA_CLICK" gate="G$1" pin="RX"/>
-<wire x1="193.04" y1="81.28" x2="203.2" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="TEENSY_PIN_1" gate="A" pin="3"/>
 <wire x1="147.32" y1="17.78" x2="132.08" y2="17.78" width="0.1524" layer="91"/>
 <label x="127" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="81.28" x2="228.6" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="81.28" x2="220.98" y2="81.28" width="0.1524" layer="91"/>
 <label x="215.9" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -10389,6 +10379,20 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <pinref part="MIKROELECTRONIKA_SARA_CLICK" gate="G$1" pin="PWM"/>
 <wire x1="193.04" y1="91.44" x2="205.74" y2="91.44" width="0.1524" layer="91"/>
 <label x="198.12" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="MIKROELECTRONIKA_SARA_CLICK" gate="G$1" pin="RX"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="81.28" x2="203.2" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="MIKROELECTRONIKA_SARA_CLICK" gate="G$1" pin="TX"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="76.2" x2="203.2" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
