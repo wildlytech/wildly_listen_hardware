@@ -9084,8 +9084,6 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <part name="T1" library="BC847BLT1G" deviceset="BC847BLT1G" device=""/>
 <part name="T2" library="BC847BLT1G" deviceset="BC847BLT1G" device=""/>
 <part name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="0R"/>
-<part name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="0R"/>
-<part name="R6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="0R"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -9099,6 +9097,8 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="BATT" library="B2B-PH-SM4-TB_LF__SN_" deviceset="B2B-PH-SM4-TB(LF)(SN)" device=""/>
+<part name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="0R"/>
+<part name="R6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="0R"/>
 </parts>
 <sheets>
 <sheet>
@@ -9334,14 +9334,6 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <attribute name="NAME" x="-57.15" y="56.9214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-49.53" y="56.642" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R5" gate="G$1" x="208.28" y="81.28" smashed="yes" rot="R180">
-<attribute name="NAME" x="204.47" y="79.7814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="214.63" y="79.502" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R6" gate="G$1" x="208.28" y="76.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="204.47" y="74.7014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="214.63" y="74.422" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="GND16" gate="1" x="114.3" y="10.16" smashed="yes">
 <attribute name="VALUE" x="111.76" y="7.62" size="1.778" layer="96"/>
 </instance>
@@ -9380,6 +9372,14 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 </instance>
 <instance part="BATT" gate="G$1" x="-78.74" y="132.08" smashed="yes" rot="R180">
 <attribute name="NAME" x="-76.19638125" y="129.027659375" size="1.271809375" layer="95" rot="R180"/>
+</instance>
+<instance part="R5" gate="G$1" x="207.518" y="81.28" smashed="yes" rot="R180">
+<attribute name="NAME" x="204.47" y="79.7814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="211.836" y="79.756" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R6" gate="G$1" x="207.772" y="76.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="204.724" y="74.7014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="212.09" y="74.676" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -9529,9 +9529,9 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <label x="127" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="76.2" x2="220.98" y2="76.2" width="0.1524" layer="91"/>
-<label x="215.9" y="76.2" size="1.778" layer="95"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="212.598" y1="81.28" x2="223.52" y2="81.28" width="0.1524" layer="91"/>
+<label x="215.9" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX_OF_GSM" class="0">
@@ -9546,9 +9546,9 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <label x="127" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="81.28" x2="220.98" y2="81.28" width="0.1524" layer="91"/>
-<label x="215.9" y="81.28" size="1.778" layer="95"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="212.852" y1="76.2" x2="223.52" y2="76.2" width="0.1524" layer="91"/>
+<label x="215.9" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RESET_GSM" class="0">
@@ -10385,14 +10385,14 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"&gt; Da
 <segment>
 <pinref part="MIKROELECTRONIKA_SARA_CLICK" gate="G$1" pin="RX"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="81.28" x2="203.2" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="81.28" x2="202.438" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="N$17" class="0">
 <segment>
 <pinref part="MIKROELECTRONIKA_SARA_CLICK" gate="G$1" pin="TX"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="76.2" x2="203.2" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="76.2" x2="202.692" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
