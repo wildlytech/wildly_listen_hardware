@@ -19489,11 +19489,6 @@ VCC = 3.3V</text>
 <wire x1="439.42" y1="332.74" x2="406.4" y2="332.74" width="0.1524" layer="91"/>
 <label x="406.4" y="332.74" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="20/A6/PWM/CS0-2/ALT-SCK1"/>
-<wire x1="426.72" y1="134.62" x2="411.48" y2="134.62" width="0.1524" layer="91"/>
-<label x="411.48" y="134.62" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="V_BCKP" class="0">
 <segment>
