@@ -1492,46 +1492,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package3d>
 </packages3d>
 </library>
-<library name="led" urn="urn:adsk.eagle:library:259">
-<description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
-Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
-<packages>
-<package name="CHIPLED_0603" urn="urn:adsk.eagle:footprint:15676/1" library_version="2">
-<description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
-Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
-<wire x1="-0.3" y1="0.8" x2="0.3" y2="0.8" width="0.1016" layer="51" curve="170.055574"/>
-<wire x1="-0.275" y1="-0.825" x2="0.275" y2="-0.825" width="0.0508" layer="51" curve="-180"/>
-<wire x1="-0.4" y1="0.375" x2="-0.4" y2="-0.35" width="0.1016" layer="51"/>
-<wire x1="0.4" y1="0.35" x2="0.4" y2="-0.35" width="0.1016" layer="51"/>
-<circle x="-0.35" y="0.625" radius="0.075" width="0.0508" layer="51"/>
-<smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
-<smd name="A" x="0" y="-0.75" dx="0.8" dy="0.8" layer="1"/>
-<text x="-0.635" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="1.905" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.45" y1="0.7" x2="-0.25" y2="0.85" layer="51"/>
-<rectangle x1="-0.275" y1="0.55" x2="-0.225" y2="0.6" layer="51"/>
-<rectangle x1="-0.45" y1="0.35" x2="-0.4" y2="0.725" layer="51"/>
-<rectangle x1="0.25" y1="0.55" x2="0.45" y2="0.85" layer="51"/>
-<rectangle x1="-0.45" y1="0.35" x2="0.45" y2="0.575" layer="51"/>
-<rectangle x1="-0.45" y1="-0.85" x2="-0.25" y2="-0.35" layer="51"/>
-<rectangle x1="0.25" y1="-0.85" x2="0.45" y2="-0.35" layer="51"/>
-<rectangle x1="-0.275" y1="-0.575" x2="0.275" y2="-0.35" layer="51"/>
-<rectangle x1="-0.275" y1="-0.65" x2="-0.175" y2="-0.55" layer="51"/>
-<rectangle x1="0.175" y1="-0.65" x2="0.275" y2="-0.55" layer="51"/>
-<rectangle x1="-0.125" y1="0" x2="0.125" y2="0.25" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="CHIPLED_0603" urn="urn:adsk.eagle:package:15822/2" type="model" library_version="2">
-<description>CHIPLED
-Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
-<packageinstances>
-<packageinstance name="CHIPLED_0603"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="transistor" urn="urn:adsk.eagle:library:402">
 <description>&lt;b&gt;Transistors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -2674,10 +2634,6 @@ design rules under a new name.</description>
 <element name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" package="SOT23" package3d_urn="urn:adsk.eagle:package:29904/2" value="BC847" x="22.97459375" y="48.09180625" smashed="yes">
 <attribute name="NAME" x="20.612540625" y="49.1143625" size="0.8128" layer="25"/>
 </element>
-<element name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="" x="26.27780625" y="49.71340625" smashed="yes" rot="R180">
-<attribute name="NAME" x="26.98305" y="50.92498125" size="0.8128" layer="25" rot="R270"/>
-<attribute name="VALUE" x="24.37280625" y="50.98340625" size="1.27" layer="27" rot="R270"/>
-</element>
 <element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470K" x="18.529746875" y="77.52176875" smashed="yes" rot="MR180">
 <attribute name="NAME" x="16.860109375" y="79.87368125" size="1.27" layer="26" rot="MR180"/>
 <attribute name="SPICEPREFIX" value="R" x="18.529746875" y="77.52176875" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2757,14 +2713,14 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="34.159596875" y="48.44699375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X09" package3d_urn="urn:adsk.eagle:package:22483/2" value="" x="79.84540625" y="77.72219375" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.91020625" y="77.68639375" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="67.89420625" y="75.90839375" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="91.27540625" y="80.89719375" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="ESD2" library="SOT95P275X110-6N" package="SOT95P275X110-6N" value="SOT95P275X110-6N" x="59.55140625" y="70.89219375" smashed="yes" rot="MR180">
+<element name="IC2" library="SOT95P275X110-6N" package="SOT95P275X110-6N" value="SOT95P275X110-6N" x="59.55140625" y="70.89219375" smashed="yes" rot="MR180">
 <attribute name="NAME" x="61.554409375" y="72.487053125" size="1.27" layer="26" ratio="10" rot="MR0"/>
 </element>
-<element name="ESD3" library="SOT95P275X110-6N" package="SOT95P275X110-6N" value="SOT95P275X110-6N" x="91.65340625" y="48.72619375" smashed="yes">
-<attribute name="NAME" x="89.61665625" y="50.562871875" size="1.27" layer="25" ratio="10"/>
+<element name="IC4" library="SOT95P275X110-6N" package="SOT95P275X110-6N" value="SOT95P275X110-6N" x="91.65340625" y="48.72619375" smashed="yes">
+<attribute name="NAME" x="90.37865625" y="50.562871875" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="IC1" library="SOT95P275X110-6N" package="SOT95P275X110-6N" value="SOT95P275X110-6N" x="17.61540625" y="70.03219375" smashed="yes" rot="MR0">
 <attribute name="NAME" x="17.621821875" y="71.127215625" size="1.27" layer="26" ratio="10" rot="MR180"/>
@@ -2971,6 +2927,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="87.757" y="37.846" size="1.27" layer="25" ratio="10"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="88.519" y="37.973" size="1" layer="37"/>
 </element>
+<element name="LED3" library="SML-LX0805GC-TR" package="LEDC2012X120N" value="SML-LX0805GC-TR" x="27.432" y="50.292" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value=" Green 2 x 1.25 mm 0805 140° Water Clear 10 mcd 2.2 V LED SMT " x="27.432" y="50.292" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="67-2188-1-ND" x="27.432" y="50.292" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.in/product-detail/en/lumex-opto-components-inc/SML-LX0805GC-TR/67-2188-1-ND/4172828?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="27.432" y="50.292" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Lumex Opto/Components" x="27.432" y="50.292" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="SML-LX0805GC-TR" x="27.432" y="50.292" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="28.681" y="51.504" size="0.8" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="0805 Lumex" x="27.432" y="50.292" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -2986,8 +2951,8 @@ design rules under a new name.</description>
 <contactref element="C18" pad="1"/>
 <contactref element="C19" pad="1"/>
 <contactref element="X1" pad="C5"/>
-<contactref element="ESD2" pad="5"/>
-<contactref element="ESD2" pad="6"/>
+<contactref element="IC2" pad="5"/>
+<contactref element="IC2" pad="6"/>
 <contactref element="IC1" pad="6"/>
 <contactref element="IC1" pad="5"/>
 <polygon width="0.127" layer="16" thermals="no">
@@ -3087,7 +3052,7 @@ design rules under a new name.</description>
 <signal name="SIM_CLK">
 <contactref element="X1" pad="C3"/>
 <contactref element="C22" pad="2"/>
-<contactref element="ESD2" pad="3"/>
+<contactref element="IC2" pad="3"/>
 <contactref element="IC7" pad="38"/>
 <wire x1="52.13540625" y1="72.00619375" x2="48.708640625" y2="68.579428125" width="0.3048" layer="16"/>
 <wire x1="48.708640625" y1="68.579428125" x2="48.708640625" y2="59.2561625" width="0.3048" layer="16"/>
@@ -3126,7 +3091,7 @@ design rules under a new name.</description>
 <signal name="SIM_RST">
 <contactref element="X1" pad="C2"/>
 <contactref element="C21" pad="2"/>
-<contactref element="ESD2" pad="2"/>
+<contactref element="IC2" pad="2"/>
 <contactref element="IC7" pad="40"/>
 <wire x1="58.784303125" y1="70.892190625" x2="58.28140625" y2="70.89219375" width="0.3048" layer="16"/>
 <wire x1="52.13540625" y1="69.46619375" x2="50.136109375" y2="67.466896875" width="0.3048" layer="16"/>
@@ -3150,7 +3115,7 @@ design rules under a new name.</description>
 <contactref element="X1" pad="C1"/>
 <contactref element="C20" pad="2"/>
 <contactref element="C6" pad="2"/>
-<contactref element="ESD2" pad="1"/>
+<contactref element="IC2" pad="1"/>
 <contactref element="IC7" pad="41"/>
 <wire x1="52.13540625" y1="66.92619375" x2="52.13540625" y2="61.5812375" width="0.3048" layer="16"/>
 <wire x1="52.13540625" y1="61.5812375" x2="55.046" y2="58.670640625" width="0.3048" layer="16"/>
@@ -3272,8 +3237,8 @@ design rules under a new name.</description>
 <signal name="USB_GND">
 <contactref element="USB" pad="1"/>
 <contactref element="C9" pad="2"/>
-<contactref element="ESD3" pad="5"/>
-<contactref element="ESD3" pad="6"/>
+<contactref element="IC4" pad="5"/>
+<contactref element="IC4" pad="6"/>
 <contactref element="JP4" pad="4"/>
 <contactref element="IC7" pad="30"/>
 <contactref element="IC6" pad="5"/>
@@ -3574,21 +3539,8 @@ design rules under a new name.</description>
 <wire x1="21.01059375" y1="44.38380625" x2="22.02459375" y2="45.39780625" width="0.3048" layer="1"/>
 <wire x1="24.433515625" y1="44.159653125" x2="26.333515625" y2="44.159653125" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$9">
-<contactref element="LED2" pad="A"/>
-<contactref element="R15" pad="1"/>
-<wire x1="26.27780625" y1="50.46340625" x2="24.500765625" y2="52.240446875" width="0.3048" layer="1"/>
-<wire x1="24.202934375" y1="52.240446875" x2="24.500765625" y2="52.240446875" width="0.3048" layer="1"/>
-</signal>
-<signal name="N$11">
-<contactref element="T1" pad="3"/>
-<contactref element="LED2" pad="C"/>
-<wire x1="26.27780625" y1="48.96340625" x2="26.25099375" y2="48.96340625" width="0.3048" layer="1"/>
-<wire x1="26.25099375" y1="48.96340625" x2="26.02259375" y2="49.19180625" width="0.3048" layer="1"/>
-<wire x1="26.02259375" y1="49.19180625" x2="22.97459375" y2="49.19180625" width="0.3048" layer="1"/>
-</signal>
 <signal name="N$5">
-<contactref element="ESD2" pad="4"/>
+<contactref element="IC2" pad="4"/>
 <contactref element="R2" pad="2"/>
 <contactref element="X1" pad="SW1"/>
 <wire x1="51.70140625" y1="74.54619375" x2="52.13540625" y2="74.54619375" width="0.3048" layer="16"/>
@@ -3708,7 +3660,7 @@ design rules under a new name.</description>
 <signal name="VUSB_DET">
 <contactref element="USB" pad="5"/>
 <contactref element="C9" pad="1"/>
-<contactref element="ESD3" pad="1"/>
+<contactref element="IC4" pad="1"/>
 <contactref element="JP4" pad="1"/>
 <contactref element="IC7" pad="17"/>
 <wire x1="78.47956875" y1="52.149346875" x2="87.900053125" y2="52.149346875" width="0.2032" layer="1"/>
@@ -3766,7 +3718,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="M_USB_D-">
 <contactref element="USB" pad="4"/>
-<contactref element="ESD3" pad="2"/>
+<contactref element="IC4" pad="2"/>
 <contactref element="IC6" pad="4"/>
 <wire x1="88.01540625" y1="44.93019375" x2="88.00340625" y2="44.91819375" width="0.2032" layer="1"/>
 <wire x1="97.37440625" y1="44.27019375" x2="92.964" y2="44.27019375" width="0.2032" layer="1"/>
@@ -3787,7 +3739,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="M_USB_D+">
 <contactref element="USB" pad="3"/>
-<contactref element="ESD3" pad="3"/>
+<contactref element="IC4" pad="3"/>
 <contactref element="IC6" pad="3"/>
 <wire x1="88.00740625" y1="44.42219375" x2="88.00340625" y2="44.41819375" width="0.2032" layer="1"/>
 <wire x1="97.37440625" y1="44.92019375" x2="91.18340625" y2="44.92019375" width="0.2032" layer="1"/>
@@ -4011,6 +3963,18 @@ design rules under a new name.</description>
 <wire x1="2.805575" y1="53.6018375" x2="8.1201625" y2="53.6018375" width="0.6096" layer="16"/>
 <wire x1="8.1201625" y1="53.6018375" x2="14.986" y2="46.736" width="0.6096" layer="16"/>
 <wire x1="14.986" y1="46.736" x2="14.986" y2="24.384" width="0.6096" layer="16"/>
+</signal>
+<signal name="N$8">
+<contactref element="T1" pad="3"/>
+<contactref element="LED3" pad="C"/>
+<wire x1="22.97459375" y1="49.19180625" x2="23.1747875" y2="49.392" width="0.3048" layer="1"/>
+<wire x1="23.1747875" y1="49.392" x2="27.432" y2="49.392" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$9">
+<contactref element="LED3" pad="A"/>
+<contactref element="R15" pad="1"/>
+<wire x1="24.202934375" y1="52.240446875" x2="26.383553125" y2="52.240446875" width="0.3048" layer="1"/>
+<wire x1="26.383553125" y1="52.240446875" x2="27.432" y2="51.192" width="0.3048" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
