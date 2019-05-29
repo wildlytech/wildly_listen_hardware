@@ -9993,18 +9993,18 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="170.688" y1="135.89" x2="174.498" y2="135.89" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="VCCIO" class="0">
+<segment>
+<pinref part="JP2" gate="A" pin="2"/>
+<wire x1="189.738" y1="135.89" x2="200.66" y2="135.89" width="0.1524" layer="91"/>
+<label x="193.548" y="135.89" size="1.778" layer="95"/>
+</segment>
 <segment>
 <pinref part="WILDLY_5V_1A_BOOST" gate="G$1" pin="7"/>
 <pinref part="JP3" gate="A" pin="1"/>
 <wire x1="-73.66" y1="73.66" x2="-61.976" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="-61.722" y1="73.66" x2="-61.976" y2="73.66" width="0.1524" layer="91"/>
 <label x="-68.58" y="73.66" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP2" gate="A" pin="2"/>
-<wire x1="189.738" y1="135.89" x2="200.66" y2="135.89" width="0.1524" layer="91"/>
-<label x="193.548" y="135.89" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

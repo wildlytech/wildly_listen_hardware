@@ -3,7 +3,7 @@
 <eagle version="9.3.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -149,10 +149,6 @@
 <hole x="2.667" y="74.803" drill="3.048"/>
 <hole x="2.921" y="2.667" drill="3.048"/>
 <dimension x1="0" y1="-1.27" x2="60.706" y2="-1.27" x3="30.353" y3="-3.81" textsize="1.778" layer="1"/>
-<wire x1="0" y1="77.47" x2="60.706" y2="77.47" width="0.1524" layer="20"/>
-<wire x1="60.706" y1="77.47" x2="60.706" y2="0" width="0.1524" layer="20"/>
-<wire x1="60.706" y1="0" x2="0" y2="0" width="0.1524" layer="20"/>
-<wire x1="0" y1="0" x2="0" y2="77.47" width="0.1524" layer="20"/>
 <text x="12.192" y="68.199" size="0.508" layer="25" rot="R90">MIC_LRCLK</text>
 <text x="14.605" y="68.58" size="0.508" layer="25" rot="R90">MIC_DOUT</text>
 <text x="17.272" y="68.58" size="0.508" layer="25" rot="R90">MIC_BCLK</text>
@@ -181,10 +177,10 @@
 <text x="53.975" y="59.563" size="0.508" layer="25">GND</text>
 <text x="53.975" y="54.356" size="0.508" layer="25">GND</text>
 <text x="54.61" y="51.816" size="0.508" layer="25">5V</text>
-<text x="47.879" y="4.445" size="0.6096" layer="25" rot="R90">GND</text>
-<text x="50.419" y="4.445" size="0.6096" layer="25" rot="R90">VCC</text>
-<text x="47.244" y="4.445" size="0.6096" layer="26" rot="MR90">GND</text>
-<text x="49.784" y="4.445" size="0.6096" layer="26" rot="MR90">VCC</text>
+<text x="49.149" y="4.445" size="0.6096" layer="25" rot="R90">GND</text>
+<text x="51.689" y="4.445" size="0.6096" layer="25" rot="R90">VCC</text>
+<text x="48.514" y="4.445" size="0.6096" layer="26" rot="MR90">GND</text>
+<text x="51.054" y="4.445" size="0.6096" layer="26" rot="MR90">VCC</text>
 <dimension x1="-2.54" y1="77.47" x2="-2.54" y2="0" x3="-3.81" y3="38.735" textsize="1.778" layer="1"/>
 <text x="18.034" y="7.366" size="2.1844" layer="26" rot="MR90">Wildly_Listen_Proto_V1</text>
 <text x="46.482" y="69.723" size="1.778" layer="25">ON</text>
@@ -196,6 +192,10 @@
 <wire x1="0" y1="0" x2="60.706" y2="0" width="0.3048" layer="51"/>
 <wire x1="60.706" y1="0" x2="60.706" y2="77.47" width="0.3048" layer="51"/>
 <wire x1="60.706" y1="77.47" x2="0" y2="77.47" width="0.3048" layer="51"/>
+<wire x1="0" y1="77.47" x2="60.706" y2="77.47" width="0.1524" layer="20"/>
+<wire x1="60.706" y1="77.47" x2="60.706" y2="0" width="0.1524" layer="20"/>
+<wire x1="60.706" y1="0" x2="0" y2="0" width="0.1524" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="77.47" width="0.1524" layer="20"/>
 </plain>
 <libraries>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">
@@ -919,15 +919,15 @@ design rules under a new name.</description>
 <element name="TEENSY_PIN_1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X06" package3d_urn="urn:adsk.eagle:package:6240711/1" value="" x="22.606" y="59.69" smashed="yes" rot="R270">
 <attribute name="VALUE" x="19.431" y="67.31" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="SOLAR_CHARGER" library="61300211121" package="61300211121" value="61300211121" x="48.895" y="2.794" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Unavailable" x="48.895" y="2.794" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" Board-To-Board Connector, Vertical, WR-PHD Series, Through Hole, Header, 2, 2.54 mm " x="48.895" y="2.794" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Wurth Electronics" x="48.895" y="2.794" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="61300211121" x="48.895" y="2.794" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="48.6462" y="1.1089" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="PACKAGE" value="None" x="48.895" y="2.794" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="48.895" y="2.794" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="51.0502" y="5.3342" size="0.8128" layer="27" rot="R180"/>
+<element name="SOLAR_CHARGER" library="61300211121" package="61300211121" value="61300211121" x="50.165" y="2.794" smashed="yes" rot="R180">
+<attribute name="AVAILABILITY" value="Unavailable" x="50.165" y="2.794" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value=" Board-To-Board Connector, Vertical, WR-PHD Series, Through Hole, Header, 2, 2.54 mm " x="50.165" y="2.794" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="Wurth Electronics" x="50.165" y="2.794" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="61300211121" x="50.165" y="2.794" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="49.9162" y="1.1089" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="PACKAGE" value="None" x="50.165" y="2.794" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="None" x="50.165" y="2.794" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="52.3202" y="5.3342" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="SWITCH" library="EG1218" package="3PIN_SLIDE_SWITCH" value="GSM Power" x="42.418" y="73.914" smashed="yes">
 <attribute name="DESCRIPTION" value="Slide Switch" x="42.418" y="73.914" size="1.778" layer="27" display="off"/>
@@ -1030,7 +1030,6 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Board-To-Board Connector, Vertical, WR-PHD Series, Through Hole, Header, 2, 2.54 mm " x="54.483" y="30.099" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Wurth Electronics" x="54.483" y="30.099" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="61300211121" x="54.483" y="30.099" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="54.4778" y="31.9111" size="0.8128" layer="25" align="bottom-center"/>
 <attribute name="PACKAGE" value="None" x="54.483" y="30.099" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="54.483" y="30.099" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="52.3278" y="27.5588" size="0.8128" layer="27"/>
@@ -1040,7 +1039,6 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Board-To-Board Connector, Vertical, WR-PHD Series, Through Hole, Header, 3, 2.54 mm " x="50.673" y="35.179" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Wurth Electronics" x="50.673" y="35.179" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="61300311121" x="50.673" y="35.179" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="48.6609" y="35.2738" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
 <attribute name="PACKAGE" value="None" x="50.673" y="35.179" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="50.673" y="35.179" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="53.2132" y="33.0238" size="0.8128" layer="27" rot="R90"/>
@@ -1050,7 +1048,6 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Board-To-Board Connector, Vertical, WR-PHD Series, Through Hole, Header, 3, 2.54 mm " x="58.293" y="35.179" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Wurth Electronics" x="58.293" y="35.179" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MP" value="61300311121" x="58.293" y="35.179" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="60.3051" y="35.0842" size="0.8128" layer="25" rot="R270" align="bottom-center"/>
 <attribute name="PACKAGE" value="None" x="58.293" y="35.179" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="58.293" y="35.179" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="55.7528" y="37.3342" size="0.8128" layer="27" rot="R270"/>
@@ -1519,8 +1516,8 @@ design rules under a new name.</description>
 <signal name="VCC">
 <contactref element="SOLAR_CHARGER" pad="1"/>
 <wire x1="49.53" y1="14.986" x2="49.53" y2="26.924" width="0.6096" layer="1"/>
-<wire x1="49.53" y1="14.986" x2="49.53" y2="3.429" width="0.6096" layer="1"/>
-<wire x1="50.165" y1="2.794" x2="49.53" y2="3.429" width="0.6096" layer="1"/>
+<wire x1="49.53" y1="14.986" x2="49.53" y2="4.699" width="0.6096" layer="1"/>
+<wire x1="51.435" y1="2.794" x2="49.53" y2="4.699" width="0.6096" layer="1"/>
 <contactref element="BATT" pad="1"/>
 <wire x1="49.53" y1="14.986" x2="51.324" y2="13.192" width="0.6096" layer="1"/>
 <wire x1="51.324" y1="13.192" x2="55.118" y2="13.192" width="0.6096" layer="1"/>
@@ -1608,15 +1605,16 @@ design rules under a new name.</description>
 <wire x1="58.293" y1="37.719" x2="55.626" y2="40.386" width="0.6096" layer="1"/>
 <wire x1="55.626" y1="40.386" x2="55.626" y2="42.926" width="0.6096" layer="1"/>
 </signal>
-<signal name="N$13">
+<signal name="VCCIO">
+<contactref element="JP2" pad="2"/>
 <contactref element="WILDLY_5V_1A_BOOST" pad="7"/>
 <contactref element="JP3" pad="1"/>
 <wire x1="51.181" y1="61.468" x2="51.181" y2="45.593" width="0.6096" layer="1"/>
 <wire x1="51.181" y1="45.593" x2="51.054" y2="45.466" width="0.6096" layer="1"/>
 <wire x1="56.896" y1="67.183" x2="56.896" y2="67.31" width="0.6096" layer="1"/>
 <wire x1="56.896" y1="67.183" x2="51.181" y2="61.468" width="0.6096" layer="1"/>
-<contactref element="JP2" pad="2"/>
-<wire x1="51.054" y1="45.466" x2="55.626" y2="45.466" width="0.6096" layer="1"/>
+<wire x1="55.626" y1="45.466" x2="51.308" y2="45.466" width="0.6096" layer="1"/>
+<wire x1="51.308" y1="45.466" x2="51.181" y2="45.593" width="0.6096" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
