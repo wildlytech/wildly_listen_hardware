@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8828,6 +8828,112 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="con-lstb" urn="urn:adsk.eagle:library:162">
+<description>&lt;b&gt;Pin Headers&lt;/b&gt;&lt;p&gt;
+Naming:&lt;p&gt;
+MA = male&lt;p&gt;
+# contacts - # rows&lt;p&gt;
+W = angled&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="MA04-1" urn="urn:adsk.eagle:footprint:8285/1" library_version="1">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.635" x2="5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.08" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-6.223" y="-0.635" size="1.27" layer="21" ratio="10">1</text>
+<text x="0.635" y="1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="5.334" y="-0.635" size="1.27" layer="21" ratio="10">4</text>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="MA04-1" urn="urn:adsk.eagle:package:8337/1" type="box" library_version="1">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="MA04-1"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MA04-1" urn="urn:adsk.eagle:symbol:8284/1" library_version="1">
+<wire x1="3.81" y1="-7.62" x2="-1.27" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="-1.27" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-7.62" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<text x="-1.27" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-1.27" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MA04-1" urn="urn:adsk.eagle:component:8375/1" prefix="SV" uservalue="yes" library_version="1">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="MA04-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MA04-1">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
+<connect gate="1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8337/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8892,17 +8998,19 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="0R"/>
 <part name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="0R"/>
+<part name="WILDLY_RTC" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="-91.44" y="-5.08" size="1.778" layer="91">Adafruit I2S Microphone SPH0645LM4H </text>
 <text x="27.94" y="142.24" size="1.778" layer="91">ON/OFF</text>
 <text x="93.98" y="139.7" size="1.778" layer="91">Solar Charger</text>
 <text x="-78.74" y="144.78" size="1.778" layer="91">LiPo Battery Connector</text>
 <text x="-88.9" y="43.18" size="1.778" layer="91">Note - When powering the board from boost R4 = 0 ohm should be mounted</text>
 <text x="152.4" y="149.86" size="2.54" layer="91">Fuel Gauge</text>
 <text x="-121.92" y="-53.34" size="1.778" layer="91">Wildly UBLOX GSM Board</text>
+<text x="-96.52" y="-5.08" size="1.778" layer="91">Wildly I2S Microphone SPH0645LM4H </text>
+<text x="-144.78" y="-5.08" size="1.778" layer="91">Wildly RTC</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="63.5" y="45.72" smashed="yes"/>
@@ -9084,6 +9192,10 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <attribute name="NAME" x="-135.6614" y="-29.21" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-135.382" y="-34.29" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="WILDLY_RTC" gate="1" x="-134.62" y="10.16" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="-133.35" y="0" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="-130.81" y="-1.778" size="1.778" layer="95" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9160,6 +9272,14 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="WIILDLY_GSM" gate="A" pin="2"/>
 <wire x1="-99.06" y1="-22.86" x2="-149.86" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="WILDLY_RTC" gate="1" pin="2"/>
+<wire x1="-142.24" y1="7.62" x2="-147.32" y2="7.62" width="0.1524" layer="91"/>
+<label x="-147.32" y="7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="-125.984" y="7.874" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="TX_OF_GSM" class="0">
@@ -9356,7 +9476,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="WILDLY_I2S_MIC" gate="A" pin="5"/>
 <wire x1="-73.66" y1="12.7" x2="-58.42" y2="12.7" width="0.1524" layer="91"/>
 <label x="-58.42" y="12.7" size="1.778" layer="95"/>
-<label x="-94.996" y="11.938" size="1.778" layer="95"/>
+<label x="-84.836" y="11.938" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="23/A9/PWM/T"/>
@@ -9428,7 +9548,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="T3" gate="G$1" pin="B"/>
 </segment>
 </net>
-<net name="3V3" class="0">
+<net name="3V" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="3V3"/>
 <label x="-84.328" y="2.794" size="1.778" layer="95" rot="R180"/>
@@ -9454,6 +9574,14 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="WIILDLY_GSM" gate="A" pin="1"/>
 <wire x1="-99.06" y1="-20.32" x2="-137.16" y2="-20.32" width="0.1524" layer="91"/>
 <label x="-142.24" y="-20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="WILDLY_RTC" gate="1" pin="1"/>
+<wire x1="-142.24" y1="5.08" x2="-147.32" y2="5.08" width="0.1524" layer="91"/>
+<label x="-147.32" y="5.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="-127.508" y="5.334" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="NET_STAT" class="0">
@@ -9763,40 +9891,6 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="200.66" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="FUEL_GAUGE_SDA" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="18/A4/PWM/T/SDA0"/>
-<wire x1="30.48" y1="40.64" x2="12.7" y2="40.64" width="0.1524" layer="91"/>
-<label x="2.54" y="40.64" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TEENSY_PIN_6" gate="A" pin="3"/>
-<wire x1="182.88" y1="-12.7" x2="167.64" y2="-12.7" width="0.1524" layer="91"/>
-<label x="154.94" y="-12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="155.702" y1="140.716" x2="142.24" y2="140.716" width="0.1524" layer="91"/>
-<label x="131.826" y="140.716" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="FUEL_GAUGE_SCL" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="19/A5/PWM/T/SCL0"/>
-<wire x1="30.48" y1="38.1" x2="12.7" y2="38.1" width="0.1524" layer="91"/>
-<label x="2.54" y="38.1" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TEENSY_PIN_6" gate="A" pin="2"/>
-<wire x1="182.88" y1="-10.16" x2="167.64" y2="-10.16" width="0.1524" layer="91"/>
-<label x="154.94" y="-10.16" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="155.702" y1="138.176" x2="142.24" y2="138.176" width="0.1524" layer="91"/>
-<label x="131.826" y="138.176" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="VCC" class="0">
 <segment>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
@@ -9937,6 +10031,56 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="U$1" gate="G$1" pin="24"/>
 <wire x1="30.48" y1="25.4" x2="12.7" y2="25.4" width="0.1524" layer="91"/>
 <label x="2.54" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDA" class="0">
+<segment>
+<pinref part="WILDLY_RTC" gate="1" pin="4"/>
+<wire x1="-142.24" y1="12.7" x2="-147.32" y2="12.7" width="0.1524" layer="91"/>
+<label x="-147.32" y="12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="18/A4/PWM/T/SDA0"/>
+<wire x1="30.48" y1="40.64" x2="12.7" y2="40.64" width="0.1524" layer="91"/>
+<label x="2.54" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="155.702" y1="140.716" x2="142.24" y2="140.716" width="0.1524" layer="91"/>
+<label x="141.986" y="140.716" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TEENSY_PIN_6" gate="A" pin="3"/>
+<wire x1="182.88" y1="-12.7" x2="167.64" y2="-12.7" width="0.1524" layer="91"/>
+<label x="162.56" y="-12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="-130.556" y="11.938" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SCL" class="0">
+<segment>
+<pinref part="WILDLY_RTC" gate="1" pin="3"/>
+<wire x1="-142.24" y1="10.16" x2="-147.32" y2="10.16" width="0.1524" layer="91"/>
+<label x="-147.32" y="10.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="19/A5/PWM/T/SCL0"/>
+<wire x1="30.48" y1="38.1" x2="12.7" y2="38.1" width="0.1524" layer="91"/>
+<label x="2.54" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="155.702" y1="138.176" x2="142.24" y2="138.176" width="0.1524" layer="91"/>
+<label x="141.986" y="138.176" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TEENSY_PIN_6" gate="A" pin="2"/>
+<wire x1="182.88" y1="-10.16" x2="167.64" y2="-10.16" width="0.1524" layer="91"/>
+<label x="162.56" y="-10.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="-125.222" y="10.668" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>
