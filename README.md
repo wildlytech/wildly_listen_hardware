@@ -1,5 +1,5 @@
 # wildly_listen_hardware
- Repo for the hardware design files of Wildly Listen
+ Repo for the hardware design files of Wildly Listen development in modules.
 
 This is the Hardware Development/ Design repository of Wildly Listen, real time acoustic monitoring device.
 
